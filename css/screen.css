@@ -270,17 +270,31 @@ body {
 }
 
 /* line 181, ../_sass/screen.scss */
-header {
-  width: 100%;
-}
-
-/* line 185, ../_sass/screen.scss */
-.main {
-  margin-top: 20px;
+header, .main {
+  top: 0;
+  bottom: 0;
   height: 100%;
 }
 
-/* line 190, ../_sass/screen.scss */
+/* line 187, ../_sass/screen.scss */
+header {
+  left: 0;
+  right: auto;
+  width: 20%;
+  position: fixed;
+  background-color: #bdc3c7;
+}
+
+/* line 195, ../_sass/screen.scss */
+.main {
+  right: 0;
+  left: auto;
+  width: 80%;
+  margin-left: 20%;
+  background-color: #95a5a6;
+}
+
+/* line 203, ../_sass/screen.scss */
 ul.menu {
   margin: 0;
   padding: 0;
@@ -289,18 +303,19 @@ ul.menu {
   list-style-type: none;
   text-align: center;
 }
-/* line 198, ../_sass/screen.scss */
+/* line 211, ../_sass/screen.scss */
 ul.menu li {
   background-color: #e74c3c;
   color: #ecf0f1;
   height: 100%;
   min-width: 150px;
-  display: inline-block;
+  display: block;
+  margin-bottom: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 208, ../_sass/screen.scss */
+/* line 222, ../_sass/screen.scss */
 ul.menu li a {
   display: block;
   height: 100%;
@@ -308,7 +323,7 @@ ul.menu li a {
   color: #ecf0f1;
 }
 
-/* line 217, ../_sass/screen.scss */
+/* line 231, ../_sass/screen.scss */
 a {
   text-decoration: none;
 }
