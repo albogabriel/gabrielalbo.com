@@ -9,24 +9,27 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- SCSS, baby -->
+        <!-- SCSS -->
         <link rel="stylesheet" href="/css/screen.css">
+
+        <!-- Foundation -->
+        <link rel="stylesheet" href="/css/foundation.min.css">
 
     </head>
     <body>
-       <header class="header">
-            <nav>
-              <ul class="menu">
-                <li><a href="/">Gabriel Albo</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/blog">Blog</a></li>
-              </ul>
-            </nav>
-            <div class="clearfix" />
+       <header>
+            <div class="row">
+                <div class="large-5 large-centered columns">
+                    <ul class="menu">
+                        <li><a href="/about">ABOUT</a></li>
+                        <a href="/blog">GABRIEL ALBO</a>   
+                        <li><a href="/contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
-
         <div class="main">
-          {{ content }}
+            {{ content  }}
         </div>
     </body>
 </html>
