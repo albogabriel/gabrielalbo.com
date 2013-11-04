@@ -125,7 +125,7 @@ ul.posts li {
 
 /* line 48, ../_sass/screen.scss */
 ul.posts span {
-  color: #aaa;
+  color: #2e3844;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
@@ -265,34 +265,29 @@ ul.posts span {
 /* Variables*/
 /* Styles: */
 /* line 177, ../_sass/screen.scss */
-/* line 172, ../_sass/screen.scss */
-body {
-  background-color: #ecf0f1;
-}
-
 /* line 181, ../_sass/screen.scss */
-/* line 177, ../_sass/screen.scss */
+/* line 178, ../_sass/screen.scss */
 header {
   top: 0;
-  bottom: auto;
+  bottom: 0;
   height: 10%;
   background-color: #f3f3f3;
 }
 
 /* line 195, ../_sass/screen.scss */
-/* line 185, ../_sass/screen.scss */
+/* line 186, ../_sass/screen.scss */
 .main {
-  height: 100%;
-  background-color: #3DC5B8;
+  height: 90%;
+  background: url("../assets/images/square_bg.png");
 }
 
-/* line 189, ../_sass/screen.scss */
+/* line 190, ../_sass/screen.scss */
 .menu {
   margin: 15px 0;
 }
 
 /* line 211, ../_sass/screen.scss */
-/* line 194, ../_sass/screen.scss */
+/* line 195, ../_sass/screen.scss */
 ul.menu li {
   color: #2E3844;
   text-decoration: none;
@@ -300,9 +295,56 @@ ul.menu li {
   margin: 0 15px;
 }
 
-/* line 231, ../_sass/screen.scss */
 /* line 202, ../_sass/screen.scss */
+.post-container {
+  background-color: white;
+  height: 100%;
+}
+
+/* line 231, ../_sass/screen.scss */
+/* line 208, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
   color: #2E3844;
+}
+
+/* line 216, ../_sass/screen.scss */
+li.post-header:nth-child(6n+1) {
+  background: #e74c3c;
+}
+
+/* line 216, ../_sass/screen.scss */
+li.post-header:nth-child(6n+2) {
+  background: #3dc5b8;
+}
+
+/* line 216, ../_sass/screen.scss */
+li.post-header:nth-child(6n+3) {
+  background: #e67e22;
+}
+
+/* line 216, ../_sass/screen.scss */
+li.post-header:nth-child(6n+4) {
+  background: #3498db;
+}
+
+/* line 216, ../_sass/screen.scss */
+li.post-header:nth-child(6n+5) {
+  background: #7f8c8d;
+}
+
+/* line 216, ../_sass/screen.scss */
+li.post-header:nth-child(6n+6) {
+  background: #8e44ad;
+}
+
+/* line 221, ../_sass/screen.scss */
+.post-header {
+  min-height: 100px;
+  color: white;
+}
+/* line 225, ../_sass/screen.scss */
+.post-header a, .post-header a:visited {
+  text-decoration: none;
+  color: #f3f3f3;
 }

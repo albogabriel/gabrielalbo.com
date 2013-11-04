@@ -46,7 +46,7 @@ ul.posts li {
 }
 
 ul.posts span {
-  color: #aaa;
+  color: #2E3844 ;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
@@ -167,24 +167,25 @@ ul.posts span {
 /*
 /*****************************************************************************/
 /* Variables*/
+
 /* Styles: */
 /* line 177, ../_sass/screen.scss */
 body {
-  background-color: #ecf0f1;
+  
 }
 
 /* line 181, ../_sass/screen.scss */
 header {
   top: 0;
-  bottom: auto;
+  bottom: 0;
   height: 10%;
   background-color: #f3f3f3;  
 }
 
 /* line 195, ../_sass/screen.scss */
 .main {
-  height: 100%;
-  background-color: #3DC5B8;
+  height: 90%;
+  background: url("../assets/images/square_bg.png");
 }
 .menu {
   margin: 15px 0;
@@ -198,8 +199,31 @@ ul.menu li {
   margin: 0 15px;
 }
 
+.post-container {
+  background-color: white;
+  height: 100%;
+}
+
 /* line 231, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
   color: #2E3844;
+}
+
+  $post-header-colors: #e74c3c, #3DC5B8, #e67e22, #3498db, #7f8c8d, #8e44ad;
+
+  @for $i from 1 through length($post-header-colors) {
+      li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
+          background: nth($post-header-colors, $i)
+      }
+  }
+
+.post-header {
+  min-height: 100px;
+  color: white;
+
+  a, a:visited {
+    text-decoration: none;
+    color: #f3f3f3;
+  }
 }
