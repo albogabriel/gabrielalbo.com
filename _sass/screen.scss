@@ -168,6 +168,12 @@ ul.posts span {
 /*****************************************************************************/
 /* Variables*/
 
+$main-green: #3DC5B8;
+$darker-green: #399E98;
+$darkest: #2E3844;
+$light-text-color: #F7F7F7;
+$light-background: #f3f3f3;
+
 /* Styles: */
 /* line 177, ../_sass/screen.scss */
 body {
@@ -178,39 +184,59 @@ body {
 header {
   top: 0;
   bottom: 0;
-  height: 10%;
-  background-color: #f3f3f3;  
+  height: 39px;
+  background-color: $light-background; 
+  border-bottom: 3px solid $main-green;
 }
+
+a.logo:hover {
+  }
+
+  .logo img {
+    height: 33px;
+    width: 30px;
+
+    &:hover {
+      /*height: 38px;
+      width: 35px;
+      -webkit-transition-property: height, width;
+      -webkit-transition-duration: 1s;    */
+    }
+  }
 
 /* line 195, ../_sass/screen.scss */
 .main {
+  border-top: 3px solid $main-green;
   height: 90%;
-  background: url("../assets/images/square_bg.png");
+  background: url("../assets/images/black-Linen.png");
 }
 .menu {
-  margin: 15px 0;
+  margin-top: 5px;
 }
 
 /* line 211, ../_sass/screen.scss */
 ul.menu li {
-  color: #2E3844;
+  color: $darkest;
   text-decoration: none;  
   display: inline;
   margin: 0 15px;
 }
 
-.post-container {
-  background-color: white;
-  height: 100%;
+.page-container {
+  background-color: $light-background;
 }
 
 /* line 231, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
-  color: #2E3844;
+  color: $darkest;
 }
 
-  $post-header-colors: #e74c3c, #3DC5B8, #e67e22, #3498db, #7f8c8d, #8e44ad;
+a:hover {
+  color: lighten($darkest, 10);
+}
+
+  $post-header-colors: #e74c3c, #3dc5b8, #e67e22, #3498db, #7f8c8d, #8e44ad;
 
   @for $i from 1 through length($post-header-colors) {
       li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -224,6 +250,12 @@ a, a:visited {
 
   a, a:visited {
     text-decoration: none;
-    color: #f3f3f3;
+    color: $light-text-color;
+
+    .clickable-div {
+      display: block;
+      height: 100%;
+      width: 100%;  
+    }
   }
 }
