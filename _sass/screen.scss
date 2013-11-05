@@ -172,20 +172,16 @@ $main-green: #3DC5B8;
 $darker-green: #399E98;
 $darkest: #2E3844;
 $light-text-color: #F7F7F7;
-$light-background: #f3f3f3;
+$light-header-background: #f3f3f3;
+$text-highlights: #d14233;
 
 /* Styles: */
-/* line 177, ../_sass/screen.scss */
-body {
-  
-}
-
 /* line 181, ../_sass/screen.scss */
 header {
   top: 0;
   bottom: 0;
   height: 39px;
-  background-color: $light-background; 
+  background-color: $light-header-background; 
   border-bottom: 3px solid $main-green;
 }
 
@@ -194,13 +190,12 @@ a.logo:hover {
 
   .logo img {
     height: 33px;
-    width: 30px;
+    width: 33px;
 
     &:hover {
-      /*height: 38px;
-      width: 35px;
-      -webkit-transition-property: height, width;
-      -webkit-transition-duration: 1s;    */
+      opacity:0.4;
+      filter:alpha(opacity=40); /* For IE8 and earlier */
+      -webkit-transition-duration: 0.25s;
     }
   }
 
@@ -208,7 +203,8 @@ a.logo:hover {
 .main {
   border-top: 3px solid $main-green;
   height: 90%;
-  background: url("../assets/images/black-Linen.png");
+  /*background: url("../assets/images/black-Linen.png");*/
+  background-color: $darker-green;
 }
 .menu {
   margin-top: 5px;
@@ -223,7 +219,8 @@ ul.menu li {
 }
 
 .page-container {
-  background-color: $light-background;
+  background-color: $light-text-color;
+  padding: 22px;
 }
 
 /* line 231, ../_sass/screen.scss */
@@ -233,7 +230,7 @@ a, a:visited {
 }
 
 a:hover {
-  color: lighten($darkest, 10);
+  color: lighten($darkest, 50);
 }
 
   $post-header-colors: #e74c3c, #3dc5b8, #e67e22, #3498db, #7f8c8d, #8e44ad;
@@ -246,11 +243,11 @@ a:hover {
 
 .post-header {
   min-height: 100px;
-  color: white;
+  color: $light-header-background;
 
   a, a:visited {
     text-decoration: none;
-    color: $light-text-color;
+    color: $light-header-background;
 
     .clickable-div {
       display: block;
