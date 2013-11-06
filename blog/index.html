@@ -2,17 +2,18 @@
 layout: default
 title: Gabriel Albo
 ---
-
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li class="post-header">
-      	<span>
-      		{{ post.date | date_to_string }}
-      	</span> 
-      	&raquo; 
-      	<a class="clickable-div" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="row blog-index">
+  <div class="large-12 columns">
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li class="post-header">
+        	<span>
+        		{{ post.date | date_to_string }}
+        	</span> 
+        	&raquo; 
+        	<a class="clickable-div" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
