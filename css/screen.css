@@ -392,13 +392,18 @@ ul li span {
   color: #f7f7f7;
 }
 
-/* line 292, ../_sass/screen.scss */
+/* line 293, ../_sass/screen.scss */
 .post-header {
   height: 100px;
   color: #f3f3f3;
 }
-/* line 296, ../_sass/screen.scss */
+/* line 297, ../_sass/screen.scss */
 .post-header a, .post-header a:visited {
   text-decoration: none;
   color: #f3f3f3;
+}
+/* line 302, ../_sass/screen.scss */
+.post-header .post-header-date {
+  color: #2e3844;
+  font-size: 80%;
 }

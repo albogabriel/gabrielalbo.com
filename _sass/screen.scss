@@ -289,6 +289,7 @@ $post-header-colors: $main-green, $darker-green;
 ul li span {
     color: $light-text-color;
   }
+
 .post-header {
   height: 100px;
   color: $light-header-background;
@@ -296,5 +297,10 @@ ul li span {
   a, a:visited {
     text-decoration: none;
     color: $light-header-background;
+  }
+
+  .post-header-date {
+    color: $darkest;
+    font-size: 80%;
   }
 }
