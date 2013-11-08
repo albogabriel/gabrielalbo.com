@@ -38,23 +38,23 @@ p { margin: 1em 0; }
 h1 {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
-    line-height: 46px;
-    font-size: 40px;
+    line-height: 1.286em;
+    font-size: 2.857em;
     margin: 0 0 23px 0;
     }
 
 h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.286em;
+    line-height: 1.643em;
     margin: 0 0 23px 0;
     }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 1em;
+    line-height: 1.643em;
     margin: 0 0 23px 0;
     }
 /*
@@ -253,6 +253,14 @@ ul.menu li {
 
 .avatar {
   text-align: center;
+
+  img {
+    height: 124px;
+    width: 124px;
+    border-radius: 61px;
+    -webkit-border-radius: 61px;
+    -moz-border-radius: 61px;
+  }
 }
 
 .page-container {
