@@ -1,12 +1,11 @@
 /* line 2, ../_sass/birds.scss */
 .waterfall {
-  width: 500px;
   height: 400px;
   margin: 100px auto;
   transform: rotate(40deg);
 }
 
-/* line 9, ../_sass/birds.scss */
+/* line 8, ../_sass/birds.scss */
 .piece {
   float: left;
   position: relative;
@@ -15,13 +14,13 @@
   border-left: 60px solid transparent;
   border-right: 10px solid transparent;
   border-top: 50px solid #2E3844;
-  margin-left: 13px;
-  margin-bottom: 18px;
+  margin-left: 33px;
+  margin-bottom: 48px;
   margin-top: -21px;
   transform: rotate(-15deg);
 }
 
-/* line 23, ../_sass/birds.scss */
+/* line 22, ../_sass/birds.scss */
 .piece:after {
   content: '';
   position: absolute;
@@ -34,95 +33,95 @@
   border-bottom: 20px solid #2E3844;
 }
 
-/* line 35, ../_sass/birds.scss */
+/* line 34, ../_sass/birds.scss */
 .piece:nth-child(2n) {
   transform: rotate(130deg);
   margin-top: -4px;
   margin-left: -8px;
 }
 
-/* line 42, ../_sass/birds.scss */
+/* line 41, ../_sass/birds.scss */
 .piece:nth-child(3) {
   margin-left: -11px;
 }
 
-/* line 46, ../_sass/birds.scss */
+/* line 45, ../_sass/birds.scss */
 .piece:nth-child(6) {
   margin-left: -11px;
 }
 
-/* line 49, ../_sass/birds.scss */
+/* line 48, ../_sass/birds.scss */
 .piece:nth-child(8) {
   margin-left: -158px;
 }
 
-/* line 52, ../_sass/birds.scss */
+/* line 51, ../_sass/birds.scss */
 .piece:nth-child(9) {
   margin-left: -10px;
 }
 
-/* line 55, ../_sass/birds.scss */
+/* line 54, ../_sass/birds.scss */
 .piece:nth-child(13) {
   margin-left: -40px;
 }
 
-/* line 58, ../_sass/birds.scss */
+/* line 57, ../_sass/birds.scss */
 .piece:nth-child(11) {
   margin-left: 60px;
 }
 
-/* line 61, ../_sass/birds.scss */
+/* line 60, ../_sass/birds.scss */
 .piece:nth-child(16) {
   margin-left: 15px;
 }
 
-/* line 64, ../_sass/birds.scss */
+/* line 63, ../_sass/birds.scss */
 .piece:nth-child(3n) {
   margin-left: 30px;
   margin-right: 20px;
 }
 
-/* line 68, ../_sass/birds.scss */
+/* line 67, ../_sass/birds.scss */
 .piece:nth-child(21) {
   margin-left: 10px;
 }
 
-/* line 72, ../_sass/birds.scss */
+/* line 71, ../_sass/birds.scss */
 .piece:hover {
   border-top-color: #bdc3c7;
 }
 
-/* line 76, ../_sass/birds.scss */
+/* line 75, ../_sass/birds.scss */
 .piece:hover:after {
   border-bottom-color: #bdc3c7;
 }
 
-/* line 80, ../_sass/birds.scss */
+/* line 79, ../_sass/birds.scss */
 .piece:hover:nth-child(3) ~ .piece:nth-child(16) {
   border-top-color: #3DC5B8;
 }
 
-/* line 84, ../_sass/birds.scss */
+/* line 83, ../_sass/birds.scss */
 .piece:hover:nth-child(3) ~ .piece:nth-child(16):after {
   border-bottom-color: #3DC5B8;
 }
 
-/* line 88, ../_sass/birds.scss */
+/* line 87, ../_sass/birds.scss */
 .piece:hover:nth-child(16) ~ .piece:nth-child(21) {
   border-top-color: #3DC5B8;
 }
 
-/* line 92, ../_sass/birds.scss */
+/* line 91, ../_sass/birds.scss */
 .piece:hover:nth-child(16) ~ .piece:nth-child(21):after {
   border-bottom-color: #3DC5B8;
 }
 
-/* line 96, ../_sass/birds.scss */
+/* line 95, ../_sass/birds.scss */
 .piece:hover:nth-child(21) ~ .piece:nth-child(3) {
   border-top-color: #3DC5B8;
 }
 
-/* line 100, ../_sass/birds.scss */
+/* line 99, ../_sass/birds.scss */
 .piece:hover:nth-child(21) ~ .piece:nth-child(3):after {
   border-bottom-color: #3DC5B8;
 }
