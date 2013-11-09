@@ -294,6 +294,15 @@ ul.posts span {
   font-size: 80%;
 }
 
+/* line 206, ../_sass/screen.scss */
+.post a, .post a:visited {
+  color: #399e98;
+}
+/* line 210, ../_sass/screen.scss */
+.post a:hover {
+  color: #97d9d5;
+}
+
 /*****************************************************************************/
 /*
 /* Custom
@@ -301,12 +310,12 @@ ul.posts span {
 /*****************************************************************************/
 /* Styles: */
 /* line 181, ../_sass/screen.scss */
-/* line 213, ../_sass/screen.scss */
+/* line 223, ../_sass/screen.scss */
 body {
   overflow-y: scroll;
 }
 
-/* line 217, ../_sass/screen.scss */
+/* line 227, ../_sass/screen.scss */
 header {
   top: 0;
   bottom: 0;
@@ -316,12 +325,12 @@ header {
   text-align: center;
 }
 
-/* line 229, ../_sass/screen.scss */
+/* line 239, ../_sass/screen.scss */
 .logo img {
   height: 33px;
   width: 33px;
 }
-/* line 233, ../_sass/screen.scss */
+/* line 243, ../_sass/screen.scss */
 .logo img:hover {
   opacity: 0.4;
   filter: alpha(opacity=40);
@@ -330,12 +339,12 @@ header {
 }
 
 /* line 195, ../_sass/screen.scss */
-/* line 241, ../_sass/screen.scss */
+/* line 251, ../_sass/screen.scss */
 .main, body {
   background-color: #399e98;
 }
 
-/* line 245, ../_sass/screen.scss */
+/* line 255, ../_sass/screen.scss */
 .main {
   border-top: 3px solid #3dc5b8;
   height: 94%;
@@ -343,13 +352,13 @@ header {
   background-color: #399e98;
 }
 
-/* line 252, ../_sass/screen.scss */
+/* line 262, ../_sass/screen.scss */
 .menu {
   margin-top: 5px;
 }
 
 /* line 211, ../_sass/screen.scss */
-/* line 257, ../_sass/screen.scss */
+/* line 267, ../_sass/screen.scss */
 ul.menu li {
   color: #2e3844;
   text-decoration: none;
@@ -357,11 +366,11 @@ ul.menu li {
   margin: 0 15px;
 }
 
-/* line 264, ../_sass/screen.scss */
+/* line 274, ../_sass/screen.scss */
 .avatar {
   text-align: center;
 }
-/* line 267, ../_sass/screen.scss */
+/* line 277, ../_sass/screen.scss */
 .avatar img {
   height: 124px;
   width: 124px;
@@ -369,72 +378,72 @@ ul.menu li {
   -webkit-border-radius: 61px;
   -moz-border-radius: 61px;
   border: 2px solid #399e98;
-}
-/* line 275, ../_sass/screen.scss */
-.avatar img:hover {
-  transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  /* IE 9 */
-  -moz-transform: scale(1.2);
-  /* Firefox */
-  -webkit-transform: scale(1.2);
-  /* Safari and Chrome */
-  -o-transform: scale(1.2);
-  /* Opera */
   -webkit-transition-duration: 0.5s;
 }
-
 /* line 286, ../_sass/screen.scss */
+.avatar img:hover {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Safari and Chrome */
+  -o-transform: scale(1.1);
+  /* Opera */
+}
+
+/* line 298, ../_sass/screen.scss */
 .page-container {
   background-color: #f7f7f7;
   padding: 22px;
 }
 
 /* line 231, ../_sass/screen.scss */
-/* line 292, ../_sass/screen.scss */
+/* line 304, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
   color: #2e3844;
 }
 
-/* line 297, ../_sass/screen.scss */
+/* line 309, ../_sass/screen.scss */
 a:hover {
   color: #abb7c6;
 }
 
-/* line 304, ../_sass/screen.scss */
+/* line 316, ../_sass/screen.scss */
 li.post-header:nth-child(2n+1) {
   background: #389a94;
 }
 
-/* line 304, ../_sass/screen.scss */
+/* line 316, ../_sass/screen.scss */
 li.post-header:nth-child(2n+2) {
   background: #348f8a;
 }
 
-/* line 309, ../_sass/screen.scss */
+/* line 321, ../_sass/screen.scss */
 ul li span {
   color: #f7f7f7;
 }
 
-/* line 313, ../_sass/screen.scss */
+/* line 325, ../_sass/screen.scss */
 li.post-header {
   height: 66px;
   color: #f3f3f3;
 }
-/* line 317, ../_sass/screen.scss */
+/* line 329, ../_sass/screen.scss */
 li.post-header a, li.post-header a:visited {
   display: block;
   text-decoration: none;
   color: #f3f3f3;
 }
-/* line 323, ../_sass/screen.scss */
+/* line 335, ../_sass/screen.scss */
 li.post-header .post-header-date {
   color: #d9d9d9;
   font-size: 75%;
   font-style: italic;
 }
-/* line 329, ../_sass/screen.scss */
+/* line 341, ../_sass/screen.scss */
 li.post-header h2 {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
@@ -442,7 +451,24 @@ li.post-header h2 {
   line-height: 1.643em;
   margin: 0;
 }
-/* line 337, ../_sass/screen.scss */
+/* line 349, ../_sass/screen.scss */
 li.post-header:hover {
+  background-color: #2e3844;
+}
+
+/* line 354, ../_sass/screen.scss */
+p.contact-icons-container {
+  text-align: center;
+}
+
+/* line 358, ../_sass/screen.scss */
+.contact-icon {
+  margin-right: 10px;
+  background-color: #3dc5b8;
+  height: 55px;
+  border-radius: 27.5px;
+}
+/* line 365, ../_sass/screen.scss */
+.contact-icon:hover {
   background-color: #2e3844;
 }

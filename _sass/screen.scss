@@ -202,6 +202,16 @@ ul.posts span {
   font-size: 80%;
 }
 
+.post {
+  a, a:visited {
+    color: $darker-green;
+  }
+
+  a:hover {
+    color: lighten($darker-green, 30);
+  }
+}
+
 /*****************************************************************************/
 /*
 /* Custom
@@ -271,14 +281,16 @@ ul.menu li {
     -webkit-border-radius: 61px;
     -moz-border-radius: 61px;
     border: 2px solid $darker-green;
+    -webkit-transition-duration: 0.5s;  
 
     &:hover {
-      transform:scale(1.2);
-      -ms-transform:scale(1.2); /* IE 9 */
-      -moz-transform:scale(1.2); /* Firefox */
-      -webkit-transform:scale(1.2); /* Safari and Chrome */
-      -o-transform:scale(1.2); /* Opera */
-      -webkit-transition-duration: 0.5s;  
+      $scale: 1.1;
+
+      transform:scale($scale);
+      -ms-transform:scale($scale); /* IE 9 */
+      -moz-transform:scale($scale); /* Firefox */
+      -webkit-transform:scale($scale); /* Safari and Chrome */
+      -o-transform:scale($scale); /* Opera */
     }
   }
 }
@@ -333,6 +345,22 @@ li.post-header {
     line-height: 1.643em;
     margin: 0;
   }
+
+  &:hover {
+    background-color: $darkest;
+  }
+}
+
+p.contact-icons-container {
+  text-align: center;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  $icons-height: 55px;
+  background-color: $main-green;
+  height: $icons-height;
+  border-radius: $icons-height/2;
 
   &:hover {
     background-color: $darkest;

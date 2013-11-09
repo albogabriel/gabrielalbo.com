@@ -2,7 +2,6 @@
 layout: post
 title:  "puts 'Why?\n'*5"
 date:   2013-11-9 3:23:53
-categories: hello, world
 ---
 
 \- A relação entre esse comercial de TV e a visão de UX de alguns clientes que tive merecia um texto a respeito...
