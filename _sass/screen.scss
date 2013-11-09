@@ -45,7 +45,7 @@ h1 {
 
 h2 {
     font-family: 'Dosis', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 1.286em;
     line-height: 1.643em;
     margin: 0 0 23px 0;
@@ -161,6 +161,7 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -190,6 +191,15 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.page-container h1{
+  margin: 0;
+}
+
+.post-date {
+  margin-left: 30px;
+  font-size: 80%;
 }
 
 /*****************************************************************************/
@@ -260,6 +270,16 @@ ul.menu li {
     border-radius: 61px;
     -webkit-border-radius: 61px;
     -moz-border-radius: 61px;
+    border: 2px solid $darker-green;
+
+    &:hover {
+      transform:scale(1.2);
+      -ms-transform:scale(1.2); /* IE 9 */
+      -moz-transform:scale(1.2); /* Firefox */
+      -webkit-transform:scale(1.2); /* Safari and Chrome */
+      -o-transform:scale(1.2); /* Opera */
+      -webkit-transition-duration: 0.5s;  
+    }
   }
 }
 
@@ -278,7 +298,7 @@ a:hover {
   color: lighten($darkest, 50);
 }
 
-$post-header-colors: $main-green, $darker-green;
+$post-header-colors: darken($darker-green, 1), darken($darker-green, 4);
 
 @for $i from 1 through length($post-header-colors) {
     li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -288,19 +308,33 @@ $post-header-colors: $main-green, $darker-green;
 
 ul li span {
     color: $light-text-color;
-  }
+}
 
-.post-header {
-  height: 100px;
+li.post-header {
+  height: 66px;
   color: $light-header-background;
 
   a, a:visited {
+    display: block;
     text-decoration: none;
     color: $light-header-background;
   }
 
   .post-header-date {
-    color: $darkest;
-    font-size: 80%;
+    color: darken($light-header-background, 10);
+    font-size: 75%;
+    font-style: italic;
+  }
+
+  h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 1.286em;
+    line-height: 1.643em;
+    margin: 0;
+  }
+
+  &:hover {
+    background-color: $darkest;
   }
 }

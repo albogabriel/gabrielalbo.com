@@ -115,7 +115,7 @@ h1 {
 /* line 46, ../_sass/screen.scss */
 h2 {
   font-family: 'Dosis', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 1.286em;
   line-height: 1.643em;
   margin: 0 0 23px 0;
@@ -246,41 +246,52 @@ ul.posts span {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 164, ../_sass/screen.scss */
+/* line 165, ../_sass/screen.scss */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 170, ../_sass/screen.scss */
+/* line 171, ../_sass/screen.scss */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-/* line 174, ../_sass/screen.scss */
+/* line 175, ../_sass/screen.scss */
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 180, ../_sass/screen.scss */
+/* line 181, ../_sass/screen.scss */
 .post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 185, ../_sass/screen.scss */
+/* line 186, ../_sass/screen.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 191, ../_sass/screen.scss */
+/* line 192, ../_sass/screen.scss */
 .post pre.terminal code {
   background-color: #333;
+}
+
+/* line 196, ../_sass/screen.scss */
+.page-container h1 {
+  margin: 0;
+}
+
+/* line 200, ../_sass/screen.scss */
+.post-date {
+  margin-left: 30px;
+  font-size: 80%;
 }
 
 /*****************************************************************************/
@@ -290,12 +301,12 @@ ul.posts span {
 /*****************************************************************************/
 /* Styles: */
 /* line 181, ../_sass/screen.scss */
-/* line 203, ../_sass/screen.scss */
+/* line 213, ../_sass/screen.scss */
 body {
   overflow-y: scroll;
 }
 
-/* line 207, ../_sass/screen.scss */
+/* line 217, ../_sass/screen.scss */
 header {
   top: 0;
   bottom: 0;
@@ -305,12 +316,12 @@ header {
   text-align: center;
 }
 
-/* line 219, ../_sass/screen.scss */
+/* line 229, ../_sass/screen.scss */
 .logo img {
   height: 33px;
   width: 33px;
 }
-/* line 223, ../_sass/screen.scss */
+/* line 233, ../_sass/screen.scss */
 .logo img:hover {
   opacity: 0.4;
   filter: alpha(opacity=40);
@@ -319,12 +330,12 @@ header {
 }
 
 /* line 195, ../_sass/screen.scss */
-/* line 231, ../_sass/screen.scss */
+/* line 241, ../_sass/screen.scss */
 .main, body {
   background-color: #399e98;
 }
 
-/* line 235, ../_sass/screen.scss */
+/* line 245, ../_sass/screen.scss */
 .main {
   border-top: 3px solid #3dc5b8;
   height: 94%;
@@ -332,13 +343,13 @@ header {
   background-color: #399e98;
 }
 
-/* line 242, ../_sass/screen.scss */
+/* line 252, ../_sass/screen.scss */
 .menu {
   margin-top: 5px;
 }
 
 /* line 211, ../_sass/screen.scss */
-/* line 247, ../_sass/screen.scss */
+/* line 257, ../_sass/screen.scss */
 ul.menu li {
   color: #2e3844;
   text-decoration: none;
@@ -346,64 +357,92 @@ ul.menu li {
   margin: 0 15px;
 }
 
-/* line 254, ../_sass/screen.scss */
+/* line 264, ../_sass/screen.scss */
 .avatar {
   text-align: center;
 }
-/* line 257, ../_sass/screen.scss */
+/* line 267, ../_sass/screen.scss */
 .avatar img {
   height: 124px;
   width: 124px;
   border-radius: 61px;
   -webkit-border-radius: 61px;
   -moz-border-radius: 61px;
+  border: 2px solid #399e98;
+}
+/* line 275, ../_sass/screen.scss */
+.avatar img:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -moz-transform: scale(1.2);
+  /* Firefox */
+  -webkit-transform: scale(1.2);
+  /* Safari and Chrome */
+  -o-transform: scale(1.2);
+  /* Opera */
+  -webkit-transition-duration: 0.5s;
 }
 
-/* line 266, ../_sass/screen.scss */
+/* line 286, ../_sass/screen.scss */
 .page-container {
   background-color: #f7f7f7;
   padding: 22px;
 }
 
 /* line 231, ../_sass/screen.scss */
-/* line 272, ../_sass/screen.scss */
+/* line 292, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
   color: #2e3844;
 }
 
-/* line 277, ../_sass/screen.scss */
+/* line 297, ../_sass/screen.scss */
 a:hover {
   color: #abb7c6;
 }
 
-/* line 284, ../_sass/screen.scss */
+/* line 304, ../_sass/screen.scss */
 li.post-header:nth-child(2n+1) {
-  background: #3dc5b8;
+  background: #389a94;
 }
 
-/* line 284, ../_sass/screen.scss */
+/* line 304, ../_sass/screen.scss */
 li.post-header:nth-child(2n+2) {
-  background: #399e98;
+  background: #348f8a;
 }
 
-/* line 289, ../_sass/screen.scss */
+/* line 309, ../_sass/screen.scss */
 ul li span {
   color: #f7f7f7;
 }
 
-/* line 293, ../_sass/screen.scss */
-.post-header {
-  height: 100px;
+/* line 313, ../_sass/screen.scss */
+li.post-header {
+  height: 66px;
   color: #f3f3f3;
 }
-/* line 297, ../_sass/screen.scss */
-.post-header a, .post-header a:visited {
+/* line 317, ../_sass/screen.scss */
+li.post-header a, li.post-header a:visited {
+  display: block;
   text-decoration: none;
   color: #f3f3f3;
 }
-/* line 302, ../_sass/screen.scss */
-.post-header .post-header-date {
-  color: #2e3844;
-  font-size: 80%;
+/* line 323, ../_sass/screen.scss */
+li.post-header .post-header-date {
+  color: #d9d9d9;
+  font-size: 75%;
+  font-style: italic;
+}
+/* line 329, ../_sass/screen.scss */
+li.post-header h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 1.286em;
+  line-height: 1.643em;
+  margin: 0;
+}
+/* line 337, ../_sass/screen.scss */
+li.post-header:hover {
+  background-color: #2e3844;
 }

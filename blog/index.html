@@ -7,10 +7,12 @@ title: Gabriel Albo
     <ul class="posts">
       {% for post in site.posts %}
         <li class="post-header">
-        	<a class="clickable-div" href="{{ post.url }}">{{ post.title }}</a>
-          <p class="post-header-date">
-            {{ post.date | date_to_string }}
-          </p> 
+        	<a class="clickable-div" href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+            <h3 class="post-header-date">
+              {{ post.date | date_to_string }}
+            </h3> 
+          </a>
         </li>
       {% endfor %}
     </ul>

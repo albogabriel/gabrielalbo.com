@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Pam"
-date:   2013-10-21 16:54:53
-categories: jekyll update
----
-
-Pamela
