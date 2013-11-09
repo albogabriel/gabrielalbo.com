@@ -6,7 +6,7 @@ $main-green: #3DC5B8;
 $darker-green: #399E98;
 $darkest: #2E3844;
 $light-text-color: #F7F7F7;
-$light-header-background: #f3f3f3;
+$light-header-background: #f1f1f1;
 $text-highlights: #d14233;
 
 /*****************************************************************************/
@@ -198,14 +198,14 @@ body {
 header {
   top: 0;
   bottom: 0;
-  height: 39px;
+  height: 66px;
   background-color: $light-header-background; 
   border-bottom: 3px solid $main-green;
   text-align: center;
 
   .logo img {
-    height: 33px;
-    width: 33px;
+    height: 55px;
+    width: 55px;
 
     &:hover {
       opacity:0.4;
@@ -213,7 +213,7 @@ header {
       -webkit-transition-duration: 0.25s;
     }
   }
-}
+} 
 
 /* line 195, ../_sass/screen.scss */
 .main, body {
@@ -222,13 +222,13 @@ header {
 
 .main {
   border-top: 3px solid $main-green;
-  height: 94%;
+  max-height: 90%;
   margin-bottom: -38px; 
   background-color: $darker-green;
 }
 
 .menu {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 /* line 211, ../_sass/screen.scss */
@@ -237,6 +237,10 @@ ul.menu li {
   text-decoration: none;  
   display: inline;
   margin: 0 15px;
+
+  a{
+    font-size: 110%;
+  }
 }
 
 .avatar {
@@ -264,8 +268,9 @@ ul.menu li {
 }
 
 .page-container {
-  background-color: $light-text-color;
+  background-color: $light-header-background;
   padding: 22px;
+  border-bottom: 10px solid $darker-green;
 }
 
 /* line 231, ../_sass/screen.scss */
