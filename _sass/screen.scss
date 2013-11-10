@@ -173,7 +173,7 @@ ul.posts span {
   font-size: 80%;
 }
 
-.post {
+.post, .back-to-index {
   a, a:visited {
     color: $darker-green;
   }
@@ -181,6 +181,10 @@ ul.posts span {
   a:hover {
     color: lighten($darker-green, 30);
   }
+}
+
+.back-to-index {
+  float: right;
 }
 
 /*****************************************************************************/

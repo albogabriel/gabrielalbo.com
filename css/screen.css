@@ -252,12 +252,17 @@ ul.posts span {
 }
 
 /* line 177, ../_sass/screen.scss */
-.post a, .post a:visited {
+.post a, .post a:visited, .back-to-index a, .back-to-index a:visited {
   color: #399e98;
 }
 /* line 181, ../_sass/screen.scss */
-.post a:hover {
+.post a:hover, .back-to-index a:hover {
   color: #97d9d5;
+}
+
+/* line 186, ../_sass/screen.scss */
+.back-to-index {
+  float: right;
 }
 
 /*****************************************************************************/
@@ -267,12 +272,12 @@ ul.posts span {
 /*****************************************************************************/
 /* Styles: */
 /* line 181, ../_sass/screen.scss */
-/* line 194, ../_sass/screen.scss */
+/* line 198, ../_sass/screen.scss */
 body {
   overflow-y: scroll;
 }
 
-/* line 198, ../_sass/screen.scss */
+/* line 202, ../_sass/screen.scss */
 header {
   top: 0;
   bottom: 0;
@@ -281,12 +286,12 @@ header {
   border-bottom: 3px solid #3dc5b8;
   text-align: center;
 }
-/* line 206, ../_sass/screen.scss */
+/* line 210, ../_sass/screen.scss */
 header .logo img {
   height: 55px;
   width: 55px;
 }
-/* line 210, ../_sass/screen.scss */
+/* line 214, ../_sass/screen.scss */
 header .logo img:hover {
   opacity: 0.4;
   filter: alpha(opacity=40);
@@ -295,12 +300,12 @@ header .logo img:hover {
 }
 
 /* line 195, ../_sass/screen.scss */
-/* line 219, ../_sass/screen.scss */
+/* line 223, ../_sass/screen.scss */
 .main, body {
   background-color: #399e98;
 }
 
-/* line 223, ../_sass/screen.scss */
+/* line 227, ../_sass/screen.scss */
 .main {
   border-top: 3px solid #3dc5b8;
   max-height: 90%;
@@ -308,29 +313,29 @@ header .logo img:hover {
   background-color: #399e98;
 }
 
-/* line 230, ../_sass/screen.scss */
+/* line 234, ../_sass/screen.scss */
 .menu {
   margin-top: 10px;
 }
 
 /* line 211, ../_sass/screen.scss */
-/* line 235, ../_sass/screen.scss */
+/* line 239, ../_sass/screen.scss */
 ul.menu li {
   color: #2e3844;
   text-decoration: none;
   display: inline;
   margin: 0 15px;
 }
-/* line 241, ../_sass/screen.scss */
+/* line 245, ../_sass/screen.scss */
 ul.menu li a {
   font-size: 110%;
 }
 
-/* line 246, ../_sass/screen.scss */
+/* line 250, ../_sass/screen.scss */
 .avatar {
   text-align: center;
 }
-/* line 249, ../_sass/screen.scss */
+/* line 253, ../_sass/screen.scss */
 .avatar img {
   height: 124px;
   width: 124px;
@@ -340,7 +345,7 @@ ul.menu li a {
   border: 2px solid #399e98;
   -webkit-transition-duration: 0.5s;
 }
-/* line 258, ../_sass/screen.scss */
+/* line 262, ../_sass/screen.scss */
 .avatar img:hover {
   transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -353,7 +358,7 @@ ul.menu li a {
   /* Opera */
 }
 
-/* line 270, ../_sass/screen.scss */
+/* line 274, ../_sass/screen.scss */
 .page-container {
   background-color: #f1f1f1;
   padding: 22px;
@@ -361,50 +366,50 @@ ul.menu li a {
 }
 
 /* line 231, ../_sass/screen.scss */
-/* line 277, ../_sass/screen.scss */
+/* line 281, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
   color: #2e3844;
 }
 
-/* line 282, ../_sass/screen.scss */
+/* line 286, ../_sass/screen.scss */
 a:hover {
   color: #abb7c6;
 }
 
-/* line 289, ../_sass/screen.scss */
+/* line 293, ../_sass/screen.scss */
 li.post-header:nth-child(2n+1) {
   background: #389a94;
 }
 
-/* line 289, ../_sass/screen.scss */
+/* line 293, ../_sass/screen.scss */
 li.post-header:nth-child(2n+2) {
   background: #348f8a;
 }
 
-/* line 294, ../_sass/screen.scss */
+/* line 298, ../_sass/screen.scss */
 ul li span {
   color: #f7f7f7;
 }
 
-/* line 298, ../_sass/screen.scss */
+/* line 302, ../_sass/screen.scss */
 li.post-header {
   height: 66px;
   color: #f1f1f1;
 }
-/* line 302, ../_sass/screen.scss */
+/* line 306, ../_sass/screen.scss */
 li.post-header a, li.post-header a:visited {
   display: block;
   text-decoration: none;
   color: #f1f1f1;
 }
-/* line 308, ../_sass/screen.scss */
+/* line 312, ../_sass/screen.scss */
 li.post-header .post-header-date {
   color: #d7d7d7;
   font-size: 75%;
   font-style: italic;
 }
-/* line 314, ../_sass/screen.scss */
+/* line 318, ../_sass/screen.scss */
 li.post-header h2 {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
@@ -412,24 +417,24 @@ li.post-header h2 {
   line-height: 1.643em;
   margin: 0;
 }
-/* line 322, ../_sass/screen.scss */
+/* line 326, ../_sass/screen.scss */
 li.post-header:hover {
   background-color: #2e3844;
 }
 
-/* line 327, ../_sass/screen.scss */
+/* line 331, ../_sass/screen.scss */
 p.contact-icons-container {
   text-align: center;
 }
 
-/* line 331, ../_sass/screen.scss */
+/* line 335, ../_sass/screen.scss */
 .contact-icon {
   margin-right: 10px;
   background-color: #3dc5b8;
   height: 55px;
   border-radius: 27.5px;
 }
-/* line 338, ../_sass/screen.scss */
+/* line 342, ../_sass/screen.scss */
 .contact-icon:hover {
   background-color: #2e3844;
 }
