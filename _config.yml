@@ -3,4 +3,5 @@ markdown: redcarpet
 pygments: true
 safe: true
 lsi: false
-baseurl: /albogabriel
+url: "http://albogabriel.github.io"
+baseurl: /gabrielalbo.com
