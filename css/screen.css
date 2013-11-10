@@ -130,7 +130,7 @@ p {
 }
 
 /* line 61, ../_sass/screen.scss */
-strong {
+strong, b {
   font-weight: bold;
 }
 
