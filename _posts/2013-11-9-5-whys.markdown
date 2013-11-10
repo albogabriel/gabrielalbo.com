@@ -4,22 +4,23 @@ title:  "puts 'Why?\n'*5"
 date:   2013-11-9 3:23:53
 ---
 
-\- A relação entre esse comercial de TV e a visão de UX de alguns clientes que tive merecia um texto a respeito...
+\- *A relação entre esse comercial de TV e a visão de UX de alguns clientes que tive merecia um texto a respeito...*
 
-\- Como é que saímos de flat design para long shadow? Achei que coisas achatadas projetassem pouca sombra!
+\- *Como é que saímos de flat design para long shadow? Achei que coisas achatadas projetassem pouca sombra!*
 
-\- Será que o mundo já conhece o suficiente do editor de Markdown Mou?
+\- *Será que o mundo já conhece o suficiente do editor de Markdown Mou?*
 
-\- Vou enumerar 10 motivos por que ["Web Form Design"](http://www.lukew.com/resources/web_form_design.asp) do [Luke Wroblewski](http://www.lukew.com/) deveria ser leitura obrigatória no vestibular:
+\- *Vou enumerar 10 motivos por que ["Web Form Design"](http://www.lukew.com/resources/web_form_design.asp) do [Luke Wroblewski](http://www.lukew.com/) deveria ser leitura obrigatória no vestibular:...*
 
-\- O atendimento do Subway e do Spoletto me lembram de quando preciso acessar aquele site governamental e **eu** preciso aprender os termos de negócio **deles** para completar aquele formulário...
+\- *O atendimento do Subway e do Spoletto me lembram de quando preciso acessar aquele site governamental e **eu** preciso aprender os termos de negócio **deles** para completar aquele formulário...*
+<br><br><br>
+Há dezenas de tipos de designers. Talvez centenas. Cada um tem um background, uma 
+especialidade, um ponto de vista. Na área de software, já pude conhecer alguns: o pesquisador, o designer de interação, o designer gráfico, etc.. Mas apesar de tantas - e distintas - áreas, uma coisa costuma ser um traço comum: designers são <del>pentelhos</del> detalhistas e insatisfeitos. Sempre enxergam as coisas de forma meticulosa, e dessa visão tecem críticas, reconhecem padrões e fantasiam mudanças. É da natureza do *métier*.
 
-Há dezenas de tipos de designers. Talvez centenas. Cada um tem um background, uma especialidade, um ponto de vista. Na área de software, já pude conhecer alguns: o pesquisador, o designer de interação, o designer gráfico, etc.. Mas apesar de tantas - e distintas - áreas, uma coisa costuma ser um traço comum: designers são <del>pentelhos</del> detalhistas e insatisfeitos. Sempre enxergam as coisas de forma meticulosa, e dessa visão tecem críticas, reconhecem padrões e fantasiam mudanças. É da natureza do *métier*.
-
-Eu não sou diferente. Sou pago para fazer design de experiência de usuário, mas no fundo, na minha cabeça **faço design de tudo**. E as cinco frases que iniciam esse post são rápidos exemplos, do topo da cabeça, de coisas que já pensei- devaneios livres, ideias (absurdas?) que me martelaram a cabeça e, de lá, nunca saíram por falta de um meio mais propício. E esse é o objetivo desse blog: tirar da cabeça as ideias que tenham a ver com design de experiência - design de interação, front-end dev, design gráfico, usabilidade, design de serviço, etc. -  e jogar em algum lugar. Se, de quebra, conhecer mais pessoas com quem possa aprender e trocar ideias, **#epicwin**. 
+Eu não sou diferente. Sou pago para fazer design de experiência de usuário, mas no fundo, na minha cabeça **faço design de tudo**. E as cinco frases que iniciam esse post são rápidos exemplos, do topo da cabeça, de coisas que já pensei ou debati e que me martelaram a cabeça tendo nunda saído de lá - talvez por falta de um meio mais propício. E esse é o objetivo desse blog: tirar da cabeça as ideias que tenham a ver com design de experiência - design de interação, front-end dev, design gráfico, usabilidade, design de serviço, etc. -  e jogar em algum lugar. Se, de quebra, conhecer mais pessoas com quem possa aprender e trocar ideias, **#epicwin**. 
 
 Além dos posts e das informações de contato, pretendo também incluir trabalhos que já fiz e experimentos variados.
 
-Construí esse site usando, basicamente, [Jekyll](http://jekyllrb.com/), [Sass](http://sass-lang.com/)/[Compass](http://compass-style.org/) e [Foundation](http://foundation.zurb.com/); estou hospedando-o no github pages e tentando tornar o processo de deploy o mais rápido possível, visando favorecer o continuous design/improvement. Os experimentos, que em sua maioria serão tirados do meu codepen, serão prioritariamente feitos em HTML5 + CSS3, mas meu background de desenvolvedor, fatalmente, vai me fazer querer brincar com JavaScript e/ou Ruby, ocasionalmente.
+Construí esse site usando, basicamente, [Jekyll](http://jekyllrb.com/), [Sass](http://sass-lang.com/)/[Compass](http://compass-style.org/), [Foundation](http://foundation.zurb.com/) e [Normalize](http://necolas.github.io/normalize.css/); estou hospedando-o no github pages e tentando tornar o processo de deploy o mais rápido possível, visando favorecer o continuous design/improvement. Os experimentos, que em sua maioria serão tirados do meu codepen, serão prioritariamente feitos em HTML5 + CSS3, mas meu background de desenvolvedor, fatalmente, vai me fazer querer brincar com JavaScript e/ou Ruby, ocasionalmente.
 
 Todo [feedback](https://mail.google.com/mail?view=cm&tf=0&to=gabriel@albo.com.br) é bem-vindo :) Espero seu retorno. 

@@ -2,6 +2,7 @@
 .waterfall{
   height:400px;
   margin:100px auto;
+  margin-bottom: 50px;
   transform:rotate(40deg);
 
 }
@@ -29,8 +30,15 @@
   border-left: 10px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 20px solid #2E3844;
-  
 }
+
+.title {
+  display: none;
+  font-style: italic;
+  float: right;
+  margin-bottom: 50px;
+}
+
 .piece:nth-child(2n){
    transform:rotate(130deg);
   margin-top:-4px;
@@ -96,6 +104,6 @@
   border-top-color: #3DC5B8;
 }
 
-.piece:hover:nth-child(21) ~ .piece:nth-child(3):after { 
-  border-bottom-color: #3DC5B8;
+.piece:hover:nth-child(21) ~ .title { 
+  display: block;
 }    
