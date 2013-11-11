@@ -262,11 +262,11 @@ ul.posts span {
 }
 
 /* line 185, ../_sass/screen.scss */
-.post a, .post a:visited, .back-to-index a, .back-to-index a:visited {
+.post a, .post a:visited, .back-to-index a, .back-to-index a:visited, .page-container a, .page-container a:visited {
   color: #399e98;
 }
 /* line 189, ../_sass/screen.scss */
-.post a:hover, .back-to-index a:hover {
+.post a:hover, .back-to-index a:hover, .page-container a:hover {
   color: #97d9d5;
 }
 
