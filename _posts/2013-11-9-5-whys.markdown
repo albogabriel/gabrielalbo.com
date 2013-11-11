@@ -12,7 +12,7 @@ date:   2013-11-9 3:23:53
 
 \- *Vou enumerar 10 motivos por que ["Web Form Design"](http://www.lukew.com/resources/web_form_design.asp) do [Luke Wroblewski](http://www.lukew.com/) deveria ser leitura obrigatória no vestibular:...*
 
-\- *O atendimento do Subway e do Spoletto me lembram de quando preciso acessar aquele site governamental e **eu** preciso aprender os termos de negócio **deles** para completar aquele formulário...*
+\- <em>O atendimento do Subway e do Spoletto me lembram de quando preciso acessar aquele site governamental e <b>eu</b> preciso aprender os termos de negócio **deles** para completar aquele formulário...</em>
 <br><br><br>
 Há dezenas de tipos de designers. Talvez centenas. Cada um tem um background, uma 
 especialidade, um ponto de vista. Na área de software, já pude conhecer alguns: o pesquisador, o designer de interação, o designer gráfico, etc.. Mas apesar de tantas - e distintas - áreas, uma coisa costuma ser um traço comum: designers são <del>pentelhos</del> detalhistas e insatisfeitos. Sempre enxergam as coisas de forma meticulosa, e dessa visão tecem críticas, reconhecem padrões e fantasiam mudanças. É da natureza do *métier*.
