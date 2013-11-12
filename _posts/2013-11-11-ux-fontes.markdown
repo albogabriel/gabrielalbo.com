@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Introdução a UX: Fontes de Estudo"
+date: 2013-11-10 4:55:03
+---
+
+<img class="image-centered" src="{{ site.baseurl }}/assets/images/posts/great-adventure.jpg" alt="Great Adventure"/>
+
+Comecei minha carreira como desenvolvedor, mas sempre mais focado em front-end e com muito gosto por UX. O problema era não saber **o que diabos era UX**... ao menos, não formalmente. Há alguns anos, recorri ao grande amigo (e excelente designer) [Leo Tartari](http://www.leotartari.com) pedindo algumas dicas de materiais interessantes sobre a área. Eventualmente li absolutamente tudo, estudei mais, pratiquei bastante e oficialmente passei a trabalhar como XD... mas aquela base teoria foi fundamental durante todo o processo.
+
+Ao longo do tempo, assim como eu fiz um dia, várias pessoas me pediram o mesmo tipo de referências. Agreguei minhas próprias opiniões e descobertas, tentei reduzir ao essencial e cheguei em uma lista de fontes que considero uma boa forma de começar. De forma alguma é uma lista final: pretendo atualizá-la conforme receber sugestões. 
+
+Lá vai:
+  
+
+### **Artigos Básicos**
+
+[Wikipedia: User Experience Design](http://en.wikipedia.org/wiki/User_experience_design)  
+[Wikipedia: User Interface](http://en.wikipedia.org/wiki/User_interface)  
+[Wikipedia: Information Architecture](http://en.wikipedia.org/wiki/Information_architecture)  
+[Wikipedia: User-Centered Design](http://en.wikipedia.org/wiki/User-centered_design)  
+[Ten Usability Heuristics](http://www.nngroup.com/articles/ten-usability-heuristics/) - As famosas 10 heurísticas de usabilidade de Jakob Nielsen. Pode imprimir e colar na parede do quarto sem medo :)
+
+
+### **Livros**
+[The Design of Everyday Things, por Don Norman](http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107/ref=pd_sim_b_1) - A bíblia do design.    
+[A Project Guide to UX Design, de Carolyn Chandler](http://www.amazon.com/Project-Guide-Design-experience-designers/dp/0321607376) - Guia Completo de UX.  
+[Don't Make me Think, por Steve Krug](http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758) - Um livro de leitura muito fácil e útil para todos os profissionais desenvolvimento para web.  
+[Web Form Design, por Luke Wroblewski](http://www.lukew.com/resources/web_form_design.asp) - Muito prático. E apesar de parecer ter um escopo específico - form design - é um livro que fala muito de UX, implicita e explicitamente.
+
+
+### **Blogs**
+[A List Apart](http://www.alistapart.com/) - Publicação online para "pessoas que fazem websites". Leitura obrigatória.  
+[Smashing Magazine](http://www.smashingmagazine.com/) - Excelente fonte de materiais sobre design; mais que UX, bastante front-end dev e um pouco de design gráfico, também.   
+[UX Booth](http://www.uxbooth.com/) - Focada especialmente em níveis iniciante e intermediário em design de experiência e de interação  
+[UX Mag](http://uxmag.com/) - Revista online de UX  
+[Usability Post](http://www.usabilitypost.com/) - Bons posts, especialmente sobre interaction design  
+[90 Percent of Everything](http://www.90percentofeverything.com/) -  Blog de Harry Brignull, gosto muito dos artigos (e do layout!)  
+[Luke Wroblewski](http://www.lukew.com/) - Autor de dois dos meus livros favoritos - Web Form Design, citado acima, e Mobile First.   
+[Little Big Details](http://littlebigdetails.com/) - Fontes de inspiração   
+
+### **Sites**
+[UX Myths](http://uxmyths.com/) - 32 mitos de UX, revelados.     
+[UXDesign.cc](http://uxdesign.cc/) - Ótima coleção de links e ferramentas.  
+[UX is Not UI](http://www.uxisnotui.com/) - UX não é UI!  
+[Boxes and Arrows](http://boxesandarrows.com/) - Coletânea de artigos, especialmente sobre Arquitetura de Informação  
+[52 Weeks of UX](http://52weeksofux.com/) - 52 semanas, 52 artigos de UX     
+[UX Mastery](http://uxmastery.com/) - Vários artigos introdutórios e um podcast sobre UX     
+[NN Group](http://www.nngroup.com/) - Nielsen Norman Group. Os nomes já bastam!
+
+### **Videos**
+[What the #$%@ is UX Design?](http://www.youtube.com/watch?v=Ovj4hFxko7c)  
+[Aral Balkan: Superheroes & Villains in Design](http://vimeo.com/70030549)  
+[Jesse James Garrett: The State Of User Experience](http://vimeo.com/6952223)
+  
+### **Cursos**
+[Coursera: Human Computer Interaction](https://www.coursera.org/course/hci) - Curso gratuito e bastante completo. Mesmo se não houver turmas atuais, vale a pena ver as video-aulas.  
+[Hackdesign](http://hackdesign.org/) - Excelentes links sobre praticamente tudo de UX. Curadoria muito competente.  
+[Codeschool: Fundamentals of Design](https://www.codeschool.com/courses/fundamentals-of-design) - É pago, como os demais cursos do codeschool, e bastante introdutório em termos de design gráfico (e um pouco de design de interação). Vale a pena para quem já tem conta.  
+
+### **Inspiração**
+[UI Patterns.com/](http://ui-patterns.com/) - Um catálogo imenso de padrões de interface.    
+[Pttrns.com](http://pttrns.com/) - Outro catálogo de padrões.  
+[Wireframes.tumblr](http://wireframes.tumblr.com/) - Catálogo de Wireframes  
+[Kuler](https://kuler.adobe.com/) - Ferramenta de visualização, criação e edição de palhetas de cor.  
+[Abduzeedo](http://abduzeedo.com/) - Diversas peças de design gráfico.  
+[Dribbble](http://dribbble.com/) - Portfolios de designers gráficos.  
+<br>
+***(Nota: resolvi deixar os links de front-end development para um outro post. Vai haver links o suficiente para encher um post só disso :))***
+<br><br>
+Essas são as fontes que conheço e que acho muito úteis para quem está descobrindo UX. E você? Tem mais sugestões? Que outras fontas você julga úteis para quem está querendo tornar-se um UX designer?

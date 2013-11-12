@@ -193,6 +193,13 @@ ul.posts span {
 
 .back-to-index {
   float: right;
+  margin-top: 50px;
+}
+
+.disqus-container {
+  clear: both;
+  border-top: 2px solid $main-green;
+  padding-top: 35px;
 }
 
 /*****************************************************************************/
@@ -262,9 +269,9 @@ ul.menu li {
     height: 124px;
     width: 124px;
     border-radius: 61px;
+    border: 2px solid $darker-green;
     -webkit-border-radius: 61px;
     -moz-border-radius: 61px;
-    border: 2px solid $darker-green;
     -webkit-transition-duration: 0.5s;  
 
     &:hover {
@@ -295,7 +302,7 @@ a:hover {
   color: lighten($darkest, 50);
 }
 
-$post-header-colors: darken($darker-green, 1), darken($darker-green, 4);
+$post-header-colors: darken($darker-green, 4), darken($darker-green, 7);
 
 @for $i from 1 through length($post-header-colors) {
     li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -350,4 +357,15 @@ p.contact-icons-container {
   &:hover {
     background-color: $darkest;
   }
+}
+
+.image-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure figcaption {
+  text-align: center;
+  font-style: italic;
 }
