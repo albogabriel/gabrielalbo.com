@@ -82,3 +82,9 @@
 .piece:hover:after{
   border-bottom-color:#bdc3c7;
 }
+
+@media (max-width : 400px) {
+  .piece:nth-child(-n+4), .piece:nth-child(n+14) { 
+    display: none;
+  }
+}

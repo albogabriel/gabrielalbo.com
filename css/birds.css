@@ -103,3 +103,10 @@
 .piece:hover:after {
   border-bottom-color: #bdc3c7;
 }
+
+@media (max-width: 400px) {
+  /* line 87, ../_sass/birds.scss */
+  .piece:nth-child(-n+4), .piece:nth-child(n+14) {
+    display: none;
+  }
+}
