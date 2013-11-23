@@ -24,7 +24,9 @@ $text-highlights: #d14233;
 html, body { height: 100%; }
 
 body {
-  background-color: $darker-green !important;
+  background: linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  background-size:100px 100px;
+  /*background-color: $darker-green !important;*/
   font-family: 'Open Sans', sans-serif;
   color: $darkest;
 }
@@ -236,15 +238,11 @@ header {
 } 
 
 /* line 195, ../_sass/screen.scss */
-.main, body {
-   background-color: $darker-green;
- }
 
 .main {
   border-top: 3px solid $main-green;
   max-height: 90%;
   margin-bottom: -38px; 
-  background-color: $darker-green;
 }
 
 .menu {
