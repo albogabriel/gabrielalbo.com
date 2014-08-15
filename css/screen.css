@@ -309,48 +309,54 @@ header {
 }
 /* line 228, ../_sass/screen.scss */
 header .logo img {
-  height: 66px;
-  width: 66px;
+  height: 55px;
+  width: 55px;
+  margin-top: 10px;
 }
-/* line 232, ../_sass/screen.scss */
+/* line 233, ../_sass/screen.scss */
 header .logo img:hover {
   opacity: 0.4;
   filter: alpha(opacity=40);
   /* For IE8 and earlier */
   -webkit-transition-duration: 0.25s;
 }
+/* line 240, ../_sass/screen.scss */
+header h1.logo {
+  color: #2e3844;
+  margin: 0;
+}
 
 /* line 195, ../_sass/screen.scss */
-/* line 242, ../_sass/screen.scss */
+/* line 248, ../_sass/screen.scss */
 .main {
   border-top: 3px solid #3dc5b8;
   max-height: 90%;
   margin-bottom: -38px;
 }
 
-/* line 248, ../_sass/screen.scss */
+/* line 254, ../_sass/screen.scss */
 .menu {
   margin-top: 22px;
 }
 
 /* line 211, ../_sass/screen.scss */
-/* line 253, ../_sass/screen.scss */
+/* line 259, ../_sass/screen.scss */
 ul.menu li {
   color: #2e3844;
   text-decoration: none;
   display: inline;
   margin: 0 15px;
 }
-/* line 259, ../_sass/screen.scss */
+/* line 265, ../_sass/screen.scss */
 ul.menu li a {
   font-size: 110%;
 }
 
-/* line 264, ../_sass/screen.scss */
+/* line 270, ../_sass/screen.scss */
 .avatar {
   text-align: center;
 }
-/* line 267, ../_sass/screen.scss */
+/* line 273, ../_sass/screen.scss */
 .avatar img {
   height: 124px;
   width: 124px;
@@ -360,7 +366,7 @@ ul.menu li a {
   -moz-border-radius: 61px;
   -webkit-transition-duration: 0.5s;
 }
-/* line 276, ../_sass/screen.scss */
+/* line 282, ../_sass/screen.scss */
 .avatar img:hover {
   transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -373,7 +379,7 @@ ul.menu li a {
   /* Opera */
 }
 
-/* line 288, ../_sass/screen.scss */
+/* line 294, ../_sass/screen.scss */
 .page-container {
   background-color: #f1f1f1;
   padding: 22px;
@@ -381,50 +387,50 @@ ul.menu li a {
 }
 
 /* line 231, ../_sass/screen.scss */
-/* line 295, ../_sass/screen.scss */
+/* line 301, ../_sass/screen.scss */
 a, a:visited {
   text-decoration: none;
   color: #2e3844;
 }
 
-/* line 300, ../_sass/screen.scss */
+/* line 306, ../_sass/screen.scss */
 a:hover {
   color: #abb7c6;
 }
 
-/* line 307, ../_sass/screen.scss */
+/* line 313, ../_sass/screen.scss */
 li.post-header:nth-child(2n+1) {
   background: #348f8a;
 }
 
-/* line 307, ../_sass/screen.scss */
+/* line 313, ../_sass/screen.scss */
 li.post-header:nth-child(2n+2) {
   background: #30847f;
 }
 
-/* line 312, ../_sass/screen.scss */
+/* line 318, ../_sass/screen.scss */
 ul li span {
   color: #f7f7f7;
 }
 
-/* line 316, ../_sass/screen.scss */
+/* line 322, ../_sass/screen.scss */
 li.post-header {
   height: 66px;
   color: #f1f1f1;
 }
-/* line 320, ../_sass/screen.scss */
+/* line 326, ../_sass/screen.scss */
 li.post-header a, li.post-header a:visited {
   display: block;
   text-decoration: none;
   color: #f1f1f1;
 }
-/* line 326, ../_sass/screen.scss */
+/* line 332, ../_sass/screen.scss */
 li.post-header .post-header-date {
   color: #d7d7d7;
   font-size: 75%;
   font-style: italic;
 }
-/* line 332, ../_sass/screen.scss */
+/* line 338, ../_sass/screen.scss */
 li.post-header h2 {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
@@ -432,42 +438,42 @@ li.post-header h2 {
   line-height: 1.643em;
   margin: 0;
 }
-/* line 340, ../_sass/screen.scss */
+/* line 346, ../_sass/screen.scss */
 li.post-header:hover {
   background-color: #2e3844;
 }
 
-/* line 345, ../_sass/screen.scss */
+/* line 351, ../_sass/screen.scss */
 p.contact-icons-container {
   text-align: center;
 }
 
-/* line 349, ../_sass/screen.scss */
+/* line 355, ../_sass/screen.scss */
 .contact-icon {
   margin-right: 10px;
   background-color: #3dc5b8;
   height: 55px;
   border-radius: 27.5px;
 }
-/* line 356, ../_sass/screen.scss */
+/* line 362, ../_sass/screen.scss */
 .contact-icon:hover {
   background-color: #2e3844;
 }
 
-/* line 361, ../_sass/screen.scss */
+/* line 367, ../_sass/screen.scss */
 .image-centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 367, ../_sass/screen.scss */
+/* line 373, ../_sass/screen.scss */
 .image-reduced {
   height: 400px;
   width: auto;
 }
 
-/* line 372, ../_sass/screen.scss */
+/* line 378, ../_sass/screen.scss */
 figure figcaption {
   text-align: center;
   font-style: italic;

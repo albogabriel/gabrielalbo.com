@@ -226,14 +226,20 @@ header {
   text-align: center;
 
   .logo img {
-    height: 66px;
-    width: 66px;
+    height: 55px;
+    width: 55px;
+    margin-top: 10px;
 
     &:hover {
       opacity:0.4;
       filter:alpha(opacity=40); /* For IE8 and earlier */
       -webkit-transition-duration: 0.25s;
     }
+  }
+
+  h1.logo {
+    color: $darkest;
+    margin: 0;
   }
 } 
 
