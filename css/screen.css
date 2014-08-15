@@ -309,8 +309,8 @@ header {
 }
 /* line 228, ../_sass/screen.scss */
 header .logo img {
-  height: 55px;
-  width: 55px;
+  height: 66px;
+  width: 66px;
 }
 /* line 232, ../_sass/screen.scss */
 header .logo img:hover {
@@ -330,7 +330,7 @@ header .logo img:hover {
 
 /* line 248, ../_sass/screen.scss */
 .menu {
-  margin-top: 10px;
+  margin-top: 22px;
 }
 
 /* line 211, ../_sass/screen.scss */
