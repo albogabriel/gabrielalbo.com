@@ -462,6 +462,12 @@ p.contact-icons-container {
 }
 
 /* line 367, ../_sass/screen.scss */
+.image-reduced {
+  height: 400px;
+  width: auto;
+}
+
+/* line 372, ../_sass/screen.scss */
 figure figcaption {
   text-align: center;
   font-style: italic;
