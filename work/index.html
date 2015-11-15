@@ -1,13 +1,21 @@
 ---
 layout: default
-title: Gabriel Albo - Work
+title: Gabriel Albo - Projects
 ---
 
-<div class="row">
-	<div class="page-container">
-			
-
-
-			
-	</div>
+<div class="row blog-index">
+  <div class="large-12 columns">
+    <ul class="posts">
+      {% for post in site.categories.projects %}
+        <li class="post-header">
+        	<a class="clickable-div" href="{{ site.baseurl }}{{ post.url }}"target="_self">
+            <h2>{{ post.title }}</h2>
+            <h3 class="post-header-date">
+              {{ post.date | date_to_string }}
+            </h3> 
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

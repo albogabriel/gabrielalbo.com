@@ -5,7 +5,7 @@ title: Gabriel Albo
 <div class="row blog-index">
   <div class="large-12 columns">
     <ul class="posts">
-      {% for post in site.posts %}
+      {% for post in site.categories.posts %}
         <li class="post-header">
         	<a class="clickable-div" href="{{ site.baseurl }}{{ post.url }}"target="_self">
             <h2>{{ post.title }}</h2>
