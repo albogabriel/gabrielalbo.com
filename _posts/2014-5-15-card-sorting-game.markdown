@@ -3,6 +3,7 @@ layout: post
 title:  "Card Sorting Game"
 date: 2014-5-15 09:10:03
 category: posts
+language: Português
 ---
 
 Há algumas semanas, um colega da ThoughtWorks em Porto Alegre me comentou que o projeto para o qual ele estava trabalhando de maneira voluntária - o redesign do site de um ONG - tinha uma quantidade muito grande de conteúdo de ótima qualidade, mas que a informação estava tornando-se difícil de ser encontrada devido a quantidade de seções. Eu sugeri que rodássemos algumas rodadas de um exercício de Card Sorting para testar a arquitetura de informação - e dar ao cliente um feedback mais empírico para ajudá-los a reorganizar as coisas.

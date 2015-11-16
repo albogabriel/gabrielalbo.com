@@ -3,6 +3,7 @@ layout: post
 title:  "Introdução a UX: Fontes de Estudo"
 date: 2013-11-10 4:55:03
 category: posts
+language: Português
 ---
 
 <img class="image-centered" src="{{ site.baseurl }}/assets/images/posts/great-adventure.jpg" alt="Great Adventure"/>

@@ -4,6 +4,7 @@ title: Pixelated Brand Identity Workshop
 date: 2015-11-15 18:10:03
 excerpt: Late on 2014 we've had a workshop to define Pixelated's visual (and brand) identity. This is how it went - and from where things might go.
 category: posts
+language: English
 
 --- 
 
