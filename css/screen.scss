@@ -283,12 +283,11 @@ ul.menu {
   text-align: center;
 
   img {
-    height: 124px;
-    width: 124px;
-    border-radius: 61px;
-    border: 2px solid $darker-green;
-    -webkit-border-radius: 61px;
-    -moz-border-radius: 61px;  
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;  
 
     &:hover {
       $scale: 1.3;
