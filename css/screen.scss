@@ -290,7 +290,7 @@ ul.menu {
     -moz-border-radius: 70px;  
 
     &:hover {
-      $scale: 1.3;
+      $scale: 1.2;
       -webkit-transition-duration: 0.5s;
 
       transform:scale($scale);
@@ -303,9 +303,21 @@ ul.menu {
 }
 
 .page-container {
-  background-color: $light-header-background;
   padding: 22px;
-  border-bottom: 10px solid $darker-green;
+  text-align: center;
+  color: white;
+
+  p:first-child { 
+    font-size: 2em;
+  }
+
+  a {
+    color: darken($light-header-background, 3);
+  }
+
+  a:visited {
+    color: darken($light-header-background, 5);
+  }
 }
 
 /* line 231, ../_sass/screen.scss */
@@ -361,6 +373,7 @@ li.post-header {
 
 p.contact-icons-container {
   text-align: center;
+  margin-top: 40px;
 }
 
 .contact-icon {
