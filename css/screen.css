@@ -321,10 +321,18 @@ header .logo img:hover {
   -webkit-transition-duration: 0.25s;
 }
 /* line 240, ../_sass/screen.scss */
-header h1.logo {
-  color: #2e3844;
-  margin: 0;
-}
+ h1.logo {
+    color: $darkest;
+    margin: 0;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 150%;
+    margin-top: 16px;
+  }
+
+  h1.logo span {
+      color: #399E98;
+  }
 
 /* line 195, ../_sass/screen.scss */
 /* line 248, ../_sass/screen.scss */
@@ -477,4 +485,8 @@ p.contact-icons-container {
 figure figcaption {
   text-align: center;
   font-style: italic;
+}
+
+.image-half {
+  width: 50%;
 }
