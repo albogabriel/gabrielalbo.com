@@ -251,10 +251,6 @@ header {
 
     span {
       color: $darker-green;
-
-      &:hover {
-        color: lighten($darker-green, 2);
-      }
     }
   }
 } 
