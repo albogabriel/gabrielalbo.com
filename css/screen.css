@@ -345,6 +345,7 @@ header .logo img:hover {
 /* line 254, ../_sass/screen.scss */
 .menu {
   margin-top: 22px;
+  text-align: right;
 }
 
 /* line 211, ../_sass/screen.scss */
