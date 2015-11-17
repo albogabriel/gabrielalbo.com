@@ -264,6 +264,10 @@ header {
   margin-top: 22px;
 }
 
+.selected-item {
+  border-bottom: 2px solid $main-green; 
+}
+
 /* line 211, ../_sass/screen.scss */
 ul.menu {
   text-align: right;
