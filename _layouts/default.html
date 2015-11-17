@@ -26,12 +26,32 @@
        <header>
             <div class="row">
                 <div class="large-6 medium-6 small-6 columns">
-                    <h1 class="logo"><a href="{{ site.baseurl }}/" target="_self">GABRIEL ALBO</a><span class=""> // User Experience Designer</span></h1>
+                    <h1 class="logo">
+                        <a href="{{ site.baseurl }}/" target="_self"
+                        {% if page.url == "/index.html" %}
+                        class="selected-item"
+                        {% endif %}
+                         >GABRIEL ALBO</a>
+                        <span class="job-title"> // User Experience Designer</span>
+                    </h1>
                 </div>
                 <div class="large-6 medium-6 small-6 columns">
                     <ul class="menu">
-                        <li><a href="{{ site.baseurl }}/blog" target="_self">BLOG</a></li>
-                        <li class=""><a href="{{ site.baseurl }}/about" target="_self">CONTACT</a></li>
+                        <li><a href="{{ site.baseurl }}/blog" target="_self"
+                        {% if page.url == "/blog/index.html" %}
+                        class="selected-item"
+                        {% endif %}
+                         >BLOG</a></li>
+                        <!-- <li><a href="{{ site.baseurl }}/portfolio" target="_self"
+                        {% if page.url == "/portfolio/index.html" %}
+                        class="selected-item"
+                        {% endif %}
+                         >PORTFOLIO</a></li>
+                        <li class=""><a href="{{ site.baseurl }}/contact" target="_self"
+                        {% if page.url == "/contact/index.html" %}
+                        class="selected-item"
+                        {% endif %}
+                        >CONTACT</a></li> -->
                     </ul>
                 </div>
             </div>
