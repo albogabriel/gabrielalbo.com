@@ -78,7 +78,7 @@ The project is still in development. All the code is public [on github](https://
 
 **Locations:** Porto Alegre, Recife (Brazil), Hamburg (Germany), Quito (Equador).
 
-**Process, technologies and techniques:** Qualitative research, HTML5, CSS3 and Sass, Javascript, Foundation
+**Process, technologies and techniques:** Qualitative research (user interviews, usability testing), front-end development (HTML5, CSS3, Sass, Javascript and Foundation), continuous design, open design, live style guide, Rapid prototyping (on paper, clickable mockups and code), product design (branding, customer development) visual design (colors, layout, typography), collaborative sketching, personas, user flows. 
 
 **Website:** [www.pixelated-project.org](www.pixelated-project.org) 
 <br>**Demo to current version:** [https://try.pixelated-project.org:8080](https://try.pixelated-project.org:8080)
