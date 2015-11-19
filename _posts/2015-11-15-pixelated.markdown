@@ -74,11 +74,15 @@ I have also designed and built the project's website.
 
 The project is still in development. All the code is public [on github](https://github.com/pixelated).
 
-**Team members:** Myself, 1 XD (for 2 months), 8 developers, 1 BA/PM, 1 QA.
+<span class="category-description">TEAM MEMBERS:</span>
+Myself, 1 XD (for 2 months), 8 developers, 1 BA/PM, 1 QA.
 
-**Locations:** Porto Alegre, Recife (Brazil), Hamburg (Germany), Quito (Equador).
+<span class="category-description">LOCATIONS:</span>
+Porto Alegre, Recife (Brazil), Hamburg (Germany), Quito (Equador).
 
-**Process, technologies and techniques:** Qualitative research (user interviews, usability testing), front-end development (HTML5, CSS3, Sass, Javascript and Foundation), continuous design, open design, live style guide, Rapid prototyping (on paper, clickable mockups and code), product design (branding, customer development) visual design (colors, layout, typography), collaborative sketching, personas, user flows. 
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
+Qualitative research (user interviews, usability testing), front-end development (HTML5, CSS3, Sass, Javascript and Foundation), continuous design, open design, live style guide, Rapid prototyping (on paper, clickable mockups and code), product design (branding, customer development) visual design (colors, layout, typography), collaborative sketching, personas, user flows. 
 
-**Website:** [www.pixelated-project.org](www.pixelated-project.org) 
-<br>**Demo to current version:** [https://try.pixelated-project.org:8080](https://try.pixelated-project.org:8080)
+<span class="category-description">WEBSITE:</span> [www.pixelated-project.org](www.pixelated-project.org) 
+<br>
+<span class="category-description">DEMO TO CURRENT VERSION:</span> [https://try.pixelated-project.org:8080](https://try.pixelated-project.org:8080)
