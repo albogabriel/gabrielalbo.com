@@ -184,7 +184,7 @@ ul.posts span {
 }
 
 .post-date {
-  margin-left: 30px;
+  margin-left: 10px;
   font-size: 80%;
 }
 
@@ -207,6 +207,16 @@ ul.posts span {
   clear: both;
   border-top: 2px solid $main-green;
   padding-top: 35px;
+}
+
+.project-image {
+      box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+figcaption {
+  margin-top: 15px;
+  font-size: smaller;
+  font-style: italic;
 }
 
 /*****************************************************************************/
@@ -353,8 +363,9 @@ ul li span {
 }
 
 li.post-header {
-  height: 66px;
+  height: 90px;
   color: $light-header-background;
+  padding: 15px;
 
   a, a:visited {
     display: block;
