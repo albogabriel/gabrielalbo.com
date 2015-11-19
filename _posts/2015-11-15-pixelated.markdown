@@ -74,7 +74,7 @@ I have also designed and built the project's website.
 
 The project is still in development. All the code is public [on github](https://github.com/pixelated).
 
-**Team members:** Myself, 1 XD (for 2 months), 6 developers, 1 BA/PM, 1 QA
+**Team members:** Myself, 1 XD (for 2 months), 8 developers, 1 BA/PM, 1 QA.
 
 **Locations:** Porto Alegre, Recife (Brazil), Hamburg (Germany), Quito (Equador).
 
