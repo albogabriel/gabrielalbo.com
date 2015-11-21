@@ -41,7 +41,10 @@
                             {% endif %}
                              >G.ALBO</a>
                          </span>
-                        <span class="job-title hide-on-small"> // User Experience Designer</span>
+                        {% if page.url !== "/index.html" %}
+                            <span class="job-title hide-on-small"> // User Experience Designer</span>
+                        {% endif %} 
+
                     </h1>
                 </div>
                 <div class="large-6 medium-6 small-8 columns">
