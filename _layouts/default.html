@@ -25,17 +25,26 @@
     <body>
        <header>
             <div class="row">
-                <div class="large-6 medium-6 small-6 columns">
+                <div class="large-6 medium-6 small-4 columns">
                     <h1 class="logo">
-                        <a href="{{ site.baseurl }}/" target="_self"
-                        {% if page.url == "/index.html" %}
-                        class="selected-item"
-                        {% endif %}
-                         >GABRIEL ALBO</a>
-                        <span class="job-title"> // User Experience Designer</span>
+                        <span class="full-name">
+                            <a href="{{ site.baseurl }}/" target="_self"
+                            {% if page.url == "/index.html" %}
+                            class="selected-item title-name"
+                            {% endif %}
+                             >GABRIEL ALBO</a>
+                         </span>
+                         <span class="abbreviated-name">
+                            <a href="{{ site.baseurl }}/" target="_self"
+                            {% if page.url == "/index.html" %}
+                            class="selected-item title-name"
+                            {% endif %}
+                             >G.ALBO</a>
+                         </span>
+                        <span class="job-title hide-on-small"> // User Experience Designer</span>
                     </h1>
                 </div>
-                <div class="large-6 medium-6 small-6 columns">
+                <div class="large-6 medium-6 small-8 columns">
                     <ul class="menu">
                         <li><a href="{{ site.baseurl }}/blog" target="_self"
                         {% if page.url == "/blog/index.html" %}

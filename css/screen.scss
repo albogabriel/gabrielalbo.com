@@ -443,3 +443,31 @@ figure figcaption {
   margin-left: -20%;
   text-align: center;
 }
+
+.title-avatar {
+  display: none;
+}
+
+@media (max-width: 50em) {
+  .hide-on-small {
+    display: none;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .abbreviated-name {
+    display: block;
+  }
+}
+
+@media (min-width: 50em) {
+  .full-name {
+    display: inline-block;
+  }
+
+  .abbreviated-name {
+    display: none;
+  } 
+}
