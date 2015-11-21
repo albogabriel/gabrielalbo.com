@@ -4,6 +4,7 @@ title:  "U.S. Top 5 Clothing and accessories retailer *"
 start-date: Aug 2011
 end-date: Aug 2013
 category: projects
+current-page: portfolio-item
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.

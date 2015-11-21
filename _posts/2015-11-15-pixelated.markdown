@@ -5,6 +5,7 @@ start-date: Aug 2014
 end-date: (ongoing)
 project-website: www.pixelated-project.org
 category: projects
+current-page: portfolio-item
 ---
 
 Easy to use open-source encrypted email with decentralised hosting. 
