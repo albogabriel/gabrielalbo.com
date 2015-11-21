@@ -8,23 +8,55 @@ category: projects
 current-page: portfolio-item
 ---
 
-As part of an agile team at Thoughtworks I helped build a internal system for the biggest hospital in Haiti. I was responsible for user research, interaction design, visual design and frontend development.
+<div style="text-align: center;">
+	 <img style="width:80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hospital-facade.jpg" alt=""/> 
+ </div>
+ </br>
 
-The hospital provides primary care services to about 185,000 people in Mirebalais and two nearby communities. But patients from a much wider area—all of central Haiti and areas in and around Port-au-Prince—can also receive secondary and tertiary care. The hospital sees as many as 700 patients every day in our ambulatory clinics.
+<p>Creation of the Electronic Medical Record (EMR) system for a university hospital in the city of Mirebalais, Haiti. The software provides functionality like patient registrations, appointments schedulling, diagnostic and vital signals capture and patient records control. It was based on <a href="http://openmrs.org/" target="_blank">openMRS</a>, one of the leading open source EMR frameworks in the world.</p>
 
-The system needed to be intuitive and easy to use, it was going to be used by people from Haiti with low experience with computers and used to keyboards. So it was a challange to build something that fit their needs and experience.
+<p>I have done mostly front-end development and interaction design in this project, but also some business analysis on appointment scheduling and the development of a live style guide for Mirebalais and OpenMRS to support contributors in the future.</p>
 
-During a visit to the hospital facilities in Haiti, [Bill Gates himself called it "(...) a sophisticated system for keeping medical records"](http://www.gatesnotes.com/Health/A-Visit-to-Haiti). :)
+<p>During a visit to the hospital facilities in Haiti, <a href="http://www.gatesnotes.com/Health/A-Visit-to-Haiti" target="_blank">Bill Gates himself called it "(...) a sophisticated system for keeping medical records"</a>. :)</p>
 
+<span class="category-description">HOME AND PATIENT ENCOUNTERS SCREENS:</span>
+<br><br>
+<div style="text-align: center;">
+	 <img class="" style="width: 50%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/home-screen.png" alt=""/> 
+	 <img class="" style="width: 50%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-encounters.png" alt=""/> 
+	 <div style="clear: both;"></div>
+</div>
+</br>
+<br>
+<span class="category-description">PATIENT RECORDS AND LIVE STYLE GUIDE:</span>
+<br>
+<div style="text-align: center;">
+	 <img class="" style="width: 50%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-record.png" alt=""/> 
+	 <img class="" style="width: 50%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/style-guide.png" alt=""/> 
+	 <div style="clear: both;"></div>
+</div>
+</br>
+<br>
+<span class="category-description">UX DEBT MAPPING:</span>
+<br>
+<div style="text-align: center;">
+	 <img class="image-reduced" src="{{ site.baseurl }}/assets/images/projects/mirebalais/ux_debt.jpg" alt=""/> 
+</div>
+</br>
 
-<!-- <span class="category-description">TEAM MEMBERS:</span>
-Myself, 1 XD (for 2 months), 8 developers, 1 BA/PM, 1 QA. -->
+<span class="category-description">TEAM MEMBERS:</span>2 XDs, 5 developers, 1 BA/PM, 1 QA.
 
 <span class="category-description">LOCATIONS:</span>
-Porto Alegre (Brazil), Mirebalais (Haiti), Boston (USA).
+Porto Alegre (Brazil), Mirebalais (Haiti), Boston and Seattle (USA).
 
-<!-- <span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
-Qualitative research (user interviews, usability testing), front-end development (HTML5, CSS3, Sass, Javascript and Foundation), continuous design, open design, live style guide, Rapid prototyping (on paper, clickable mockups and code), product design (branding, customer development) visual design (colors, layout, typography), collaborative sketching, personas, user flows.  -->
-<!-- 
-<span class="category-description">WEBSITE:</span> [www.pixelated-project.org](www.pixelated-project.org) 
-<br> -->
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
+ Front-end development (HTML5, CSS3, Sass, Javascript), Interaction design (hi-fi wireframes build on the code and Adobe Illustrator), continuous design, open design, live style guide, Rapid prototyping (on paper and code), qualitative research (user interviews, usability testing), user journeys, UX debt (mapping, prioritisation and implementation).
+
+<span class="category-description">SOURCE CODE:</span> [https://github.com/pih](https://github.com/pih) 
+<br>
+
+<span class="category-description">WEBSITE:</span> [http://www.pih.org/pages/mirebalais](http://www.pih.org/pages/mirebalais) 
+<br>
+
+<span class="category-description">COMPLETE THOUGHTWORKS CLIENT CASE:</span> [https://www.thoughtworks.com/clients/partners-in-health](https://www.thoughtworks.com/clients/partners-in-health) 
+<br>
