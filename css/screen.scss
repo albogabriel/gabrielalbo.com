@@ -493,6 +493,14 @@ span.project-description-container {
       margin: 0 3px;
     }
   }
+
+  span.project-image-container {
+    vertical-align: top;
+    
+    img {
+      width: 80%; 
+    }
+  }
 }
 
 @media (min-width: 50em) {
