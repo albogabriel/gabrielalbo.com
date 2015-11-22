@@ -7,14 +7,23 @@ title: Gabriel Albo - Projects
   <div class="large-12 columns">
     <ul class="posts">
       {% for post in site.categories.projects %}
+        
         <li class="post-header">
         	<a class="clickable-div" href="{{ site.baseurl }}{{ post.url }}"target="_self">
-            <h2>{{ post.title }}</h2>
-            <h3 class="post-header-date">
-              {{ post.start-date }} - {{ post.end-date }} 
-            </h3> 
+            <div class="portfolio-project">
+              <span class="project-image-container">
+                <img src="{{ site.baseurl }}/assets/images/projects/pixelated-round.png" alt=""/> 
+              </span>
+              <span class="project-description-container">
+                <h2>{{ post.title }}</h2>
+                <h3 class="post-header-date">
+                  {{ post.start-date }} - {{ post.end-date }} 
+                </h3>
+              <span> 
+            </div>
           </a>
         </li>
+
       {% endfor %}
     </ul>
     <p style="color: white; text-align: center; font-style: italic; font-size: 90%;">* NDA protected work; some project details and imagery might not be disclosed.</p>

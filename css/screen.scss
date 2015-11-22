@@ -397,6 +397,10 @@ li.post-header {
   &:hover {
     background-color: $darkest;
   }
+
+  .portfolio-project {
+    text-align: center;
+  }
 }
 
 p.contact-icons-container {
@@ -447,6 +451,27 @@ figure figcaption {
 
 .title-avatar {
   display: none;
+}
+
+span.project-image-container, span.project-description-container {
+  display: inline-block;
+  color: white !important;
+}
+
+span.project-image-container { 
+  text-align: right; 
+  margin-right: 3%;
+  width: 35%;
+
+  img {
+    width: 50%;
+  }
+}
+
+span.project-description-container {
+  text-align: left; 
+  font-size: 110% !important; 
+  width: 60%;
 }
 
 @media (max-width: 50em) {
