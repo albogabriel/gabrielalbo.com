@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Design"
+title:  "Open Design (Presentation slides)"
 date: 2015-9-26 16:45:03
 category: posts
 language: Português

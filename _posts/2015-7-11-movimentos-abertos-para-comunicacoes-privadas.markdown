@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Movimentos abertos para comunicações privadas"
+title:  "Movimentos abertos para comunicações privadas (Presentation slides)"
 date: 2015-7-11 14:45:03
 category: posts
 language: Português
