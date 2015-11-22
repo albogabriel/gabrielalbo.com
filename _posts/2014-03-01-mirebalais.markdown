@@ -7,6 +7,7 @@ project-website:
 category: projects
 current-page: portfolio-item
 image: "mirebalais-round.png"
+short-description: "Creation of open-source Electronic Medical Records system for a hospital based in Mirebalais, Haiti."
 ---
 
 <div style="text-align: center;">

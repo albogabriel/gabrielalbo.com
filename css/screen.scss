@@ -386,6 +386,12 @@ li.post-header {
     font-style: italic;
   }
 
+  .post-header-description {
+    color: white;
+    font-style: normal;
+    font-size: 85%;
+  }
+
   h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
@@ -456,6 +462,7 @@ figure figcaption {
 span.project-image-container, span.project-description-container {
   display: inline-block;
   color: white !important;
+  vertical-align: top;
 }
 
 span.project-image-container { 
@@ -496,7 +503,7 @@ span.project-description-container {
 
   span.project-image-container {
     vertical-align: top;
-    
+
     img {
       width: 80%; 
     }

@@ -6,6 +6,7 @@ end-date: Aug 2013
 category: projects
 current-page: portfolio-item
 image: "retailer-round.png"
+short-description: "Multinational clothing and accessories retailer e-commerce; checkout flow, product pages, returns and shippin and customer account management."
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.

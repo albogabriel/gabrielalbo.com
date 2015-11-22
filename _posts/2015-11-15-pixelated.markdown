@@ -7,6 +7,7 @@ project-website: www.pixelated-project.org
 category: projects
 current-page: portfolio-item
 image: "pixelated-round.png"
+short-description: "Easy to use open-source encrypted email with decentralised hosting."
 ---
 
 Easy to use open-source encrypted email with decentralised hosting. 
