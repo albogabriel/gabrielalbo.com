@@ -34,4 +34,4 @@ current-page: portfolio-item
  </div>
 <br><br>
 <span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
- Discovery workshop, Rapid prototyping (on paper and clickable mockups), qualitative research (user interviews, usability testing, focus groups), user journeys, personas, facilitation.
+ Discovery workshop, Rapid prototyping (on paper and clickable mockups), qualitative research (user interviews, usability testing, focus groups), user journeys, personas, facilitation (business origami, visual telephone, business model canvas, elevator pitch, future facebook posts).
