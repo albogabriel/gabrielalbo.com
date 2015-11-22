@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "U.S. Top 5 Clothing retailer *"
+title:  "U.S. Top 3 Clothing retailer *"
 start-date: Aug 2011
 end-date: Aug 2013
 category: projects
