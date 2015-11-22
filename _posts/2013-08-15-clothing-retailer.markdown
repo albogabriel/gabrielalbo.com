@@ -5,6 +5,7 @@ start-date: Aug 2011
 end-date: Aug 2013
 category: projects
 current-page: portfolio-item
+image: "retailer-round.png"
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.

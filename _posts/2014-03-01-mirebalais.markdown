@@ -6,6 +6,7 @@ end-date: Mar 2014
 project-website: 
 category: projects
 current-page: portfolio-item
+image: "mirebalais-round.png"
 ---
 
 <div style="text-align: center;">

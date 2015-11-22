@@ -5,6 +5,7 @@ start-date: Dec 2009
 end-date: Aug 2011
 category: projects
 current-page: portfolio-item
+image: "airline-round.png"
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
