@@ -460,6 +460,13 @@ figure figcaption {
   .abbreviated-name {
     display: block;
   }
+
+  ul.menu {
+    font-size: 90%;
+    li {
+      margin: 0 3px;
+    }
+  }
 }
 
 @media (min-width: 50em) {

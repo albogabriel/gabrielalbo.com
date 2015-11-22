@@ -25,14 +25,21 @@ current-page: portfolio-item
 <p>The client's maturity was also a key aspect, for our collaboration througout the process drove us all to a better solution for the specific problem we were trying to solve, but also opened doors with hypothesis to be tested for new oportunities that were discovered through along the way.</p>
 
 <div style="text-align: center;">
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/components.jpg" alt=""/> 
+	 <figcaption>Some of the many components we have rapidily built to enrich the user testing sessions.</figcaption>
+ </div>
+ <br>
+
+<div style="text-align: center;">
 	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/paper-prototype.jpg" alt=""/> 
 	 <figcaption>Paper prototypes that were used during user research with real users, who easily abstracted the concepts and clicked and dragged paper as if it were the actual system they used on a daily basis.</figcaption>
  </div>
 <br>
+
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/components.jpg" alt=""/> 
-	 <figcaption>Some of the many components we have rapidily built to enrich the user testing sessions.</figcaption>
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/clickable.jpg" alt=""/> 
+	 <figcaption>The clickable mockups prepared after validating the paper prototypes.</figcaption>
  </div>
-<br><br>
+ <br><br>
 <span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
  Discovery workshop, Rapid prototyping (on paper and clickable mockups), qualitative research (user interviews, usability testing, focus groups), Heuristics evaluation, user journeys, personas, facilitation (business origami, visual telephone, business model canvas, elevator pitch, future facebook posts).
