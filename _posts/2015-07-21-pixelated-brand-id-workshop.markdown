@@ -15,13 +15,15 @@ Late on 2014 we've had a workshop to define Pixelated's visual (and brand) ident
 
 Most pictures will show post-its and text in Portuguese, but English translations will follow.
 
-## The Elevator Pitch
+<BR>
+<span class="category-description">THE ELEVATOR PITCH</span>
 
 After explaining the project to the participants, we ran an exercise to define an elevator pitch for the brand. 
 
 > Pixelated is a free, open source email solution that allows sending emails on an easy and private way, being the emails encrypted or not.
 
-#### Qualities
+<BR>
+<span class="category-description">QUALITIES</span>
 
 We then proceeded to analyse qualities that reflected, in our opinions, what Pixelated is. Amongst many characteristics that were presented (such as "independent", "smart", "young", "international", etc.), participants voted what concepts made sense to them when thinking of Pixelated.
 
@@ -35,9 +37,10 @@ The top voted ones were
 - Secure
 - Free/independent
 - Powerful
+<br><br>
 
-
-#### Logo styles evaluation
+<BR>
+<span class="category-description">LOGO STYLES EVALUATION</span>
 
 We then hung many logo styles on the wall and people voted up (green dots) and down (red dots) their favorite ones having the four concepts above in mind - "what types of logos convey those ideas to you?"
 
@@ -49,18 +52,20 @@ Then we analyzed positive and negative characteristics of the logos we voted up 
 <div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/03.png" alt=""</img>
 </div>
 <br>
-**Negatives:** organic, fragile, vintage, traditional, non-innovative, insecure, unstable.
 
-**Positives:** solid, neutral, dynamic, transformational, geometric, powerful, free, planned, intentional, foldable/adaptable, resistant.
+<BR>
+<span class="category-description">NEGATIVE ASPECTS:</span> Organic, fragile, vintage, traditional, non-innovative, insecure, unstable.
+<BR><BR>
+<span class="category-description">POSITIVE ASPECTS:</span> Solid, neutral, dynamic, transformational, geometric, powerful, free, planned, intentional, foldable/adaptable, resistant.
 
 
 During the discussion, a metaphor used to explain their view of Pixelated was animals that could serve as mascots for it; a pig and a bear were mentioned, but ants made sense for many of us, as in organized, strong, collaborative, adaptable and still independent.
 
 
-#### Brand Persona
+<span class="category-description">BRAND PERSONA</span>
 
 We then proceeded to list how we pictured Pixelated, were it a person. Some of the things we converged to:
-
+<br>
 
 - Speaks out when something is important, but keeps less important things in the background
 - Serious (but not harsh)
@@ -71,12 +76,13 @@ We then proceeded to list how we pictured Pixelated, were it a person. Some of t
 - Organized
 - Friendly tone of voice (but not necessarily funny)
 
+<br>
 The image the participants drew was of a young adult lesbian mother in her 30's, as she might is not a conventional figure for many, but she is just as strong, independent and caring as any other mother. 
 
 *"She might remind you to bring a coat with you if it's too cold, but you might just find out she packed a coat for you without you even knowing"*
 
 
-#### Logo sketching
+<span class="category-description">LOGO SKETCHING</span>
 
 Having set the tone and image we wanted to convey, we went on to the next stage, which was sketching our logo. 
 
@@ -135,6 +141,6 @@ We're still counting the "shield" ones as official logos, but focusing more on t
 After the first few weeks and some feedbacks around other similar logos in orange, we decided to keep using them all, but emphasizing the blue one.
 
 
-#### Conclusions
+<span class="category-description">CONCLUSIONS</span>
 
 As this is an open source software, we also want it to be an open design software; despite the hard work we put on defining these directions, our intention is never to settle or consider anything finished, as Pixelated's ID must reflect its state, which is bound for a more organic evolution than most software products. We do, however, believe the current directions are broad and adaptable enough for creating as many varieties as we might think we need for quite a while.
