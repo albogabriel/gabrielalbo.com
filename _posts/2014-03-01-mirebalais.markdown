@@ -9,21 +9,21 @@ current-page: portfolio-item
 ---
 
 <div style="text-align: center;">
-	 <img style="width:80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hospital-facade.jpg" alt=""/> 
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hospital-facade.jpg" alt=""/> 
  </div>
- </br>
+ </br></br>
 
 <p>Creation of the Electronic Medical Record (EMR) system for a university hospital in the city of Mirebalais, Haiti. The software provides functionality like patient registrations, appointments schedulling, diagnostic and vital signals capture and patient records control. It was based on <a href="http://openmrs.org/" target="_blank">openMRS</a>, one of the leading open source EMR frameworks in the world.</p>
 
 <p>I have done mostly front-end development and interaction design in this project, but also some business analysis on appointment scheduling and the development of a live style guide for Mirebalais and OpenMRS to support contributors in the future.</p>
 
 <p>During a visit to the hospital facilities in Haiti, <a href="http://www.gatesnotes.com/Health/A-Visit-to-Haiti" target="_blank">Bill Gates himself called it "(...) a sophisticated system for keeping medical records"</a>. :)</p>
-
+<br>
 <span class="category-description">HOME AND PATIENT ENCOUNTERS SCREENS:</span>
 <br><br>
 <div style="text-align: center;">
-	 <img class="" style="width: 50%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/home-screen.png" alt=""/> 
-	 <img class="" style="width: 50%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-encounters.png" alt=""/> 
+	 <img class="project-image" style="width: 49%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/home-screen.png" alt=""/> 
+	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/style-guide.png" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
 </br>
@@ -31,16 +31,18 @@ current-page: portfolio-item
 <span class="category-description">PATIENT RECORDS AND LIVE STYLE GUIDE:</span>
 <br>
 <div style="text-align: center;">
-	 <img class="" style="width: 50%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-record.png" alt=""/> 
-	 <img class="" style="width: 50%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/style-guide.png" alt=""/> 
+	 <img class="project-image" style="width: 49%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-record.png" alt=""/>
+	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-encounters.png" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
 </br>
-<br>
-<span class="category-description">UX DEBT MAPPING:</span>
-<br>
+<br><br>
+<span class="category-description">UX DEBT MAPPING AND THE PACKS FROM THE COLLABORATIVE SKETCHING SESSIONS:</span>
+<br><br>
 <div style="text-align: center;">
-	 <img class="image-reduced" src="{{ site.baseurl }}/assets/images/projects/mirebalais/ux_debt.jpg" alt=""/> 
+	 <img class="project-image" style="width: 49%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/ux_debt.jpg" alt=""/> 
+	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/sketching-sessions.jpg" alt=""/> 
+	 <div style="clear: both;"></div>
 </div>
 </br>
 
@@ -56,6 +58,9 @@ Porto Alegre (Brazil), Mirebalais (Haiti), Boston and Seattle (USA).
 <br>
 
 <span class="category-description">WEBSITE:</span> [http://www.pih.org/pages/mirebalais](http://www.pih.org/pages/mirebalais) 
+<br>
+
+<span class="category-description">MIREBALAIS STYLE GUIDE:</span> [http://mirebalaisstyleguide.herokuapp.com/](http://mirebalaisstyleguide.herokuapp.com/) 
 <br>
 
 <span class="category-description">COMPLETE THOUGHTWORKS CLIENT CASE:</span> [https://www.thoughtworks.com/clients/partners-in-health](https://www.thoughtworks.com/clients/partners-in-health) 
