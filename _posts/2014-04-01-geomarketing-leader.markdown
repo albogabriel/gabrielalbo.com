@@ -1,15 +1,16 @@
 ---
 layout: project
-title:  "Geofusion"
+title:  "Geomarketing leader in Latin America *"
 start-date: Feb 2014
 end-date: Apr 2014
-project-website: https://geofusion.com.br/produtos/conheca-o-geofusion-onmaps/
 category: projects
 current-page: portfolio-item
 ---
 
+<span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
+
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geofusion/sketches.jpg" alt=""/> 
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/sketches.jpg" alt=""/> 
  </div>
  </br>
 
@@ -24,12 +25,12 @@ current-page: portfolio-item
 <p>The client's maturity was also a key aspect, for our collaboration througout the process drove us all to a better solution for the specific problem we were trying to solve, but also opened doors with hypothesis to be tested for new oportunities that were discovered through along the way.</p>
 
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geofusion/paper-prototype.jpg" alt=""/> 
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/paper-prototype.jpg" alt=""/> 
 	 <figcaption>Paper prototypes that were used during user research with real users, who easily abstracted the concepts and clicked and dragged paper as if it were the actual system they used on a daily basis.</figcaption>
  </div>
 <br>
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geofusion/components.jpg" alt=""/> 
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/components.jpg" alt=""/> 
 	 <figcaption>Some of the many components we have rapidily built to enrich the user testing sessions.</figcaption>
  </div>
 <br><br>
