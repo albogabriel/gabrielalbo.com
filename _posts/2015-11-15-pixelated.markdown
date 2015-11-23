@@ -67,7 +67,11 @@ I've also written a [blog post](http://www.gabrielalbo.com/posts/2015/11/15/pixe
 	 <figcaption>Early sketches of the logo</figcaption>
  </div>
 <br>
-
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 90%;" src="{{ site.baseurl }}/assets/images/projects/pixelated/final-logo.png" alt=""/> 
+	 <figcaption>Final logo (for now :)) and it's variations. It was important that it would work well with all colors of our palette.</figcaption>
+ </div>
+<br>
 
 I have also designed and built the project's website.
 
