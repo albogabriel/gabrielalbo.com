@@ -9,6 +9,7 @@ current-page: portfolio-item
 image: "pixelated-round.png"
 short-description: "Easy to use open-source encrypted email with decentralised hosting."
 skills: [Interaction Design,Front-end Development,Research,Graphic Design, Product Design]
+skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript, Foundation, Continuous Design, Open Design, Live Style Guide, Paper prototyping, clickable mockups, Prototyping on code, Product Design, Branding, Customer Development, Community Development, Color theory, Layout, Typography, Collaborative sketching, Personas, User journeys, Agile UX]
 ---
 
 Easy to use open-source encrypted email with decentralised hosting. 
@@ -84,9 +85,8 @@ Myself, 1 XD (for 2 months), 8 developers, 1 BA/PM, 1 QA.
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre, Recife (Brazil), Hamburg (Germany), Quito (Equador).
 
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
-Qualitative research (user interviews, usability testing), front-end development (HTML5, CSS3, Sass, Javascript and Foundation), continuous design, open design, live style guide, Rapid prototyping (on paper, clickable mockups and code), product design (branding, customer development) visual design (colors, layout, typography), collaborative sketching, personas, user flows. 
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
 
 <span class="category-description">WEBSITE:</span> [www.pixelated-project.org](www.pixelated-project.org) 
-<br>
+<br><br>
 <span class="category-description">DEMO TO CURRENT VERSION:</span> [https://try.pixelated-project.org:8080](https://try.pixelated-project.org:8080)

@@ -222,7 +222,7 @@ figcaption {
 .category-description {
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 /*****************************************************************************/
@@ -401,14 +401,6 @@ li.post-header {
     margin-top: 10px;
   }
 
-  span.skill-item {
-    background-color: $main-green;
-    color: white;
-    margin-right: 3px;
-    padding: 2px 9px 2px 8px;
-    white-space: nowrap;
-  }
-
   h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
@@ -430,6 +422,15 @@ p.contact-icons-container {
   text-align: center;
   margin-top: 40px;
 }
+
+span.skill-item {
+    background-color: $main-green;
+    color: white !important;
+    margin-right: 3px;
+    padding: 2px 9px 2px 8px;
+    white-space: nowrap;
+    line-height: 30px;
+  }
 
 .contact-icon {
   margin-right: 10px;

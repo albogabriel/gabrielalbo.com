@@ -8,6 +8,7 @@ current-page: portfolio-item
 image: "airline-round.png"
 short-description: "Front-end development and interaction design for hotel booking and car rental functionalities."
 skills: [Interaction Design, Front-end Development]
+skills-used: [HTML, CSS, Javascript, interaction Design]
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
@@ -18,5 +19,4 @@ I have worked on the client’s e-com platform (ranked amongst U.S. top 5 bigges
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre (Brazil), Dallas/TX (USA).
 
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
-Front-end development (HTML, CSS, Javascript), interaction design.
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 

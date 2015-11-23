@@ -9,6 +9,7 @@ current-page: portfolio-item
 image: "mirebalais-round.png"
 short-description: "Creation of open-source Electronic Medical Records system for a hospital based in Mirebalais, Haiti."
 skills: [Interaction Design, Front-end Development, Research, Graphic Design]
+skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframes (code / Adobe Illustrator), Continuous Design, Open Design, Live Style Guide, Paper prototyping, Code prototyping, User Interviews, Usability Testing, User Journeys, UX Debt]
 ---
 
 <div style="text-align: center;">
@@ -54,8 +55,7 @@ skills: [Interaction Design, Front-end Development, Research, Graphic Design]
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre (Brazil), Mirebalais (Haiti), Boston and Seattle (USA).
 
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
- Front-end development (HTML5, CSS3, Sass, Javascript), Interaction design (hi-fi wireframes build on the code and Adobe Illustrator), continuous design, open design, live style guide, Rapid prototyping (on paper and code), qualitative research (user interviews, usability testing), user journeys, UX debt (mapping, prioritisation and implementation).
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
 
 <span class="category-description">SOURCE CODE:</span> [https://github.com/pih](https://github.com/pih) 
 <br>

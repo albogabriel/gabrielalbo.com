@@ -8,6 +8,7 @@ current-page: portfolio-item
 image: "geomarketing-round.png"
 short-description: "Research and redesign of parts of geographic business intelligence platform."
 skills: [Interaction Design, Research, Product Design]
+skills-used: [Discovery workshop, Paper prototyping, Clickable mockups, User interviews, Usability testing, Focus groups, Heuristics evaluation, User Journeys, Personas, Facilitation, Business Origami, Visual Telephone, Business Model Canvas, Elevator Pitch, Future Facebook Posts]
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
@@ -44,5 +45,4 @@ skills: [Interaction Design, Research, Product Design]
 	 <figcaption>The clickable mockups prepared after validating the paper prototypes.</figcaption>
  </div>
  <br><br>
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
- Discovery workshop, Rapid prototyping (on paper and clickable mockups), qualitative research (user interviews, usability testing, focus groups), Heuristics evaluation, user journeys, personas, facilitation (business origami, visual telephone, business model canvas, elevator pitch, future facebook posts).
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 

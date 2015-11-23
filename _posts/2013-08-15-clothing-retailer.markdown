@@ -8,6 +8,7 @@ current-page: portfolio-item
 image: "retailer-round.png"
 short-description: "Multinational clothing and accessories retailer e-commerce; checkout flow, product pages, returns and shippin and customer account management."
 skills: [Interaction Design, Front-end Development, Research]
+skills-used: [Analytics, A/B testing, Interaction design, HTML, CSS, Javascript, Usability testing]
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
@@ -25,5 +26,4 @@ I have worked on:
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre (Brazil), San Francisco/CA (USA), Cleveland/OH (USA).
 
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>
-Interaction design, front-end development (HTML, CSS, Javascript), quantitative research (analytics planning and implementation and A/B testing), qualitative research (usability testing).
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
