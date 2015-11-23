@@ -9,7 +9,7 @@ current-page: portfolio-item
 image: "pixelated-round.png"
 short-description: "Easy to use open-source encrypted email with decentralised hosting."
 skills: [Interaction Design,Front-end Development,Research,Graphic Design, Product Design]
-skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript, Foundation, Continuous Design, Open Design, Live Style Guide, Paper prototyping, clickable mockups, Prototyping on code, Product Design, Branding, Customer Development, Community Development, Color theory, Layout, Typography, Collaborative sketching, Personas, User journeys, Agile UX]
+skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript, Foundation, Continuous Design, Open Design, Live Style Guide, Paper prototyping, clickable mockups, Prototyping on code, Product Design, Branding, Customer Development, Community Development, Color theory, Layout, Typography, Collaborative sketching, Personas, User journeys, Agile UX, Font-icons]
 ---
 
 Easy to use open-source encrypted email with decentralised hosting. 

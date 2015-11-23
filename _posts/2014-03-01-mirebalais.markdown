@@ -9,7 +9,7 @@ current-page: portfolio-item
 image: "mirebalais-round.png"
 short-description: "Creation of open-source Electronic Medical Records system for a hospital based in Mirebalais, Haiti."
 skills: [Interaction Design, Front-end Development, Research, Graphic Design]
-skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframes (code / Adobe Illustrator), Continuous Design, Open Design, Live Style Guide, Paper prototyping, Code prototyping, User Interviews, Usability Testing, User Journeys, UX Debt]
+skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframes (code / Adobe Illustrator), Continuous Design, Open Design, Live Style Guide, Paper prototyping, Code prototyping, User Interviews, Usability Testing, User Journeys, UX Debt, Font-icons]
 ---
 
 <div style="text-align: center;">
