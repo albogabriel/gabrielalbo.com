@@ -22,6 +22,11 @@ title: Gabriel Albo - Projects
                 <h3 class="post-header-description">
                   {{ post.short-description }} 
                 </h3>
+                <h3 class="post-header-skills">
+                  {% for item in post.skills %}
+                    <span class="skill-item">{{ item }}</span>
+                  {% endfor %}
+                </h3>
               <span> 
             </div>
           </a>

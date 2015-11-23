@@ -8,6 +8,7 @@ category: projects
 current-page: portfolio-item
 image: "pixelated-round.png"
 short-description: "Easy to use open-source encrypted email with decentralised hosting."
+skills: [Interaction Design,Front-end Development,Research,Graphic Design, Product Design]
 ---
 
 Easy to use open-source encrypted email with decentralised hosting. 

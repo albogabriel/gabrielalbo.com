@@ -7,6 +7,7 @@ category: projects
 current-page: portfolio-item
 image: "geomarketing-round.png"
 short-description: "Research and redesign of parts of geographic business intelligence platform."
+skills: [Interaction Design, Research, Product Design]
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.

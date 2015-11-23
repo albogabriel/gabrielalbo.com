@@ -384,12 +384,29 @@ li.post-header {
     color: darken($light-header-background, 10);
     font-size: 75%;
     font-style: italic;
+    margin-top: -8px;
   }
 
   .post-header-description {
     color: white;
     font-style: normal;
     font-size: 85%;
+    margin-top: 8px;
+  }
+
+  .post-header-skills {
+    color: darken($light-header-background, 10);
+    font-style: italic;
+    font-size: 100%;
+    margin-top: 10px;
+  }
+
+  span.skill-item {
+    background-color: $main-green;
+    color: white;
+    margin-right: 3px;
+    padding: 2px 9px 2px 8px;
+    white-space: nowrap;
   }
 
   h2 {
@@ -468,17 +485,17 @@ span.project-image-container, span.project-description-container {
 span.project-image-container { 
   text-align: right; 
   margin-right: 3%;
-  width: 35%;
+  width: 30%;
 
   img {
-    width: 50%;
+    width: 55%;
   }
 }
 
 span.project-description-container {
   text-align: left; 
   font-size: 110% !important; 
-  width: 60%;
+  width: 65%;
 }
 
 @media (max-width: 50em) {

@@ -8,6 +8,7 @@ category: projects
 current-page: portfolio-item
 image: "mirebalais-round.png"
 short-description: "Creation of open-source Electronic Medical Records system for a hospital based in Mirebalais, Haiti."
+skills: [Interaction Design, Front-end Development, Research, Graphic Design]
 ---
 
 <div style="text-align: center;">

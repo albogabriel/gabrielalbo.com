@@ -7,6 +7,7 @@ category: projects
 current-page: portfolio-item
 image: "airline-round.png"
 short-description: "Front-end development and interaction design for hotel booking and car rental functionalities."
+skills: [Interaction Design, Front-end Development]
 ---
 
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
