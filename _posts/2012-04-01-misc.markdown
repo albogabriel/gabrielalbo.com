@@ -15,7 +15,7 @@ I’ve always liked to work on volunteer and open source projects as a way to ex
 <p>Here’s some of the work:</p>
 
 <h2>Volunteer:</h2>
-• <span class="category-description">Vila Pinto website</span>. CEA is an NGO that supports women who are victims of violence by providing them work and education and leisure activities for theis children. I have worked closely with the volunteers in building their website, mostly as a UX designer and front-end developer. [http://www.ceavilapinto.org.br](http://www.ceavilapinto.org.br)
+• <span class="category-description">Vila Pinto website</span>. CEA is an NGO that supports women who are victims of violence by providing them work, education and leisure activities for their children. I have worked closely with the volunteers in building their website, mostly with UX design and front-end development. [http://www.ceavilapinto.org.br](http://www.ceavilapinto.org.br)
 
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/misc/cea.png" alt=""/> 
@@ -30,7 +30,7 @@ I’ve always liked to work on volunteer and open source projects as a way to ex
  </div>
 
 <h2>Contests:</h2>
-I have participated of small teams for small open data visualization projects for contests ran by the Brazilian Justice Ministry. I have worked as a UX/UI and visual designer and front-end developer for both projects.
+I have participated of small teams for open data visualization projects for contests ran by the Brazilian Justice Ministry. I have worked as UX/UI designer, visual designer and front-end developer for both projects.
 <br><br>
 
 • <span class="category-description">Rodovias/BR</span>: Data visualization of Brazilian road accidents. Using the Google Maps API and open Brazilian road accidents data, we've mapped accidents by number, cause, fatalities, etc.. I have worked with front-end development, interaction and visual design. We took Fourth place at the contest. [http://rodovias.herokuapp.com](http://rodovias.herokuapp.com)
