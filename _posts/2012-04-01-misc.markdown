@@ -1,0 +1,66 @@
+---
+layout: project
+title:  "Misc (open source, contests, volunteering)"
+start-date: Feb 2012
+end-date: Present
+category: projects
+current-page: portfolio-item
+image: "misc-round.png"
+short-description: "Open source, contest and volunteer work. These projects involve data visualization, NGO websites and general experiments."
+skills: [Front-end development, Interaction Design, Visual design, Research, Content Strategy]
+---
+
+I’ve always liked to work on volunteer and open source projects as a way to exercise my skills and learn.
+
+<p>Here’s some of the work:</p>
+
+<h2>Volunteer:</h2>
+• <span class="category-description">Vila Pinto website</span>. CEA is an NGO that supports women who are victims of violence by providing them work and education and leisure activities for theis children. I have worked closely with the volunteers in building their website, mostly as a UX designer and front-end developer. [http://www.ceavilapinto.org.br](http://www.ceavilapinto.org.br)
+
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/misc/cea.png" alt=""/> 
+	 <figcaption>Part of the website cover</figcaption>
+ </div>
+<br>
+• <span class="category-description">Via Zen</span>: As a Zen buddhism practitioner, I support the state Zen Buddhist association with front-end development, UX design and content strategy for their website and visual design for campaign and merchandising. [viazen.org.br](viazen.org.br)
+
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/misc/viazen.png" alt=""/> 
+	 <figcaption>Part of the website cover</figcaption>
+ </div>
+
+<h2>Contests:</h2>
+I have participated of small teams for small open data visualization projects for contests ran by the Brazilian Justice Ministry. I have worked as a UX/UI and visual designer and front-end developer for both projects.
+<br><br>
+
+• <span class="category-description">Rodovias/BR</span>: Data visualization of Brazilian road accidents. Using the Google Maps API and open Brazilian road accidents data, we've mapped accidents by number, cause, fatalities, etc.. I have worked with front-end development, interaction and visual design. We took Fourth place at the contest. [http://rodovias.herokuapp.com](http://rodovias.herokuapp.com)
+<br>
+
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/misc/rodovias01.png" alt=""/> 
+	 <figcaption>Viewing data by Brazilian state.</figcaption>
+ </div>
+
+ <div style="text-align: center;">
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/misc/rodovias02.png" alt=""/> 
+	 <figcaption>Viewing data by road</figcaption>
+ </div>
+<br>
+• <span class="category-description">Reclamacões/BR</span>: Customer complaint data visualization using open data and Javascript d3. Second place at the contest.
+<br><br>
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 36%; margin-right: 3%;" src="{{ site.baseurl }}/assets/images/projects/misc/reclamacoes01.png" alt=""/> 
+	 <img class="project-image" style="width: 46%;" src="{{ site.baseurl }}/assets/images/projects/misc/reclamacoes02.png" alt=""/> 
+	 <div style="clear: both;"></div>
+	 <figcaption>Broad data visualization for ranking and narrow information for specific companies.</figcaption>
+</div><br>
+
+ <br>
+
+<h2>Pet projects:</h2>
+• <span class="category-description">Easy retro</span>: A distributed agile restrospective board simulating a physical whiteboard and stickies that could be collaborativelly written, edited and moved around. Worked as UX designer and front-end developer for a project to run distributed agile retrospectives. [http://easyretro.herokuapp.com](http://easyretro.herokuapp.com)
+
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/misc/easy.png" alt=""/> 
+	 <figcaption>Easy retro demo</figcaption>
+ </div>
