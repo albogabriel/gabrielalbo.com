@@ -55,7 +55,7 @@ Part of the project's goal was to promote Pixelated and create a community of su
 <br><br>
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 70%;" src="{{ site.baseurl }}/assets/images/projects/pixelated/stickers-at-fisl.jpg" alt=""/> 
-	 <figcaption>Finishing my talk for FISL with Pixelated stickers by my side</figcaption>
+	 <figcaption>Finishing my talk for FISL with Pixelated stickers by my side. <a href="{{ site.baseurl }}/posts/2015/07/11/movimentos-abertos-para-comunicacoes-privadas.html" target="_blank">Slides are here</a>.</figcaption>
  </div>
 <br><br>
 Building a community also involved making sure people were able to contribute easily while keeping up with the design patterns we've defined. For that, I've create a live style guide, which was automatically updated from the latest code and provided an easy way to reuse existing UI components.
