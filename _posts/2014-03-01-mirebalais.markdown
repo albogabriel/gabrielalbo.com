@@ -14,6 +14,7 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hospital-facade.jpg" alt=""/> 
+	 <figcaption>Hospital façade</figcaption>
  </div>
  </br></br>
 
@@ -23,26 +24,30 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 
 <p>During a visit to the hospital facilities in Haiti, <a href="http://www.gatesnotes.com/Health/A-Visit-to-Haiti" target="_blank">Bill Gates himself called it "(...) a sophisticated system for keeping medical records"</a>. :)</p>
 <br>
-<span class="category-description">HOME AND PATIENT ENCOUNTERS SCREENS:</span>
+<span class="category-description">HOME SCREEN AND THE LIVE STYLE GUIDE:</span>
 <br><br>
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 49%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/home-screen.png" alt=""/> 
-	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/style-guide.png" alt=""/> 
+	 <img class="project-image" style="width: 44%;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/style-guide.png" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
 </br>
 <br>
-<span class="category-description">PATIENT RECORDS AND LIVE STYLE GUIDE:</span>
+<span class="category-description">PATIENT RECORDS AND ENCOUNTERS:</span>
 <br>
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 49%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-record.png" alt=""/>
+	 <img class="project-image" style="width: 46%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-record.png" alt=""/>
 	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-encounters.png" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
-</br>
 <br><br>
 <span class="category-description">UX DEBT MAPPING AND THE PACKS FROM THE COLLABORATIVE SKETCHING SESSIONS:</span>
-<br><br>
+<br>
+<p>Being an agile team, we took iteractive approaches and collaboration seriously. We kept prioritising work to be done and, much like technical debts, we had what we decided to call Design Debts. These consisted of design improvements we wanted to make that wouldn't necessarily create new functionality, but would make general UX better. Prioritization was done based on a simple "gain vs pain" analysis - being whatever had a lot of value and low effort to implement the top of the pile of things we would do on our spare time.</p>
+<p>
+	Another important part was collaboration. I brought the entire team - devs, QAs, BAs, clients and PMs - to participate of sketching sessions where we could apply a double-diamond approach of diverging and converging ideas to come up with solutions that would carry many points of view within. Besides increasing the quality of the design, it also put everyone on the same page and created a greater sense of ownership.
+</p>
+<br>
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 49%; float: left;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/ux_debt.jpg" alt=""/> 
 	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/sketching-sessions.jpg" alt=""/> 
@@ -50,7 +55,7 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 </div>
 </br>
 
-<span class="category-description">TEAM MEMBERS:</span>2 XDs, 5 developers, 1 BA/PM, 1 QA.
+<span class="category-description">TEAM MEMBERS:</span>2 XDs/UI devs, 5 developers, 1 BA/PM, 1 QA.
 
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre (Brazil), Mirebalais (Haiti), Boston and Seattle (USA).
