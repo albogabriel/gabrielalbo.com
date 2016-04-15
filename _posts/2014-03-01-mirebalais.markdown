@@ -15,7 +15,6 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hospital-facade.jpg" alt=""/> 
  </div>
- </br></br>
 
 <p>Creation of the Electronic Medical Record (EMR) system for a university hospital in the city of Mirebalais, Haiti. The software provides functionality like patient registrations, appointments schedulling, diagnostic and vital signals capture and patient records control. It was based on <a href="http://openmrs.org/" target="_blank">openMRS</a>, one of the leading open source EMR frameworks in the world.</p>
 
@@ -30,7 +29,7 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/style-guide.png" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
-</br>
+<br>
 <br>
 <span class="category-description">PATIENT RECORDS AND LIVE STYLE GUIDE:</span>
 <br>
@@ -39,7 +38,7 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/patient-encounters.png" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
-</br>
+<br>
 <br><br>
 <span class="category-description">UX DEBT MAPPING AND THE PACKS FROM THE COLLABORATIVE SKETCHING SESSIONS:</span>
 <br><br>
@@ -48,7 +47,7 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 	 <img class="project-image" style="width: 49%; float: right;" src="{{ site.baseurl }}/assets/images/projects/mirebalais/sketching-sessions.jpg" alt=""/> 
 	 <div style="clear: both;"></div>
 </div>
-</br>
+<br>
 
 <span class="category-description">TEAM MEMBERS:</span>2 XDs, 5 developers, 1 BA/PM, 1 QA.
 
