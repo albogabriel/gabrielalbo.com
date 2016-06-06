@@ -7,7 +7,7 @@ category: posts
 language: English
 current-page: blog-item
 
---- 
+---
 
 by [Gabriel Albo](https://twitter.com/albogabriel)
 
@@ -18,7 +18,7 @@ Most pictures will show post-its and text in Portuguese, but English translation
 <BR>
 <span class="category-description">THE ELEVATOR PITCH</span>
 
-After explaining the project to the participants, we ran an exercise to define an elevator pitch for the brand. 
+After explaining the project to the participants, we ran an exercise to define an elevator pitch for the brand.
 
 > Pixelated is a free, open source email solution that allows sending emails on an easy and private way, being the emails encrypted or not.
 
@@ -28,10 +28,10 @@ After explaining the project to the participants, we ran an exercise to define a
 We then proceeded to analyse qualities that reflected, in our opinions, what Pixelated is. Amongst many characteristics that were presented (such as "independent", "smart", "young", "international", etc.), participants voted what concepts made sense to them when thinking of Pixelated.
 
 <div style="text-align: center;">
-	<img class="image-reduced" src="{{ site.baseurl }}/assets/images/posts/brand/01.png" alt=""</img>
+	<img class="image-reduced" src="{{ site.baseurl }}/assets/images/posts/brand/01.png" alt="">
 </div>
 <br>
-The top voted ones were 
+The top voted ones were
 
 - Innovative
 - Secure
@@ -44,12 +44,12 @@ The top voted ones were
 
 We then hung many logo styles on the wall and people voted up (green dots) and down (red dots) their favorite ones having the four concepts above in mind - "what types of logos convey those ideas to you?"
 
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/02.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/02.png" alt="" >
 </div>
 <br>
 Then we analyzed positive and negative characteristics of the logos we voted up and down. Positive and negative, in this context, means "aligned with the Pixelated values we listed", not a stylistic evaluation of the logos.
 
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/03.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/03.png" alt="" >
 </div>
 <br>
 
@@ -71,69 +71,69 @@ We then proceeded to list how we pictured Pixelated, were it a person. Some of t
 - Serious (but not harsh)
 - Conveys security, trust
 - Intelligent
-- Clear on the messages 
+- Clear on the messages
 - Accessible to talk to
 - Organized
 - Friendly tone of voice (but not necessarily funny)
 
 <br>
-The image the participants drew was of a young adult lesbian mother in her 30's, as she might is not a conventional figure for many, but she is just as strong, independent and caring as any other mother. 
+The image the participants drew was of a young adult lesbian mother in her 30's, as she might is not a conventional figure for many, but she is just as strong, independent and caring as any other mother.
 
 *"She might remind you to bring a coat with you if it's too cold, but you might just find out she packed a coat for you without you even knowing"*
 
 
 <span class="category-description">LOGO SKETCHING</span>
 
-Having set the tone and image we wanted to convey, we went on to the next stage, which was sketching our logo. 
+Having set the tone and image we wanted to convey, we went on to the next stage, which was sketching our logo.
 
 
 Myself and Letícia Nunes, our extremely talented visual designer friend, had already, defined our color palette based on the first ideas we wanted for the project. Here it was:
 
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/06.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/06.png" alt="" >
 </div>
 <br>
 We've also already had played around with a couple ideas to get feedback, which were the following:
 
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/07.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/07.png" alt="" >
 </div>
 <br>
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/08.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/08.png" alt="" >
 </div>
 <br>
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/09.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/09.png" alt="" >
 </div>
 <br>
 We wanted to set the tone for which direction we wanted to go for, so we publicly asked for feedback about those first ideas. Adding all the discoveries from the workshop and ideas from other contributors, these are some of the sketches we came up with:
 
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/10.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/10.png" alt="" >
 </div>
 <br>
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/11.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/11.png" alt="" >
 </div>
 <br>
 (We even built some 3D cubes and started shedding light on it to play with its shadows, too :))
 
 The straight lines and the cube figure became a constant for us as we could see the cube as the solid, stable and independent - yet groupable - entity we wanted Pixelated to feel like. So we went to the computer and started diverging on several ideas:
 
-<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/12.png" alt=""</img>
+<div style="text-align: center;"><img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/12.png" alt="" >
 </div>
 <br>
-From there, we've narrowed down to ideas around having a cube with some sort of "shield" around it - a way to communicate the solid, stable state of emails with this protection around them. 
+From there, we've narrowed down to ideas around having a cube with some sort of "shield" around it - a way to communicate the solid, stable state of emails with this protection around them.
 
 <div style="text-align: center;">
-	<img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/13.png" alt=""</img>
+	<img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/13.png" alt="" >
 </div>
 <br>
 Finally, we've settled with the following one (and its variations):
 
 
 <div style="text-align: center;">
-	<img class="" src="{{ site.baseurl }}/assets/images/posts/brand/14.png" alt="Final logo... for now."</img>
+	<img class="" src="{{ site.baseurl }}/assets/images/posts/brand/14.png" alt="Final logo... for now." >
 </div>
 <br><br>
 
 <div style="text-align: center;">
-	<img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/15.png" alt=""</img>
+	<img class="image-half" src="{{ site.baseurl }}/assets/images/posts/brand/15.png" alt="" >
 </div>
 <br>
 We're still counting the "shield" ones as official logos, but focusing more on the final, one-colored versions, for their easy adaptability.
