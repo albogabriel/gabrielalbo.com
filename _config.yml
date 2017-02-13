@@ -1,6 +1,6 @@
 name: Gabriel Albo
 markdown: kramdown
-pygments: true
+pygments: false
 safe: true
 lsi: false
 baseurl:

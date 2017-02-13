@@ -1,17 +1,30 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
---- 
+---
 
 /*@import "compass/reset";*/
 
 /* Variables*/
 
-$main-green: #3DC5B8;
-$darker-green: #399E98;
-$darkest: #2E3844;
+
+/* Green Theme */
+
+// $main-green: #3DC5B8;
+// $darker-green: #399E98;
+// $darkest: #2E3844;
+// $light-text-color: #F7F7F7;
+// $light-header-background: #f1f1f1;
+// $text-highlights: #d14233;
+
+/* Blue theme */
+
+$main-green: #28A8E7;
+$darker-green: #147CAF;
+$darkest: #0c4b6a;
 $light-text-color: #F7F7F7;
 $light-header-background: #f1f1f1;
 $text-highlights: #d14233;
+
 
 /*****************************************************************************/
 /*
@@ -28,7 +41,8 @@ $text-highlights: #d14233;
 html, body { height: 100%; }
 
 body {
-  background: linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  // background: linear-gradient(45deg, #147CAF 25%, #29a8e7 25%, #29a8e7 50%, #147CAF 50%, #147CAF 75%, #29a8e7 75%, #29a8e7);
+  background-color: #28A8E7;
   background-size:100px 100px;
   /*background-color: $darker-green !important;*/
   font-family: 'Open Sans', sans-serif;
@@ -64,7 +78,7 @@ p {
     margin: 0 0 23px 0;
     }
 
-strong, b { 
+strong, b {
   font-weight: bold;
 }
 
@@ -108,8 +122,8 @@ ul.posts span {
   .meta {
     color: #aaa;
   }
-  
-  .header { 
+
+  .header {
     a {
       font-weight: bold;
       text-decoration: none;
@@ -118,7 +132,7 @@ ul.posts span {
     h1.title {
       display: inline-block;
       margin-bottom: 2em;
-      
+
       a {
         color: #a00;
       }
@@ -180,7 +194,7 @@ ul.posts span {
 
 .page-container h1{
   margin: 0;
-  font-family: 'Dosis', sans-serif;  
+  font-family: 'Dosis', sans-serif;
 }
 
 .post-date {
@@ -216,7 +230,7 @@ ul.posts span {
 #project-content {
   line-height: 1.643em;
 
-  h2 { 
+  h2 {
     font-size: 1.857em;
   }
 }
@@ -249,7 +263,7 @@ header {
   top: 0;
   bottom: 0;
   height: 66px;
-  background-color: $light-header-background; 
+  background-color: $light-header-background;
   border-bottom: 3px solid $main-green;
   text-align: center;
 
@@ -277,11 +291,11 @@ header {
       color: $darker-green;
     }
   }
-} 
+}
 
 .main {
   max-height: 90%;
-  margin-bottom: -38px; 
+  margin-bottom: -38px;
 }
 
 .menu {
@@ -289,7 +303,7 @@ header {
 }
 
 .selected-item {
-  border-bottom: 4px solid $main-green; 
+  border-bottom: 4px solid $main-green;
 }
 
 /* line 211, ../_sass/screen.scss */
@@ -297,7 +311,7 @@ ul.menu {
   text-align: right;
   li {
     color: $darkest;
-    text-decoration: none;  
+    text-decoration: none;
     display: inline;
     margin: 0 15px;
 
@@ -315,7 +329,7 @@ ul.menu {
     width: 140px;
     border-radius: 70px;
     -webkit-border-radius: 70px;
-    -moz-border-radius: 70px;  
+    -moz-border-radius: 70px;
 
     &:hover {
       $scale: 1.2;
@@ -341,7 +355,7 @@ ul.menu {
   text-align: center;
   color: white;
 
-  p:first-child { 
+  p:first-child {
     font-size: 2em;
   }
 
@@ -364,7 +378,8 @@ a:hover {
   color: lighten($darkest, 50);
 }
 
-$post-header-colors: darken($darker-green, 4), darken($darker-green, 7);
+// $post-header-colors: darken($darker-green, 4), darken($darker-green, 7);
+$post-header-colors: darken($main-green, 4), darken($main-green, 8);
 
 @for $i from 1 through length($post-header-colors) {
     li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -443,7 +458,7 @@ span.skill-item {
 .contact-icon {
   margin-right: 10px;
   $icons-height: 55px;
-  background-color: $main-green;
+  background-color: lighten($main-green,10%);
   height: $icons-height;
   border-radius: $icons-height/2;
 
@@ -459,7 +474,7 @@ span.skill-item {
 }
 
 .image-reduced {
-  height: 400px; 
+  height: 400px;
   width: auto;
 }
 
@@ -491,8 +506,8 @@ span.project-image-container, span.project-description-container {
   vertical-align: top;
 }
 
-span.project-image-container { 
-  text-align: right; 
+span.project-image-container {
+  text-align: right;
   margin-right: 3%;
   width: 30%;
 
@@ -502,8 +517,8 @@ span.project-image-container {
 }
 
 span.project-description-container {
-  text-align: left; 
-  font-size: 110% !important; 
+  text-align: left;
+  font-size: 110% !important;
   width: 65%;
 }
 
@@ -531,7 +546,7 @@ span.project-description-container {
     vertical-align: top;
 
     img {
-      width: 80%; 
+      width: 80%;
     }
   }
 }
@@ -543,5 +558,5 @@ span.project-description-container {
 
   .abbreviated-name {
     display: none;
-  } 
+  }
 }
