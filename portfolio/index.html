@@ -7,27 +7,27 @@ title: Gabriel Albo - Projects
   <div class="large-12 columns">
     <ul class="posts">
       {% for post in site.categories.projects %}
-        
+
         <li class="post-header">
         	<a class="clickable-div" href="{{ site.baseurl }}{{ post.url }}"target="_self">
             <div class="portfolio-project">
               <span class="project-image-container">
-                <img class="project-round-image" src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}" alt=""/> 
+                <img class="project-round-image" src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}" alt=""/>
               </span>
               <span class="project-description-container">
                 <h2>{{ post.title }}</h2>
                 <h3 class="post-header-date">
-                  {{ post.start-date }} - {{ post.end-date }} 
+                  {{ post.start-date }} - {{ post.end-date }}
                 </h3>
                 <h3 class="post-header-description">
-                  {{ post.short-description }} 
+                  {{ post.short-description }}
                 </h3>
                 <h3 class="post-header-skills">
                   {% for item in post.skills %}
                     <span class="skill-item">{{ item }}</span>
                   {% endfor %}
                 </h3>
-              <span> 
+              <span>
             </div>
           </a>
         </li>
@@ -36,6 +36,5 @@ title: Gabriel Albo - Projects
     </ul>
     <p style="color: white; text-align: center; font-style: italic; font-size: 90%;">* NDA protected work; some project details and imagery might not be disclosed.</p>
 <br>
-    <p style="color: white; text-align: center; font-family: 'Dosis', sans-serif; font-size: x-large;">This section is under construction; I'll be adding more of the work I've done in the next few days :)</p>
   </div>
 </div>
