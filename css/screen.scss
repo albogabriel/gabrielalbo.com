@@ -41,12 +41,15 @@ $text-highlights: #d14233;
 html, body { height: 100%; }
 
 body {
-  // background: linear-gradient(45deg, #147CAF 25%, #29a8e7 25%, #29a8e7 50%, #147CAF 50%, #147CAF 75%, #29a8e7 75%, #29a8e7);
-  background-color: #28A8E7;
-  background-size:100px 100px;
-  /*background-color: $darker-green !important;*/
   font-family: 'Open Sans', sans-serif;
   color: $darkest;
+
+  background: $main-green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($main-green, lighten($main-green, 15%)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($main-green, lighten($main-green, 15%)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($main-green, lighten($main-green, 15%)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($main-green, lighten($main-green, 15%)); /* Standard syntax */
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
