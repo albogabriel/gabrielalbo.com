@@ -382,7 +382,7 @@ a:hover {
 }
 
 // $post-header-colors: darken($darker-green, 4), darken($darker-green, 7);
-$post-header-colors: darken($main-green, 4), lighten($main-green, 5%);
+$post-header-colors: darken($main-green, 4), lighten($main-green, 2%);
 
 @for $i from 1 through length($post-header-colors) {
     li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -450,7 +450,8 @@ p.contact-icons-container {
 }
 
 span.skill-item {
-    background-color: $main-green;
+    background-color: lighten($main-green, 15%);
+    font-weight: lighter;
     color: white !important;
     margin-right: 3px;
     padding: 2px 9px 2px 8px;
