@@ -350,7 +350,7 @@ ul.menu {
 .page-container {
   background-color: #f1f1f1;
   padding: 22px;
-  border-bottom: 10px solid #399e98;
+  border-bottom: 10px solid lighten($main-green, 15%);
 }
 
 .about-page-container {
