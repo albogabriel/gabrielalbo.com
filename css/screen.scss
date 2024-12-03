@@ -398,7 +398,7 @@ li.post-header {
   min-height: 90px;
   height: 100%;
   color: $light-header-background;
-  padding: 15px;
+  padding: 25px;
 
   a, a:visited {
     display: block;
@@ -408,6 +408,7 @@ li.post-header {
 
   .post-header-date {
     color: darken($light-header-background, 10);
+    font-weight: lighter;
     font-size: 75%;
     font-style: italic;
     margin-top: -8px;
