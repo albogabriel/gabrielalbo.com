@@ -51,7 +51,12 @@
                 </div>
                 <div class="large-6 medium-6 small-8 columns">
                     <ul class="menu">
-                        <li><a href="{{ site.baseurl }}/blog" target="_self"
+                        <li><a href="{{ site.baseurl }}/" target="_self"
+                        {% if page.url == "/" or page.current-page == "index.html" %}
+                        class="selected-item"
+                        {% endif %}
+                         >ABOUT</a></li>
+                         <li><a href="{{ site.baseurl }}/blog" target="_self"
                         {% if page.url == "/blog/" or page.current-page == "blog-item" %}
                         class="selected-item"
                         {% endif %}
