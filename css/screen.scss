@@ -44,12 +44,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: $darkest;
 
-  background: $main-green; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient($main-green, lighten($main-green, 15%)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient($main-green, lighten($main-green, 15%)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($main-green, lighten($main-green, 15%)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient($main-green, lighten($main-green, 15%)); /* Standard syntax */
-  background-attachment: fixed;
+  background: $light-header-background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -220,12 +215,6 @@ ul.posts span {
   margin-top: 50px;
 }
 
-.disqus-container {
-  clear: both;
-  border-top: 2px solid $main-green;
-  padding-top: 35px;
-}
-
 .project-image {
       box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
@@ -265,9 +254,9 @@ body {
 header {
   top: 0;
   bottom: 0;
+  padding-bottom: 20px;
   height: 66px;
   background-color: $light-header-background;
-  border-bottom: 3px solid $main-green;
   text-align: center;
 
   .logo img {
@@ -283,15 +272,21 @@ header {
   }
 
   h1.logo {
-    color: $darkest;
     margin: 0;
     text-align: left;
     font-family: 'Dosis', sans-serif;
     font-size: 150%;
     margin-top: 16px;
 
-    span {
-      color: $darker-green;
+  
+
+    span.full-name {
+      background-color: $main-green;
+      padding: 10px 20px;
+    }
+
+    span.full-name a {
+      color: white;
     }
   }
 }
@@ -350,13 +345,15 @@ ul.menu {
 .page-container {
   background-color: #f1f1f1;
   padding: 22px;
-  border-bottom: 10px solid lighten($main-green, 15%);
 }
 
 .about-page-container {
   padding: 22px;
   text-align: center;
-  color: white;
+
+  b.emphasis {
+     color: $main-green;
+  }
 
   p:first-child {
     font-size: 2em;
