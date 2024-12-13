@@ -1,0 +1,27 @@
+---
+layout: project
+title:  "Yara"
+start-date: Oct 2016
+end-date: Dec 2016
+category: projects
+current-page: portfolio-item
+image: "airline-round.png"
+short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
+skills: [Research, Service Design, Design Sprints]
+skills-used: [Research, Service Design, Design Sprints]
+---
+
+<b>TL;DR</b>
+<br>
+I led a series of Design Sprints for Yara, creating an innovative and cost-effective solution to measure silo occupancy levels with high accuracy. The result was a prototype that improved safety, reduced costs, and surpassed existing measurement methods in reliability and speed.
+
+<b>Long version</b>
+<br>
+Yara approached us with a unique challenge: they needed a better way to measure silo occupancy levels across their facilities. I initiated a design sprint, collaborating with a multidisciplinary team to hypothesize, prototype, and test solutions.
+We explored diverse methods, from manual measurements using pulley systems to advanced 3D modeling with Kinect sensors and mobile systems. By the end of the engagement, we developed a solution with over 98% measurement accuracy. This prototype not only exceeded the accuracy of their existing methods but also drastically reduced time and cost while enhancing employee safety. It was a rewarding project, merging creative problem-solving with practical implementation.
+
+<br>
+<span class="category-description">LOCATIONS:</span>
+Porto Alegre (Brazil)
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
