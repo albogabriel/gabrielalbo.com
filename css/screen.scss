@@ -329,6 +329,9 @@ ul.menu {
     -webkit-border-radius: 70px;
     -moz-border-radius: 70px;
 
+      $scale: 1;
+      -webkit-transition-duration: 0.5s;
+
     &:hover {
       $scale: 1.2;
       -webkit-transition-duration: 0.5s;
