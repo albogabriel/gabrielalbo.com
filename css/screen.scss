@@ -255,14 +255,11 @@ header {
   top: 0;
   bottom: 0;
   padding-bottom: 20px;
-  height: 66px;
   background-color: $light-header-background;
   text-align: center;
 
   .logo img {
-    height: 55px;
-    width: 55px;
-    margin-top: 11px;
+    height: 120px;
 
     &:hover {
       opacity:0.4;
@@ -277,8 +274,7 @@ header {
     font-family: 'Dosis', sans-serif;
     font-size: 150%;
     margin-top: 16px;
-
-  
+    filter: invert(55%) sepia(78%) saturate(1463%) hue-rotate(169deg) brightness(95%) contrast(90%);
 
     span.full-name {
       background-color: $main-green;
