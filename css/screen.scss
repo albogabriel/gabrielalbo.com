@@ -8,14 +8,14 @@
 
 
 /* Green Theme */
-
-// $main-green: #3DC5B8;
-// $darker-green: #399E98;
-// $darkest: #2E3844;
-// $light-text-color: #F7F7F7;
-// $light-header-background: #f1f1f1;
-// $text-highlights: #d14233;
-
+/*
+ $main-green: #3DC5B8;
+ $darker-green: #399E98;
+ $darkest: #2E3844;
+ $light-text-color: #F7F7F7;
+ $light-header-background: #f1f1f1;
+ $text-highlights: #d14233;
+*/
 /* Blue theme */
 
 $main-green: #28A8E7;
@@ -262,7 +262,7 @@ header {
     height: 120px;
 
     &:hover {
-      opacity:0.4;
+      opacity:0.6;
       filter:alpha(opacity=40); /* For IE8 and earlier */
       -webkit-transition-duration: 0.25s;
     }
@@ -274,7 +274,7 @@ header {
     font-family: 'Dosis', sans-serif;
     font-size: 150%;
     margin-top: 16px;
-    filter: invert(55%) sepia(78%) saturate(1463%) hue-rotate(169deg) brightness(95%) contrast(90%);
+/*    filter: invert(55%) sepia(78%) saturate(1463%) hue-rotate(169deg) brightness(95%) contrast(90%);*/
 
     span.full-name {
       background-color: $main-green;

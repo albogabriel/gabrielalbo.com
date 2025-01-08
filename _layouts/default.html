@@ -29,12 +29,8 @@
             <div class="row">
                 <div class="large-6 medium-6 small-4 columns">
                     <h1 class="logo">
-                        <span class="">
-                            <a href="{{ site.baseurl }}/" target="_self"
-                            {% if page.url == "/" %}
-                            class="title-name"
-                            {% endif %}
-                             >
+                        <span>
+                            <a href="{{ site.baseurl }}/" target="_self">
                                 <img class="logo-fill" src="{{ site.baseurl }}/assets/images/logo_albo_home.svg" alt="Gabriel Albo">
                              </a>
                          </span>
@@ -55,11 +51,11 @@
                         class="selected-item"
                         {% endif %}
                          >ABOUT</a></li>
-                         <li><a href="{{ site.baseurl }}/blog" target="_self"
+                         <!-- <li><a href="{{ site.baseurl }}/blog" target="_self"
                         {% if page.url == "/blog/" or page.current-page == "blog-item" %}
                         class="selected-item"
                         {% endif %}
-                         >BLOG</a></li>
+                         >BLOG</a></li> -->
                         <li><a href="{{ site.baseurl }}/portfolio/" target="_self"
                         {% if page.url == "/portfolio/" or page.current-page == "portfolio-item" %}
                         class="selected-item"
