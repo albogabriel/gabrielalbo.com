@@ -259,6 +259,7 @@ header {
 
   .logo img {
     height: 120px;
+    max-width: none;
 
     &:hover {
       opacity:0.6;
