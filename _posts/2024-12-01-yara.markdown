@@ -5,7 +5,7 @@ start-date: Oct 2016
 end-date: Dec 2016
 category: projects
 current-page: portfolio-item
-image: "airline-round.png"
+image: "yara.png"
 short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
 skills: [Research, Service Design, Design Sprints]
 skills-used: [Research, Service Design, Design Sprints]

@@ -5,7 +5,7 @@ start-date: Jul 2014
 end-date: Aug 2014
 category: projects
 current-page: portfolio-item
-image: "airline-round.png"
+image: "recruitment.png"
 short-description: "Candidate Recruitment analysis and Redesign"
 skills: [Research, Service Design, Design Sprints]
 skills-used: [Research, Service Design, Design Sprints]
