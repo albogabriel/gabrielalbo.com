@@ -83,6 +83,11 @@ em {
   font-style: italic;
 }
 
+div.row {
+  max-width: 72em;
+}
+
+
 /*****************************************************************************/
 /*
 /* Home
@@ -258,7 +263,7 @@ header {
   text-align: center;
 
   .logo img {
-    height: 120px;
+    min-height: 6em;
     max-width: none;
 
     &:hover {
@@ -267,6 +272,14 @@ header {
       -webkit-transition-duration: 0.25s;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .logo img {
+      min-height: 4em;
+      max-width: none;
+    }
+  }
+
 
   h1.logo {
     margin: 0;
