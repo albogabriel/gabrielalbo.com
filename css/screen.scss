@@ -412,6 +412,7 @@ li.post-header {
   .post-header-description {
     color: white;
     font-style: normal;
+    font-weight: normal;
     font-size: 85%;
     margin-top: 8px;
   }
@@ -507,12 +508,11 @@ span.project-image-container, span.project-description-container {
 }
 
 span.project-image-container {
-  text-align: right;
-  margin-right: 3%;
-  width: 30%;
+  text-align: center;
+  width: 25%;
 
   img {
-    width: 55%;
+    width: 65%;
   }
 }
 

@@ -1,0 +1,23 @@
+---
+layout: project
+title:  "Latam Airlines"
+start-date: Mar 2017
+end-date: Feb 2018
+category: projects
+current-page: portfolio-item
+image: "latam.png"
+short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
+skills: [User Research, Interaction Design, Front-end Development]
+skills-used: [Usability Testing, User interviews, A/B testing, Interaction Design (Sketch), Paper prototypes and Invision click dummies), Front-end development (HTML + CSS + JavaScript), Internationalisation, Accessibility assessments]
+---
+
+Worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client’s UX team and working directly with two project teams in their headquarters in Santiago, Chile. 
+
+The two projects were the shopping flow - searching for flights, presenting available options and all the required information and alternative views - and the booking flow, which involved capturing passenger information to proceed with booking their ticket. 
+
+Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
+
+<span class="category-description">LOCATIONS:</span>
+Porto Alegre (Brazil)
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
