@@ -1,0 +1,25 @@
+---
+layout: project
+title:  "Sixt"
+start-date: May 2018
+end-date: Mar 2019
+category: projects
+current-page: portfolio-item
+image: "sixt-round.png"
+short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
+skills: [User Research, Interaction Design, Front-end Development]
+skills-used: [Interaction Design (Sketch), Prototyping (Paper and click dummies), Front-end development (HTML and CSS), Usability Testing, Requirements gathering (stakeholder and SME interviews and workshops, Customer Relationship Development.]
+---
+
+I worked for Munich-based car rental company Sixt on a project focused on creating a new Fleet Management System, during which I gained deep insight into the car rental business domain through user research and interviews with Subject Matter Experts. The main goal of the project was to replace their legacy Fleet Management Systems, which were difficult to use, costly to maintain, and inconsistent across different countries where Sixt operated. It was a complex system, as it not only handled current fleet management but also integrated with other systems related to car manufacturer orders, data-based insights on fleet trends, and the specific needs of each region (for example, how the summer fleet for Spain had very different requirements compared to the Swiss winter fleet).
+
+The new system aimed to be centralized, easy to use, easy to maintain, and adaptable to the different requirements of each operating country or region.
+
+Using an iterative approach, my team and I gathered requirements, prioritized them with stakeholders, prototyped, tested, and implemented alongside the development team. I worked closely with the Product Owner and developers using an Agile approach, responding quickly to various customer requirements and technical constraints.
+
+By the end of the engagement, the team successfully launched the new system, gradually releasing it across different regions, evaluating its adoption through user interviews, and responding to newly discovered needs.
+
+<span class="category-description">LOCATIONS:</span>
+Munich, Germany
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
