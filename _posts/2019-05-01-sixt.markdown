@@ -6,9 +6,9 @@ end-date: Mar 2019
 category: projects
 current-page: portfolio-item
 image: "sixt-round.png"
-short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
-skills: [User Research, Interaction Design, Front-end Development]
-skills-used: [Interaction Design (Sketch), Prototyping (Paper and click dummies), Front-end development (HTML and CSS), Usability Testing, Requirements gathering (stakeholder and SME interviews and workshops, Customer Relationship Development.]
+short-description: "Car Rental Fleet Management System"
+skills: [User Research, Interaction Design, Front-end Development, Service Design]
+skills-used: [Interaction Design (Sketch), Prototyping (Paper and click dummies), Front-end development (HTML and CSS), Usability Testing, Requirements gathering (stakeholder and SME interviews and workshops, Service Design, Customer Relationship Development.]
 ---
 
 I worked for Munich-based car rental company Sixt on a project focused on creating a new Fleet Management System, during which I gained deep insight into the car rental business domain through user research and interviews with Subject Matter Experts. The main goal of the project was to replace their legacy Fleet Management Systems, which were difficult to use, costly to maintain, and inconsistent across different countries where Sixt operated. It was a complex system, as it not only handled current fleet management but also integrated with other systems related to car manufacturer orders, data-based insights on fleet trends, and the specific needs of each region (for example, how the summer fleet for Spain had very different requirements compared to the Swiss winter fleet).

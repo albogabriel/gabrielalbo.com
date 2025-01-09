@@ -6,8 +6,8 @@ end-date: Feb 2018
 category: projects
 current-page: portfolio-item
 image: "latam.png"
-short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
-skills: [User Research, Interaction Design, Front-end Development]
+short-description: "Airline e-commerce shopping and booking flows"
+skills: [User Research, Interaction Design, Front-end Development, Accessibility]
 skills-used: [Usability Testing, User interviews, A/B testing, Interaction Design (Sketch), Paper prototypes and Invision click dummies), Front-end development (HTML + CSS + JavaScript), Internationalisation, Accessibility assessments]
 ---
 
