@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Mercedes Benz: Go 4.0 Discovery"
-start-date: Mar 2018
+start-date: Mar 2019
 end-date: May 2019
 category: projects
 current-page: portfolio-item

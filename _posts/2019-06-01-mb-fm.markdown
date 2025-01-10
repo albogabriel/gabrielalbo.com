@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Mercedes Benz: Fleet Management"
+start-date: Jun 2019
+end-date: Aug 2019
+category: projects
+current-page: portfolio-item
+image: "mb-fm-round.png"
+short-description: "Inception and Prototyping of new Fleet Management System for Mercedes-Benz's Researchand Development department."
+skills: [Workshop Facilitation, User Research, Interaction Design, Front-end Development, Rapid Prototyping]
+skills-used: ['Inception Workshops Facilitation (Elevator Pitch, Business Model Canvas, User Journey Mapping, Persona creation, Feature Mapping)', 'Prototyping (Paper-to-code)', 'Interaction Design','Front-end Development (HTML, CSS)']
+---
+
+I joined a team within the Mercedes-Benz R&D department focused on replacing their current development fleet management systems, bringing my previous experience with vehicle fleet management. The client needed to create an updated system that would allow R&D software teams to manage the allocation of vehicles to be used for software testing and deployment.
+
+Along with a team consisting of a business analyst, a tech lead, a QA expert, and four client representatives, I conducted a series of inception workshops to frame and prioritize the work our team would do. This was followed by a prototype that we built, validated, and incrementally improved upon, making it possible for a longer-term project, which would later be steered solely by Daimler/MB employees, to become feasible.
+
+<span class="category-description">LOCATIONS:</span>
+Stuttgart, Germany
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
