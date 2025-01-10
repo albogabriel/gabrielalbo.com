@@ -4,7 +4,7 @@ layout: default
 <div id="project-content" class="row">
 	<div class="large-12 columns page-container">
 		<h1>{{ page.title }}</h1>
-		<p class="meta post-date">{{ page.start-date }} - {{ page.end-date }}
+		<p class="meta post-date">{{ page.start-date }}{%if page.end-date != null %} - {% endif %} {{ page.end-date }}
 		{% if page.project-website != null %}
 			&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{{ page.project-website }}" target="_blank">{{ page.project-website }}
 		{% endif %}

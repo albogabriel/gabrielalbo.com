@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Mercedes Benz: DMS Replacement Strategy"
+start-date: Sep 2019
+end-date:
+category: projects
+current-page: portfolio-item
+image: "mb-dms-round.png"
+short-description: "Product Strategy for the replacement of current Dealer Management Systems."
+skills: [Workshop Facilitation, Storytelling, UX Writing]
+skills-used: ['Workshops Facilitation (Elevator Pitch, Business Model Canvas, User Journey Mapping, Persona creation, Feature Mapping)', 'Storytelling', 'UX writing']
+---
+			
+As part of a larger initiative aimed at replacing some local Dealer Management Systems (DMS) used by Mercedes-Benz, I worked with a team of product strategists, technologists, and SMEs from the client on a four-week-long series of workshops, proposal writing, and planning to find the best approach for this replacement. Since Thoughtworks already had in-depth knowledge and experience from building a similar system in China, we leveraged that expertise to understand the needs of the different regions requiring the DMS overhaul, defining requirements, goals, and an initial plan for the larger initiative.
+
+On a separate work stream, a different team implemented this project based on the definitions from those workshops and the delivered proposal.
+
+<span class="category-description">LOCATIONS:</span>
+Berlin, Germany
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
