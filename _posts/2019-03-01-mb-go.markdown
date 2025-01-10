@@ -1,0 +1,27 @@
+---
+layout: project
+title:  "Mercedes Benz: Go 4.0 Discovery"
+start-date: Mar 2018
+end-date: May 2019
+category: projects
+current-page: portfolio-item
+image: "mb-go-round.png"
+short-description: "Discovery work focused on integrating multichanel selling experiences"
+skills: [Workshop Facilitation, Service Design, User Research, Storytelling]
+skills-used: ['Discovery Workshop Facilitation (Lean Value Tree, User Journey Mapping)', 'Service Design (Service Mapping, Stakeholder Mapping, Business Model Canvas)','Storytelling (Visual Journey Maps, Storyboards)', 'User Research']
+---
+
+As part of a major restructuring project to integrate Mercedes-Benz's online selling platforms with dealership experiences, I joined a team of business analysts, product innovation experts, and tech leads for a Discovery engagement aimed at uncovering needs, opportunities, and constraints. Our goal was to frame multiple streams of development work for the years ahead.
+
+Over the course of 10 weeks, working directly at Daimler's HQ in Stuttgart, my team and I conducted a series of workshops and interviews with over 80 stakeholders and SMEs. Together, we framed the high-level strategic goals while breaking down all the individual work streams that could stem from them.
+
+I contributed by leading various workshops and interviews, as well as creating storytelling narratives. These narratives helped frame the current situation and articulate the envisioned future experience. By doing so, I facilitated a shared understanding among all the stakeholders involved in the project, including higher-level decision-makers who were closely following our work.
+
+By the end of the engagement, our team, in close collaboration with the clients, successfully identified key bets, hypotheses, metrics, and success measures, and we defined an approach for each of them. This work led to the creation of five separate projects, with teams ranging from 5 to 12 people. These teams continued working for the following 18 months to implement each initiative, delivering significant value to Mercedes-Benz and further establishing Thoughtworks as a trusted consultancy partner for years to come.
+
+<span class="category-description">LOCATIONS:</span>
+Stuttgart, Germany
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
+
+<span class="category-description">MORE DETAILS ON THIS INITIATIVE:</span> [https://www.thoughtworks.com/en-de/clients/mercedes-benz-group-ag](https://www.thoughtworks.com/en-de/clients/mercedes-benz-group-ag)
