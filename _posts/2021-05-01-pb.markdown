@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "PAYBACK: Marketing Challenges and Campaigns "
+start-date: May 2021
+end-date: Mar 2022
+category: projects
+current-page: portfolio-item
+image: "pb-round.png"
+short-description: "Creation of a Marketing Challenges and Campaigns (internal, admin system and movile, client-facing section in the app)"
+skills: [Workshop Facilitation, User Research, Interaction Design, Information Architecture, Front-end Development, Business Analysis]
+skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Persona creation, Feature Mapping)', 'User research (surveys, interviews, usability testing)', 'Information Architecture', 'Interaction Design', 'Front-end Development (pairing with front-end devs', 'Business Analysis']
+---
+			
+I worked for Payback as a UX designer for one year. During that time, a multifunctional team and I worked on designing and delivering the concept of (Marketing) Challenges for Payback. We developed a desktop admin system that allowed Payback marketing managers to create challenges (such as “Every 50€ spent on Store X during the month of December grants you a 20% discount coupon”) and a user interface on the Payback app so customers could enroll in challenges and track their progress.
+
+My work focused, but was not limited to, running an inception with over 20 participants from the team and stakeholders to frame the product. I conducted user research and analysis, created prototypes for testing, designed the user interfaces, and collaborated with the development team to find agile solutions for front-end framework capabilities.
+
+<span class="category-description">LOCATIONS:</span>
+Munich, Germany
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
