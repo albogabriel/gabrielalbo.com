@@ -1,0 +1,25 @@
+---
+layout: project
+title:  "Thoughtworks University (TWU): UX and Business Analysis Trainer"
+start-date: Mar 2022
+end-date: Mar 2023
+category: projects
+current-page: portfolio-item
+image: "twu-round.png"
+short-description: "Trainer at internal Thoughtworks training program for new hires who are graduates or career changers"
+skills: [Workshop Facilitation, Classes preparation and presentation, Content Creation, Mentoring]
+skills-used: ['Workshops and classes presentation and facilitation (see above)', 'Learning Design', 'Content Creation (UX Design, Business Analysis, Agile, Diversity and Inclusion)', 'Mentoring']
+---
+
+I worked as a TWU trainer for one year. Thoughtworks University is a program designed to train and mentor new hires who are fresh out of university, bootcamps, or career changes, teaching them how to conduct themselves within a typical agile consultancy project. The program consists of three weeks of intensive, full-time classes and a project simulation, followed by monthly one-day sessions on specific topics and long-term mentoring.
+
+During this year, I helped conduct eight different terms with around 20 new hires from all over Europe in each. I taught and conducted sessions on Design topics (interaction design, visual design, accessibility, user research, personas, user journeys), Business Analysis (estimation and planning, path to production, user story writing & INVEST, user story slicing and refinement), Agile (Agile 101, path to production), and facilitated several agile ceremonies (from sprint/iteration planning to retrospectives) to help the trainees learn how these sessions are conducted and then lead them themselves.
+
+I also designed much of the program’s content, particularly the hands-on design sessions and a one-day monthly session on Accessibility, Diversity, and Inclusion.
+
+This program was incredibly impactful and personally rewarding, especially as it gave me the opportunity to formally mentor all the trainees during the terms and 15 of them on a one-to-one basis throughout the year. I was able to help them adapt to the company, learn the ways of working, and find their path within the organization.
+
+<span class="category-description">LOCATIONS:</span>
+Berlin, Germany. Distributed team across Spain, England and the Netherlands.
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
