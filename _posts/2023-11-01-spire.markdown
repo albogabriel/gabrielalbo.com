@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Spire Health: Data Strategy Discovery"
+title:  "Spire Healthcare: Data Strategy Discovery"
 start-date: Nov 2023
 end-date: Jan 2024
 category: projects
