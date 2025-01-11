@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Spire Health: Data Strategy Discovery"
+start-date: Nov 2023
+end-date: Jan 2024
+category: projects
+current-page: portfolio-item
+image: "spire-round.png"
+short-description: "Discovery and Service Design for Data Strategy initiave for Health provider. "
+skills: [Service Design, Workshop Facilitation, Information Architecture, Research]
+skills-used: ['Service Design (Business Model Canvas, Stakeholder Mapping, Service Roadmap, Prioritisation, OKRs)', 'Workshop Facilitation (Discovery kick off, User Journey Mapping, Persona creation, Feature Mapping)', 'Information Architecture','Research (interviews, ethnographic research)']
+---
+
+As part of a major Data Strategy initiative, I joined the Discovery team focusing on the Service Design aspects of the engagement. I ran extensive research with different members of the organization and its functions, including internal services, hospital management, staff, and doctors. The research involved both remote interviews and hospital visits to properly understand the as-is scenario. The goal was to create organizational and individual journey maps, identify data touchpoints, and uncover the problems and opportunities related to them. I worked with the team to create hypotheses to be prioritized and worked on.
+
+After three very intense months, the team delivered an extensive Data Strategy that included a breakdown of follow-up planning for software delivery projects to implement the strategy. The first delivery team started its work two months later, with its scope defined by this Data Strategy initiative. As of late 2024, more teams are scheduled to continue the work, tackling other streams identified and defined during the Discovery phase.
+
+<span class="category-description">LOCATIONS:</span>
+Berlin, Germany. Distributed team across Germany, Spain and England.
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
