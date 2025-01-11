@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Mercedes Benz: MIC Portal"
+start-date: Apr 2020
+end-date: April 2021
+category: projects
+current-page: portfolio-item
+image: "mb-mic-round.png"
+short-description: "Creation of an internal development portal"
+skills: [Workshop Facilitation, User Research, Interaction Design, Information Architecture, Front-end Development]
+skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Persona creation, Feature Mapping)', 'User Research', 'Information Architecture', 'Interaction Design', 'Front-end Development']
+---
+			
+I worked as a UX designer for one year in the MIC Portal Team. The MIC (Mercedes-Benz Intelligent Cloud) offers a reliable infrastructure, various frameworks, functions, processes, policies, and applications for connected cars and the MB.OS (Mercedes-Benz Operating System) functions.
+
+The MIC Portal Team and I designed and developed a portal that integrates multiple development teams and their different delivery pipelines. We conducted comprehensive research across all the different streams of work and worked in detail on information architecture to establish an accurate taxonomy and logical flow for how processes should integrate and how dependencies between different projects should be handled. I helped design and develop the portal itself and integrated all work streams within it.
+
+<span class="category-description">LOCATIONS:</span>
+Stuttgart, Germany
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
