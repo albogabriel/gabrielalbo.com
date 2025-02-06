@@ -17,15 +17,51 @@ The two projects were the shopping flow - searching for flights, presenting avai
 
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
+<span class="category-description">LOCATIONS:</span>
+Santiago (Chile)
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %}
+
+
+<h2>Desktop Designs</h2>
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop00.png" alt=""/>
+	 	<figcaption>Desktop: Home</figcaption>
+	</span>
+</div>
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop01.png" alt=""/>
+	 	<figcaption>Desktop: Flights List</figcaption>
+	</span>
+</div>
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop02.png" alt=""/>
+	 	<figcaption>Desktop: Flight Fares Comparison </figcaption>
+	</span>
+</div>
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop03.png" alt=""/>
+	 	<figcaption>Desktop: Passenger Information Form</figcaption>
+	</span>
+</div>
+
+<h2>Mobile Designs</h2>
+
 <div style="text-align: center; display:-webkit-flex;">
 	<span> 
 	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/01.PNG" alt=""/>
 	 	<figcaption>Mobile: Home</figcaption>
 	</span>
+	<br>
 	<span>
 		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/02.PNG" alt=""/>
 		<figcaption>Mobile: Flight List</figcaption>
 	</span>
+	<br>
 	<span>
 		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/04.PNG" alt=""/>
 		<figcaption>Mobile: Flight Fare Details</figcaption>
@@ -44,12 +80,7 @@ Working directly within their design team also involved collaborating directly i
 	</span>
 	<span>
 		<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/latam/07.JPG" alt=""/>
-		<figcaption>Mobile: Passenger Information</figcaption>
+		<figcaption>Mobile: Passenger Information Form</figcaption>
 	</span>
  </div>
-<br>
-
-<span class="category-description">LOCATIONS:</span>
-Porto Alegre (Brazil)
-
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
+<br> 
