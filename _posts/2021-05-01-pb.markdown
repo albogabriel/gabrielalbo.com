@@ -13,6 +13,24 @@ skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Per
 			
 I worked for Payback as a UX designer for one year. During that time, a multifunctional team and I worked on designing and delivering the concept of (Marketing) Challenges for Payback. We developed a desktop admin system that allowed Payback marketing managers to create challenges (such as “Every 50€ spent on Store X during the month of December grants you a 20% discount coupon”) and a user interface on the Payback app so customers could enroll in challenges and track their progress.
 
+<div style="text-align: center; display:-webkit-flex;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/payback/01.PNG" alt=""/>
+	 	<figcaption>Challenges tile added to the Services menu</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/payback/02.PNG" alt=""/>
+		<figcaption>Challenges list</figcaption>
+		<br>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/payback/03.PNG" alt=""/>
+		<figcaption>Active Challenge</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/payback/04.PNG" alt=""/>
+		<figcaption>Challenge Details page</figcaption>
+	</span>
+ </div>
+<br>
 My work focused, but was not limited to, running an inception with over 20 participants from the team and stakeholders to frame the product. I conducted user research and analysis, created prototypes for testing, designed the user interfaces, and collaborated with the development team to find agile solutions for front-end framework capabilities.
 
 <span class="category-description">LOCATIONS:</span>
