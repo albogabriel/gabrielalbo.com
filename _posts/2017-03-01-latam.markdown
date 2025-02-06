@@ -17,6 +17,38 @@ The two projects were the shopping flow - searching for flights, presenting avai
 
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
+<div style="text-align: center; display:-webkit-flex;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/01.PNG" alt=""/>
+	 	<figcaption>Mobile: Home</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/02.PNG" alt=""/>
+		<figcaption>Mobile: Flight List</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/04.PNG" alt=""/>
+		<figcaption>Mobile: Flight Fare Details</figcaption>
+	</span>
+ </div>
+<br>
+
+<div style="text-align: center; display:-webkit-flex;">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/latam/05.JPG" alt=""/>
+	 	<figcaption>Mobile: Flight Fare Change</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 62%;" src="{{ site.baseurl }}/assets/images/projects/latam/06.PNG" alt=""/>
+		<figcaption>Mobile: Trip Summary</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/latam/07.JPG" alt=""/>
+		<figcaption>Mobile: Passenger Information</figcaption>
+	</span>
+ </div>
+<br>
+
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre (Brazil)
 
