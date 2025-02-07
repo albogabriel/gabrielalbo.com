@@ -20,6 +20,13 @@ I led a series of Design Sprints for Yara, creating an innovative and cost-effec
 Yara approached us with a unique challenge: they needed a better way to measure silo occupancy levels across their facilities. I initiated a design sprint, collaborating with a multidisciplinary team to hypothesize, prototype, and test solutions.
 We explored diverse methods, from manual measurements using pulley systems to advanced 3D modeling with Kinect sensors and mobile systems. By the end of the engagement, we developed a solution with over 98% measurement accuracy. This prototype not only exceeded the accuracy of their existing methods but also drastically reduced time and cost while enhancing employee safety. It was a rewarding project, merging creative problem-solving with practical implementation.
 
+<div style="text-align: center;">
+	<video class="project-image" width="100%" autoplay muted>
+  		<source src="{{ site.baseurl }}/assets/images/projects/yara/showcase3d.mp4" type="video/mp4">
+  		Your browser does not support the video tag.
+	</video>
+	<figcaption>3D model of differently sized piles scanned with our prototype</figcaption>
+</div>
 <br>
 <span class="category-description">LOCATIONS:</span>
 Porto Alegre (Brazil)
