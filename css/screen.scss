@@ -113,7 +113,7 @@ ul.posts {
 
 ul.posts li {
   line-height: 1.75em;
-  text-align: center;
+  text-align: left;
 }
 
 ul.posts span {
@@ -468,7 +468,7 @@ li.post-header {
   }
 
   .portfolio-project {
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -582,7 +582,12 @@ span.project-image-container {
 span.project-description-container {
   text-align: left;
   font-size: 110% !important;
-  width: 65%;
+  width: 68%;
+
+  h2 {
+    width: 62%;
+  }
+
 }
 
 @media (max-width: 50em) {
