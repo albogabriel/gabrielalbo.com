@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Thoughtworks University (TWU): UX and Business Analysis Trainer"
+title:  "Thoughtworks University: UX and Business Analysis Trainer"
 start-date: Mar 2022
 end-date: Mar 2023
 category: projects
