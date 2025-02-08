@@ -17,11 +17,80 @@ I led a series of Design Sprints for Yara, creating an innovative and cost-effec
 
 <b>Long version</b>
 <br>
-Yara approached us with a unique challenge: they needed a better way to measure silo occupancy levels across their facilities. I initiated a design sprint, collaborating with a multidisciplinary team to hypothesize, prototype, and test solutions.
-We explored diverse methods, from manual measurements using pulley systems to advanced 3D modeling with Kinect sensors and mobile systems. By the end of the engagement, we developed a solution with over 98% measurement accuracy. This prototype not only exceeded the accuracy of their existing methods but also drastically reduced time and cost while enhancing employee safety. It was a rewarding project, merging creative problem-solving with practical implementation.
+Yara approached us with a unique challenge: they needed a better way to measure silo occupancy levels across their facilities. We initiated an experimentation process based on Design Sprints, collaborating with a multidisciplinary team to hypothesize, prototype, and test solutions.
+
+We have started with a few interviews and study before running a Discovery workshop focused on defining what would be the scope, approach, success metrics and logistcs, since a big part of the project took place on site - that is, inside the silos, surrounded by mountains of tons of grains and chemicals - with all proper safety equipment and following the client's safety protocols.
+
+We have also defined the ways of working, which included weekly showcases and a validation board which described our hypothesis, the learnings and pivot notes.
+
+<div style="text-align: center; display:-webkit-flex; margin: 20px 0 40px 0;">
+	<span> 
+	 	<img class="project-image" style="width: 100%;" src="{{ site.baseurl }}/assets/images/projects/yara/01.jpg" alt=""/>
+	 	<figcaption>Running Discovery Workshop Session</figcaption>
+	</span>
+</div>
+
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/02.png" alt=""/>
+	 	<figcaption>Discovery Workshop with clients</figcaption>
+	</span>
+	<br>
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/03.png" alt=""/>
+	 	<figcaption>Draft of the experimentation model sketched in group</figcaption>
+	</span>
+</div>
+
+We explored diverse methods, from manual measurements using pulley systems to advanced 3D modeling with Kinect sensors and mobile systems. 
+
+We started playing with more mechanical solutions, including fishing rods, windlasses and sinkers, among may other pulley systems. One of the first experients consisted of building a miniature version of a silo to experiment with and validate our results.
+
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/04.png" alt=""/>
+	 	<figcaption>We made use of several different materials to play with</figcaption>
+	</span>
+	<br>
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/05.png" alt=""/>
+	 	<figcaption>Mini-silo filled with cornstarch</figcaption>
+	</span>
+	<br>
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/06.png" alt=""/>
+	 	<figcaption>Early 3D model of the mini silo</figcaption>
+	</span>
+</div>
+
+Learning through the sprints that 3D modeling could grant us much more mobility, we dwelved into different ways of making such models - for example, capturing multiple images with a tablet to then feed them to a prototype system that would render it.
+
+<div style="text-align: center; display:-webkit-flex; margin: 20px 0 40px 0;">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/07.png" alt=""/>
+	 	<figcaption>Inside a silo, testing with a tablet</figcaption>
+	</span>
+	<br>
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/08.png" alt=""/>
+	 	<figcaption>Trying to capture more irregular piles with a tablet</figcaption>
+	</span>
+	<br>
+</div>
+
+Since gathering the images and working with them to build a 3D render was resulting in complex processing and less accurate results, we searched for other ways to capture such images. The best way we could find with an existing tool was to use the Microsoft Kinnect sensor plugged to a laptop - later replaced by a much lighter tablet, which could remain in a small backpack during measurement. This solution proved to be mobile, safe, cheap and very accurate.
+
+<div style="text-align: center; display:-webkit-flex; margin: 20px 0 40px 0;">
+	<span> 
+	 	<img class="project-image" style="width: 100%;" src="{{ site.baseurl }}/assets/images/projects/yara/09.png" alt=""/>
+	 	<figcaption>Measuring with a Microsoft Kinnect</figcaption>
+	</span>
+</div>
+
+By the end of the engagement, we developed a solution with over 98% measurement accuracy. This prototype not only exceeded the accuracy of their existing methods but also drastically reduced time and cost while enhancing employee safety. It was a rewarding project, merging creative problem-solving with practical implementation.
 
 <div style="text-align: center;">
-	<video class="project-image" width="100%" autoplay muted>
+	<video controls loop class="project-image" width="100%" autoplay muted>
   		<source src="{{ site.baseurl }}/assets/images/projects/yara/showcase3d.mp4" type="video/mp4">
   		Your browser does not support the video tag.
 	</video>
