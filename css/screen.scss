@@ -278,11 +278,12 @@ header {
   .logo img {
     min-height: 6em;
     max-width: none;
+    -webkit-transition-duration: 1s;
 
     &:hover {
       opacity:0.6;
       filter:alpha(opacity=40); /* For IE8 and earlier */
-      -webkit-transition-duration: 0.25s;
+      -webkit-transition-duration: 1s;
     }
   }
 
@@ -352,11 +353,11 @@ ul.menu {
     -moz-border-radius: 70px;
 
       $scale: 1;
-      -webkit-transition-duration: 0.5s;
+      -webkit-transition-duration: 1s;
 
     &:hover {
       $scale: 1.2;
-      -webkit-transition-duration: 0.5s;
+      -webkit-transition-duration: 1s;
 
       transform:scale($scale);
       -ms-transform:scale($scale); /* IE 9 */
@@ -419,7 +420,7 @@ li.post-header {
   min-height: 90px;
   height: 100%;
   color: $light-header-background;
-  padding: 25px;
+  padding: 2em 0;
 
   a, a:visited {
     display: block;
@@ -460,6 +461,8 @@ li.post-header {
 
   &:hover {
     background-color: $darkest-main-color;
+    transition-duration: 0.8s;
+    transition-property: background-color;
   }
 
   .portfolio-project {
