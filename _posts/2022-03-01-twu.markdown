@@ -5,6 +5,7 @@ start-date: Mar 2022
 end-date: Mar 2023
 category: projects
 current-page: portfolio-item
+highlighted-project: "yes"
 image: "twu-round.png"
 short-description: "Trainer at internal Thoughtworks training program for new hires who are graduates or career changers"
 skills: [Workshop Facilitation, Classes preparation and presentation, Content Creation, Mentoring]

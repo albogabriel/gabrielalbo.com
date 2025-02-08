@@ -6,6 +6,7 @@ end-date: Dec 2016
 category: projects
 current-page: portfolio-item
 image: "yara-round.png"
+highlighted-project: "yes"
 short-description: "Service Design and Design Sprints for Warehouse Measurement Innovation"
 skills: [Research, Service Design, Design Sprints]
 skills-used: [Research, Service Design, Design Sprints]

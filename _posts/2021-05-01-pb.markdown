@@ -5,6 +5,7 @@ start-date: May 2021
 end-date: Mar 2022
 category: projects
 current-page: portfolio-item
+highlighted-project: "yes"
 image: "pb-round.png"
 short-description: "Creation of a Marketing Challenges and Campaigns (internal, admin system and movile, client-facing section in the app)"
 skills: [Workshop Facilitation, User Research, Interaction Design, Information Architecture, Front-end Development, Business Analysis]

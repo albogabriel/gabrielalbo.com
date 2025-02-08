@@ -5,6 +5,7 @@ start-date: Mar 2017
 end-date: Feb 2018
 category: projects
 current-page: portfolio-item
+highlighted-project: "yes"
 image: "latam.png"
 short-description: "Airline e-commerce shopping and booking flows"
 skills: [User Research, Interaction Design, Front-end Development, Accessibility]

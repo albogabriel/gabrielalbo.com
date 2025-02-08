@@ -9,6 +9,10 @@ title: Gabriel Albo - Projects
       {% for post in site.categories.projects %}
 
         <li class="post-header">
+
+          {% if post.highlighted-project == "yes" %}
+            <h4 class="ribbon">Highlighted Project</h4>
+          {% endif%}
         	<a class="clickable-div" href="{{ site.baseurl }}{{ post.url }}"target="_self">
             <div class="portfolio-project">
               <span class="project-image-container">
