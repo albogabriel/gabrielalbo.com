@@ -18,7 +18,20 @@ During this year, I helped conduct eight different terms with around 20 new hire
 
 I also designed much of the program’s content, particularly the hands-on design sessions and a one-day monthly session on Accessibility, Diversity, and Inclusion.
 
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 50%" src="{{ site.baseurl }}/assets/images/projects/twu/twu-term-sessions.png" alt=""/> 
+	 <figcaption>Sessions I would usually run during the regular three-week terms</figcaption>
+ </div>
+ <br>
+
 This program was incredibly impactful and personally rewarding, especially as it gave me the opportunity to formally mentor all the trainees during the terms and 15 of them on a one-to-one basis throughout the year. I was able to help them adapt to the company, learn the ways of working, and find their path within the organization.
+
+<div style="text-align: center;">
+	 <img class="project-image" style="width: 100%" src="{{ site.baseurl }}/assets/images/projects/twu/twu-tshirt.png" alt=""/> 
+	 <figcaption>T-shirt I designed celebrating that year's tour</figcaption>
+ </div>
+ <br>
+
 
 <span class="category-description">LOCATIONS:</span>
 Berlin, Germany. Distributed team across Spain, England and the Netherlands.

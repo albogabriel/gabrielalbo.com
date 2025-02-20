@@ -1,19 +1,19 @@
 ---
 layout: project
-title:  "U.S. Top 3 Clothing retailer *"
+title:  "GAP"
 start-date: Aug 2011
 end-date: Aug 2013
 category: projects
 current-page: portfolio-item
-image: "retailer-round.png"
+image: "gap.png"
 short-description: "Multinational clothing and accessories retailer e-commerce; checkout flow, product pages, returns and shippin and customer account management."
 skills: [Interaction Design, Front-end Development, Research, A/B testing]
 skills-used: [Analytics, A/B testing, Interaction design, HTML, CSS, Javascript, Usability testing]
 ---
 
-<span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
+<span class="category-description">NOTE:</span> Images and project details must remain private due to a non-disclosure agreement.
 
-Over the course of 2 years I have worked for this client. I have been a part of a total of 5 projects, all dealing with their e-com platform (ranked amongst the world’s top 20 for retail by revenue). 
+Over the course of 2 years I have worked for GAP. I have been a part of a total of 5 projects, all dealing with their e-com platform (ranked amongst the world’s top 20 for retail by revenue). 
 
 I have worked on:
 
