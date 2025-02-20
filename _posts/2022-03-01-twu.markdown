@@ -16,13 +16,13 @@ I worked as a TWU trainer for one year. Thoughtworks University is a program des
 
 During this year, I helped conduct eight different terms with around 20 new hires from all over Europe in each. I taught and conducted sessions on Design topics (interaction design, visual design, accessibility, user research, personas, user journeys), Business Analysis (estimation and planning, path to production, user story writing & INVEST, user story slicing and refinement), Agile (Agile 101, path to production), and facilitated several agile ceremonies (from sprint/iteration planning to retrospectives) to help the trainees learn how these sessions are conducted and then lead them themselves.
 
-I also designed much of the program’s content, particularly the hands-on design sessions and a one-day monthly session on Accessibility, Diversity, and Inclusion.
-
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 50%" src="{{ site.baseurl }}/assets/images/projects/twu/twu-term-sessions.png" alt=""/> 
 	 <figcaption>Sessions I would usually run during the regular three-week terms</figcaption>
  </div>
  <br>
+
+I also designed much of the program’s content, particularly the hands-on design sessions and a one-day monthly session on Accessibility, Diversity, and Inclusion.
 
 This program was incredibly impactful and personally rewarding, especially as it gave me the opportunity to formally mentor all the trainees during the terms and 15 of them on a one-to-one basis throughout the year. I was able to help them adapt to the company, learn the ways of working, and find their path within the organization.
 
