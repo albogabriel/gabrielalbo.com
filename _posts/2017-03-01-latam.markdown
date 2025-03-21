@@ -9,7 +9,7 @@ highlighted-project: "yes"
 image: "latam.png"
 short-description: "Airline e-commerce shopping and booking flows"
 skills: [User Research, Interaction Design, Front-end Development, Accessibility]
-skills-used: [Usability Testing, User interviews, A/B testing, Interaction Design (Sketch), Paper prototypes and Invision click dummies), Front-end development (HTML + CSS + JavaScript), Internationalisation, Accessibility assessments]
+skills-used: [Usability Testing, User interviews, A/B testing, Interaction Design (Sketch), Paper prototypes and Invision click dummies, Front-end development (HTML + CSS + JavaScript), Internationalisation, Accessibility assessments]
 ---
 
 Worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client’s UX team and working directly with two project teams in their headquarters in Santiago, Chile. 

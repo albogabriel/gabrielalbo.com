@@ -332,11 +332,13 @@ figcaption {
 /* line 181, ../_sass/screen.scss */
 body {
   overflow-y: scroll;
+  height: fit-content;
 }
 
 header {
+  position: sticky;
   top: 0;
-  bottom: 0;
+  z-index: 9999;
   padding-bottom: 20px;
   background-color: $light-header-background;
   text-align: center;
