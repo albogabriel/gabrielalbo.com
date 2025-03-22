@@ -344,7 +344,7 @@ header {
   text-align: center;
 
   .logo img {
-    min-height: 6em;
+    height: 6em;
     max-width: none;
     -webkit-transition-duration: 1s;
 
@@ -359,6 +359,7 @@ header {
     .logo img {
       min-height: 4em;
       max-width: none;
+      transition: 0.75s;
     }
   }
 

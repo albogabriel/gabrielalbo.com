@@ -37,7 +37,7 @@
                     <h1 class="logo">
                         <span>
                             <a href="{{ site.baseurl }}/" target="_self">
-                                <img class="logo-fill" src="{{ site.baseurl }}/assets/images/logo_albo_home.svg" alt="Gabriel Albo">
+                                <img id="logo-name" class="logo-fill" src="{{ site.baseurl }}/assets/images/logo_albo_home.svg" alt="Gabriel Albo">
                              </a>
                          </span>
                     </h1>
@@ -66,5 +66,18 @@
         <div class="main">
             {{ content }}
         </div>
+
+        <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            document.getElementById("logo-name").style.fontSize = "10px";
+          } else {
+            document.getElementById("logo-name").style.fontSize = "20px";
+          }
+        }
+        </script>
     </body>
 </html>
