@@ -34,6 +34,65 @@ The two projects were the shopping flow - searching for flights, presenting avai
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
 <h2>Processes</h2>
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 100%;" src="{{ site.baseurl }}/assets/images/projects/latam/sketching01.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/sketching02.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+</div>
+
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/sketching03.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall03.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+</div>
+
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall04.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall05.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+</div>
+
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall01.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall02.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall06.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+</div>
+
+<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall07.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall08.jpg" alt=""/>
+	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	</span>
+</div>
 
 
 
