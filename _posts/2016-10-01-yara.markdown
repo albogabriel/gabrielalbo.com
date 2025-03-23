@@ -12,12 +12,27 @@ skills: [Research, Service Design, Design Sprints]
 skills-used: [Research, Service Design, Design Sprints]
 ---
 
-<b>TL;DR</b>
-<br>
-I led a series of Design Sprints for Yara, creating an innovative and cost-effective solution to measure silo occupancy levels with high accuracy. The result was a prototype that improved safety, reduced costs, and surpassed existing measurement methods in reliability and speed.
+<div class="project-summary"> 
+	<div class="category-description">CHALLENGE</div>
+	<p>Yara needed a precise, cost-effective way to measure silo occupancy across facilities. Existing methods were unreliable, slow, and posed safety risks. The challenge required on-site experimentation in hazardous environments while ensuring compliance with strict safety protocols.</p>
 
-<b>Long version</b>
-<br>
+	<div class="category-description">SOLUTION</div>
+	<p>A prototype leveraging 3D modeling with Kinect sensors to scan silo contents safely and accurately. This solution outperformed manual measurement systems in precision, speed, and cost-efficiency while maintaining mobility and safety.</p>
+	
+	<div class="category-description">MY ROLE</div>
+	<p>I led the design sprints, conducted user research, facilitated discovery workshops, and collaborated with a multidisciplinary team. I also tested and refined prototypes, ensuring alignment with user needs and operational constraints.</p>
+	
+	<div class="category-description">APPROACH</div>
+	<p>Starting with research and a discovery workshop, we defined project scope, success metrics, and logistics. Through iterative sprints using the Design Sprint methodology, we explored mechanical and digital solutions, from pulley-based systems to image-based 3D modeling. After testing multiple approaches, we refined a Kinect-based solution that delivered 98% accuracy, significantly improving efficiency and safety.</p>
+</div>
+
+<span class="category-description">LOCATIONS:</span>
+Porto Alegre (Brazil)
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
+
+<h2>Project description</h2>
+
 Yara approached us with a unique challenge: they needed a better way to measure silo occupancy levels across their facilities. We initiated an experimentation process based on Design Sprints, collaborating with a multidisciplinary team to hypothesize, prototype, and test solutions.
 
 We have started with a few interviews and study before running a Discovery workshop focused on defining what would be the scope, approach, success metrics and logistcs, since a big part of the project took place on site - that is, inside the silos, surrounded by mountains of tons of grains and chemicals - with all proper safety equipment and following the client's safety protocols.
@@ -97,8 +112,3 @@ By the end of the engagement, we developed a solution with over 98% measurement 
 	</video>
 	<figcaption>3D model of differently sized piles scanned with our prototype</figcaption>
 </div>
-<br>
-<span class="category-description">LOCATIONS:</span>
-Porto Alegre (Brazil)
-
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 

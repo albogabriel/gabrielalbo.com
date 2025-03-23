@@ -27,6 +27,8 @@ Santiago (Chile)
 
 <span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %}
 
+<h2>Project description</h2>
+
 I have worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client’s UX team and working directly with two project teams in their headquarters in Santiago, Chile. 
 
 The two projects were the shopping flow - searching for flights, presenting available options and all the required information and alternative views - and the booking flow, which involved capturing passenger information to proceed with booking their ticket. 
