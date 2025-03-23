@@ -31,7 +31,7 @@ We have also defined the ways of working, which included weekly showcases and a 
 	</span>
 </div>
 
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
 	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/02.png" alt=""/>
 	 	<figcaption>Discovery Workshop with clients</figcaption>
@@ -47,7 +47,7 @@ We explored diverse methods, from manual measurements using pulley systems to ad
 
 We started playing with more mechanical solutions, including fishing rods, windlasses and sinkers, among may other pulley systems. One of the first experients consisted of building a miniature version of a silo to experiment with and validate our results.
 
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
 	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/04.png" alt=""/>
 	 	<figcaption>We made use of several different materials to play with</figcaption>

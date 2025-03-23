@@ -34,90 +34,126 @@ The two projects were the shopping flow - searching for flights, presenting avai
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
 <h2>Processes</h2>
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+Being a part of a multisciplinary team composed of developers, product managers, business analysts and QAs, all very familiar with the context of the product but approaching it from their own specialties and perspectives, we tried to leverage all that knowledge and collaborate as much as possible. One of the ways of collaborating was running sketching sessions in which everyone participated and we could get multiple ideas on how to solve problems.
+
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 100%;" src="{{ site.baseurl }}/assets/images/projects/latam/sketching01.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching01.jpg" alt=""/>
+	 	<!--   -->
 	</span>
 
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/sketching02.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching03.jpg" alt=""/>
+	 	<!-- <figcaption>Separated in groups, after playing around individually, they joined to discuss the solutions with one another</figcaption> -->
 	</span>
 </div>
 
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/sketching03.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching02.jpg" alt=""/>
 	</span>
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall03.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching04.jpg" alt=""/>
 	</span>
 </div>
 
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+We have also made extensive use of design critiques and feedback sessions, bringing different options and alternatives early on for the development team - or the other designers in our squad - to provide us with their input. From time to time, we would hang those designs on the wall and leave them for a couple of days, allowing for people to randomly provide us feedback if they happen to have an insight during the day.
+
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall04.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall04.jpg" alt=""/>
+	 	 
 	</span>
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall05.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall05.jpg" alt=""/>
+	 	 
+	</span>
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall03.jpg" alt=""/>
+	 	 
+	</span>	
+</div>
+
+<div class="project-image-container">
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall01.jpg" alt=""/>
+	 	 
+	</span>
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall02.jpg" alt=""/>
+	 	 
+	</span>
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall06.jpg" alt=""/>
+	 	 
 	</span>
 </div>
 
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall01.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall07.jpg" alt=""/>
+	 	 
 	</span>
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall02.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
-	</span>
-	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall06.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall08.jpg" alt=""/>
+	 	 
 	</span>
 </div>
 
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall07.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
-	</span>
-	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/wall08.jpg" alt=""/>
-	 	<figcaption>Conducting a sketching session with the team</figcaption>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/whiteboard.jpg" alt=""/>
+	 	<figcaption>Ideas were frequently sketched on whiteboards and discussed in group - with the proper "don't erase!" request when the conversation was to be continued :)</figcaption>
 	</span>
 </div>
 
+This approach not only brought us very valuable feedback and information that was previously unknown, but also created more transparency on the design process and a sense of ownership by the whole team, as they were effectively a part of the process.
 
+
+<h2>Research and User Testing</h2>
+
+Latam had a quite mature research practice and was well equipped for it. A dedicated team of researchers had a research lab available and great user recruiting processes. 
+
+<div class="project-image-container">
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/user-research.jpg" alt=""/>
+	 	<figcaption>Rounds of formal user testing happened in their User Research Lab, which was accessible to us as conductors and spectators</figcaption>
+	</span>
+</div>
+
+But we also conducted a ot of quicker, guerilla style research, too. We frequently used their recruiting capabilities to do so, but also found creative ways of recruiting, interviewing and testing. For example, by running interviews at the airports, inside boarding rooms, with actual passengers. We ran such interviews in the airport of Santiago de Chile and São Paulo, Brazil.
+
+<div class="project-image-container">
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/cracha.jpg" alt=""/>
+	 	<figcaption>Fun fact of interviewing at the airport while wearing an Airline badge: passengers come to you to help them sort out their flight and seating situations. </figcaption>
+	</span>
+</div>
+
+We were also able to make use of analytics and a mature structure of A/B testing when it came to deployment, which allowed us to test new features and progressively roll them out from a small percentage of users to the entire user base. We made use of those capabilities to also try smaller design changes, such as the placement of links (for example, for the matrix of flexible dates), and to learn more about our users behaviors.
 
 <h2>Desktop Designs</h2>
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop00.png" alt=""/>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop00.png" alt=""/>
 	 	<figcaption>Desktop: Home</figcaption>
 	</span>
 </div>
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop01.png" alt=""/>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop01.png" alt=""/>
 	 	<figcaption>Desktop: Flights List</figcaption>
 	</span>
 </div>
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop02.png" alt=""/>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop02.png" alt=""/>
 	 	<figcaption>Desktop: Flight Fares Comparison </figcaption>
 	</span>
 </div>
-<div style="text-align: center; display:-webkit-flex; margin-bottom: 40px;">
+<div class="project-image-container">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/desktop03.png" alt=""/>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop03.png" alt=""/>
 	 	<figcaption>Desktop: Passenger Information Form</figcaption>
 	</span>
 </div>
@@ -126,17 +162,17 @@ Working directly within their design team also involved collaborating directly i
 
 <div style="text-align: center; display:-webkit-flex;">
 	<span> 
-	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/01.PNG" alt=""/>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/01.PNG" alt=""/>
 	 	<figcaption>Mobile: Home</figcaption>
 	</span>
 	<br>
 	<span>
-		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/02.PNG" alt=""/>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/02.PNG" alt=""/>
 		<figcaption>Mobile: Flight List</figcaption>
 	</span>
 	<br>
 	<span>
-		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/latam/04.PNG" alt=""/>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/04.PNG" alt=""/>
 		<figcaption>Mobile: Flight Fare Details</figcaption>
 	</span>
  </div>
@@ -157,3 +193,10 @@ Working directly within their design team also involved collaborating directly i
 	</span>
  </div>
 <br> 
+
+<h2>Results</h2>
+The team has successfully delivered the shopping and booking flows on time, completing the full transition from Amadeus to Sabre and being able to still work on smaller improvements, capture usage metrics and make improvements after going to production.
+
+Many of those improvements were small, country specific tweaks such as improving legibility for certain currencies, tailoring content according to regional dialects, etc..
+
+Overall, the project was successful and LATAM Airlines decided to maintain their business relationship with Thoughtworks, which led to more project collaborations over the following years.
