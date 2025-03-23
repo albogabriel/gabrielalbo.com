@@ -12,16 +12,29 @@ skills: [User Research, Interaction Design, Front-end Development, Accessibility
 skills-used: [Usability Testing, User interviews, A/B testing, Interaction Design (Sketch), Paper prototypes and Invision click dummies, Front-end development (HTML + CSS + JavaScript), Internationalisation, Accessibility assessments]
 ---
 
-Worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client’s UX team and working directly with two project teams in their headquarters in Santiago, Chile. 
+<div class="project-summary"> 
+	<div class="category-description">CHALLENGE</div>
+	<p>With rising low-cost competition and the need to improve their then-existing shopping flow, LATAM needed to offer an intuitive flight searching process and clearer fare comparisons to balance competitive pricing with premium options, as well as a simple and secure booking experience. This challenge coincided with its transition from Amadeus to SabreSonic, adding technical hurdles and a strict timeline.</p>
+	<div class="category-description">SOLUTION</div>
+	<p>A redesigned shopping and booking experience that simplified flight searches, fare comparisons, and ticket purchases. The new design prioritized clarity in presenting fare options and ensured integration with the SabreSonic system, providing intuitive layouts and improved accessibility to help users make informed decisions.</p>
+	<div class="category-description">MY ROLE</div>
+	<p>As a UX designer embedded within LATAM’s design team, I collaborated across all project phases. My contributions included product design, user research, interaction design and business analysis ensuring a seamless and informative booking experience aligned with the new reservation system.</p>
+	<div class="category-description">APPROACH</div>
+	<p>We used an iterative, user-centered design process with usability testing and interviews to refine the experience. We optimized fare presentation for easy comparison, as long as redefinin. I also worked closely with technical teams to ensure compatibility with the new SabreSonic system.</p>
+</div>
+<span class="category-description">LOCATIONS:</span>
+Santiago (Chile)
+
+<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %}
+
+I have worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client’s UX team and working directly with two project teams in their headquarters in Santiago, Chile. 
 
 The two projects were the shopping flow - searching for flights, presenting available options and all the required information and alternative views - and the booking flow, which involved capturing passenger information to proceed with booking their ticket. 
 
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
-<span class="category-description">LOCATIONS:</span>
-Santiago (Chile)
+<h2>Processes</h2>
 
-<span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %}
 
 
 <h2>Desktop Designs</h2>
