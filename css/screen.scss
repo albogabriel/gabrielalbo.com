@@ -298,10 +298,17 @@ ul.posts span {
   margin-top: 50px;
 }
 
-.project-image-container {
+.project-image-container, .project-image-container-centralized {
   text-align: center; 
-  display:-webkit-flex; 
   margin-bottom: 40px;
+}
+
+.project-image-container {
+  display:-webkit-flex; 
+}
+
+.project-image-container-centralized { 
+  margin: 0 auto;
 }
 
 .project-image {

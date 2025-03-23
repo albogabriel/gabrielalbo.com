@@ -33,18 +33,23 @@ The two projects were the shopping flow - searching for flights, presenting avai
 
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
+<div class="project-image-container-centralized" style="width: 80%;">
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/venn.png" alt=""/>
+	 	<figcaption>This is a project where the classic Product Management Venn Diagram was quite clear in its importance</figcaption>
+	</span>
+</div>
+
 <h2>Processes</h2>
 Being a part of a multisciplinary team composed of developers, product managers, business analysts and QAs, all very familiar with the context of the product but approaching it from their own specialties and perspectives, we tried to leverage all that knowledge and collaborate as much as possible. One of the ways of collaborating was running sketching sessions in which everyone participated and we could get multiple ideas on how to solve problems.
 
 <div class="project-image-container">
 	<span> 
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching01.jpg" alt=""/>
-	 	<!--   -->
 	</span>
 
 	<span> 
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching03.jpg" alt=""/>
-	 	<!-- <figcaption>Separated in groups, after playing around individually, they joined to discuss the solutions with one another</figcaption> -->
 	</span>
 </div>
 
