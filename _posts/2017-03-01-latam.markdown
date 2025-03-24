@@ -43,6 +43,18 @@ Working directly within their design team also involved collaborating directly i
 </div>
 
 <h2>Processes</h2>
+The project consisted of Discovery, Inception, Development and Delivery/Post-production phases.
+
+We employed a traditional agile process when it came not only to the general product development, but also as part of the design process. I collaborated with a cluster of designers composed of interaction designers, UX content writers and researchers, all very focused on a handful of adjacent products related to the shopping and booking flows - from search and selection to booking and ancillaries like luggage, seats and meals. This helped us keep a consistent user flow across the process.
+
+In terms of actual tasks, we would frequently start tackling specific challenges for features collaborating with Business Analysts, Tech Leads and Product Owners. Having gathered enough information and coming to a common understing on requirements, I liked to sketch basic interations on wireframes, paper prototypes or simpler click dummies to further validate concepts. After such validations, I would proceed to higher fidelity mockups using Sketch and Invision.
+
+<h3>The Design System</h3>
+
+There was a robust Design System that was fed upon by the several different design and development teams and well managed by a dedicated team. We frequently found existing components and interactions that fulfilled our design needs, but often times we created new ones in collaboration with the Design System team. Personally, I have both contributed to the Design System library with Sketch components, but I eventually also created components on the code, collaborating and following development processes (running front-end tests, with Continuous Integration).
+
+
+<h3>Collaboration</h3>
 Being a part of a multisciplinary team composed of developers, product managers, business analysts and QAs, all very familiar with the context of the product but approaching it from their own specialties and perspectives, we tried to leverage all that knowledge and collaborate as much as possible. One of the ways of collaborating was running sketching sessions in which everyone participated and we could get multiple ideas on how to solve problems.
 
 <div class="project-image-container">
