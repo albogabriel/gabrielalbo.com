@@ -58,7 +58,31 @@ We have also defined the ways of working, which included weekly showcases and a 
 	</span>
 </div>
 
+<div class="project-image-container">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/02a.png" alt=""/>
+	 	<figcaption>The workshop board</figcaption>
+	</span>
+</div>
+
+<div class="project-image-container">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/02b.png" alt=""/>
+	 	<figcaption>A Business Origami Activity ran to understand the chain users behaviors, feelings, and actions</figcaption>
+	</span>
+	<br>
+	<span> 
+	 	<img class="project-image" style="width: 44%;" src="{{ site.baseurl }}/assets/images/projects/yara/02c.jpg" alt=""/>
+	 	<figcaption>An example of the "Product in a Box" activity</figcaption>
+	</span>
+</div>
+
 We explored diverse methods, from manual measurements using pulley systems to advanced 3D modeling with Kinect sensors and mobile systems. 
+
+<h2>Design Sprints</h2>
+
+<h3>Sprint 1</h3>
+Having decided to move fast using the experimentation methodology of Design Sprints, we have have decided to start with the simpler way of learning 
 
 We started playing with more mechanical solutions, including fishing rods, windlasses and sinkers, among may other pulley systems. One of the first experients consisted of building a miniature version of a silo to experiment with and validate our results.
 
@@ -79,6 +103,8 @@ We started playing with more mechanical solutions, including fishing rods, windl
 	</span>
 </div>
 
+<h3>Sprint 2</h3>
+
 Learning through the sprints that 3D modeling could grant us much more mobility, we dwelved into different ways of making such models - for example, capturing multiple images with a tablet to then feed them to a prototype system that would render it.
 
 <div style="text-align: center; display:-webkit-flex; margin: 20px 0 40px 0;">
@@ -94,7 +120,9 @@ Learning through the sprints that 3D modeling could grant us much more mobility,
 	<br>
 </div>
 
-Since gathering the images and working with them to build a 3D render was resulting in complex processing and less accurate results, we searched for other ways to capture such images. The best way we could find with an existing tool was to use the Microsoft Kinnect sensor plugged to a laptop - later replaced by a much lighter tablet, which could remain in a small backpack during measurement. This solution proved to be mobile, safe, cheap and very accurate.
+<h3>Sprint 3</h3>
+
+Since gathering the images and working with them to build a 3D render was resulting in complex processing and less accurate results, we searched for other ways to capture such images. The best way we could find with an existing tool was to use the Microsoft Kinnect sensor plugged to a laptop, which proved to be a cheap and quite accurate solution.
 
 <div style="text-align: center; display:-webkit-flex; margin: 20px 0 40px 0;">
 	<span> 
@@ -103,7 +131,19 @@ Since gathering the images and working with them to build a 3D render was result
 	</span>
 </div>
 
-By the end of the engagement, we developed a solution with over 98% measurement accuracy. This prototype not only exceeded the accuracy of their existing methods but also drastically reduced time and cost while enhancing employee safety. It was a rewarding project, merging creative problem-solving with practical implementation.
+<h3>Sprint 4</h3>
+Having achieved great results with the Kinnect sensor and the laptop, a still remaining issue we had was mobility. We were able to employ a lightweight software solution that could be ran from a tablet, keeping the Kinnect sensor as the main source of 3D capture.
+
+
+<div style="text-align: center; display:-webkit-flex; margin: 20px 0 40px 0;">
+	<span> 
+	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/yara/11.jpg" alt=""/>
+	 	<figcaption>An example of a Validation Board</figcaption>
+	</span>
+</div>
+
+<h2>Results</h2>
+By the end of the engagement, we developed a solution with over 97% measurement accuracy. This prototype not only exceeded the accuracy of their existing methods but also drastically reduced time and cost while enhancing employee safety. It was a rewarding project, merging creative problem-solving with practical implementation.
 
 <div style="text-align: center;">
 	<video controls loop class="project-image" width="100%" autoplay muted>
@@ -112,3 +152,5 @@ By the end of the engagement, we developed a solution with over 98% measurement 
 	</video>
 	<figcaption>3D model of differently sized piles scanned with our prototype</figcaption>
 </div>
+
+For following steps, we have identified some key improvements that could still be made, such as testing the mobility with drones, dedicated 3D scanners with longer reach, a custom 3D modelling software tailored to specific needs with measurement automations considering pile densities and more irregular, spread out piles in one silo. 
