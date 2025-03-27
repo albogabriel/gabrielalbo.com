@@ -11,6 +11,24 @@ skills: [Service Design, Workshop Facilitation, Information Architecture, Resear
 skills-used: ['Service Design (Business Model Canvas, Stakeholder Mapping, Service Roadmap, Prioritisation, OKRs)', 'Workshop Facilitation (Discovery kick off, User Journey Mapping, Persona creation, Feature Mapping)', 'Information Architecture','Research (interviews, ethnographic research)']
 ---
 
+<div class="project-summary"> 
+	<div class="category-description">CHALLENGE</div>
+	<p>Yara needed a precise, cost-effective way to measure silo occupancy across facilities. Existing methods were unreliable, slow, and posed safety risks. The challenge required on-site experimentation in hazardous environments while ensuring compliance with strict safety protocols.</p>
+
+	<div class="category-description">SOLUTION</div>
+	<p>An extensive Data Strategy Discovery phase that involved remote interviews and on-site hospital visits to document the as-is scenario. The team created organizational and individual journey maps, identified key data interactions, and developed hypotheses for improvement. The findings were synthesized into a strategic roadmap with prioritized recommendations for implementation.</p>
+	
+	<div class="category-description">MY ROLE</div>
+	<p>I worked in the Service Design efforts, conducting qualitative research, facilitating workshops, and mapping user journeys. I collaborated closely with a distributed team across Germany, Spain, and England to define hypotheses, prioritize initiatives, and shape the final Data Strategy.</p>
+	
+	<div class="category-description">APPROACH</div>
+	<p>The process began with stakeholder interviews and ethnographic research to understand existing workflows. I facilitated workshops such as Business Model Canvas sessions, Stakeholder Mapping, and Persona Creation to align teams and surface key insights. Using Service Roadmaps and OKRs, we structured a phased approach for implementation. The strategy provided a foundation for multiple software delivery projects, ensuring a structured and actionable execution plan.</p>
+
+	<div class="category-description">RESULTS</div>
+	<p>The Data Strategy defined the scope for the first implementation team, which started two months after Discovery. By late 2024, multiple teams were scheduled to continue work on other identified streams. The structured roadmap ensured a clear transition from research insights to software delivery, driving long-term data improvements across Spire Healthcare.</p>
+</div>
+
+
 As part of a major Data Strategy initiative, I joined the Discovery team focusing on the Service Design aspects of the engagement. I ran extensive research with different members of the organization and its functions, including internal services, hospital management, staff, and doctors. The research involved both remote interviews and hospital visits to properly understand the as-is scenario. The goal was to create organizational and individual journey maps, identify data touchpoints, and uncover the problems and opportunities related to them. I worked with the team to create hypotheses to be prioritized and worked on.
 
 After three very intense months, the team delivered an extensive Data Strategy that included a breakdown of follow-up planning for software delivery projects to implement the strategy. The first delivery team started its work two months later, with its scope defined by this Data Strategy initiative. As of late 2024, more teams are scheduled to continue the work, tackling other streams identified and defined during the Discovery phase.
