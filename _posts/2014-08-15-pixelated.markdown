@@ -13,6 +13,24 @@ skills: [Interaction Design,Front-end Development,Research,Graphic Design, Produ
 skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript, Foundation, Continuous Design, Open Design, Live Style Guide, Paper prototyping, clickable mockups, Prototyping on code, Product Design, Branding, Customer Development, Community Development, Color theory, Layout, Typography, Collaborative sketching, Personas, User journeys, Agile UX, Font-icons]
 ---
 
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Enable secure, decentralized email communication through an open-source, user-friendly encrypted email client.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>Designed and developed an intuitive email client with built-in encryption, a live style guide, and a strong open-source community.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Led UX design, user research, branding, and community development. Created personas, prototypes, and usability tests, ensuring a seamless user experience.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Used guerrilla-style user research, iterative design cycles, and continuous feedback. Developed a live style guide to maintain UI consistency.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Launched a stable version, built an engaged community, and established Pixelated as a recognized privacy-first email solution.</p>
+</div>
+
+
 Easy to use open-source encrypted email with decentralised hosting.
 
 <div style="text-align: center;">
