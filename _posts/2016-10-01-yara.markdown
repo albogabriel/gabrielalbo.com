@@ -152,5 +152,6 @@ By the end of the engagement, we developed a solution with over 97% measurement 
 	</video>
 	<figcaption>3D model of differently sized piles scanned with our prototype</figcaption>
 </div>
+<br>
 
 For following steps, we have identified some key improvements that could still be made, such as testing the mobility with drones, dedicated 3D scanners with longer reach, a custom 3D modelling software tailored to specific needs with measurement automations considering pile densities and more irregular, spread out piles in one silo. 
