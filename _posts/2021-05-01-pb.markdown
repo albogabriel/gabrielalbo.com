@@ -11,6 +11,24 @@ short-description: "Creation of a Marketing Challenges and Campaigns (internal, 
 skills: [Workshop Facilitation, User Research, Interaction Design, Information Architecture, Front-end Development, Business Analysis]
 skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Persona creation, Feature Mapping)', 'User research (surveys, interviews, usability testing)', 'Information Architecture', 'Interaction Design', 'Front-end Development (pairing with front-end devs', 'Business Analysis']
 ---
+
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>PAYBACK needed a way to create and manage marketing challenges that incentivized customer spending. The goal was to enable marketing managers to set up promotions while allowing users to enroll and track progress via the PAYBACK app.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>A desktop admin system for marketing managers to create challenges and a user interface within the PAYBACK app for customers to participate. The solution streamlined campaign management and improved user engagement.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Led an inception workshop with 20+ stakeholders to define the product. Conducted user research, designed prototypes, and created the user interface. Worked closely with developers to align the design with technical constraints.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Facilitated workshops to frame the product scope, ran user research through surveys and testing, and iteratively refined the design based on feedback. Paired with front-end developers to ensure a seamless implementation.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Delivered a fully functional challenge system that increased user participation and provided marketing managers with an efficient campaign tool. The feature successfully launched in the PAYBACK app.</p>
+</div>
+
 			
 I worked for Payback as a UX designer for one year. During that time, a multifunctional team and I worked on designing and delivering the concept of (Marketing) Challenges for Payback. We developed a desktop admin system that allowed Payback marketing managers to create challenges (such as “Every 50€ spent on Store X during the month of December grants you a 20% discount coupon”) and a user interface on the Payback app so customers could enroll in challenges and track their progress.
 
