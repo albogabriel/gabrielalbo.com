@@ -6,11 +6,40 @@
 
 /* Variables*/
 
+/* ------- Beginning of Light Mode ----------- */
 
 /* Base Colors */
-$light-text-color: #F7F7F7;
+/*$light-text-color: #F7F7F7;
 $light-header-background: #fcfcfc;
+$text-highlights: #d14233;*/
+
+/* Blue theme */
+/*
+$main-color: #28A8E7;
+$darker-main-color: #147CAF;
+$darkest-main-color: #0c4b6a;*/
+
+/* ------- End of Light Mode ---------------- */
+
+
+/* ------- Beginning of Dark Mode ----------- */
+
+$light-text-color: #050505;
+$light-header-background: #0c4b6a;
 $text-highlights: #d14233;
+
+
+$main-color: #28A8E7;
+$darker-main-color: #fcfcfc;
+$darkest-main-color: #fafafa;
+
+/* Blue theme */
+
+$main-blue-color: #28A8E7;
+$darker-main-blue-color: #147CAF;
+$darkest-main-blue-color: #0c4b6a;
+
+/* ------- End of Dark Mode ----------- */
 
 /* Green Theme */
 /*
@@ -18,12 +47,6 @@ $text-highlights: #d14233;
  $darker-main-color: #399E98;
  $darkest-main-color: #2E3844;
 */
-/* Blue theme */
-
-$main-color: #28A8E7;
-$darker-main-color: #147CAF;
-$darkest-main-color: #0c4b6a;
-
 
 /* Purple Theme */
 /*
@@ -59,7 +82,7 @@ body {
   background: $light-header-background;
 
   overflow: auto;
-    background: linear-gradient(315deg, #fcfcfc 3%, #fcfcfc 38%, #fcfcfc 68%, white 98%);
+    background: linear-gradient(315deg, $light-header-background 3%, $light-header-background 38%, $light-header-background 68%, $light-header-background 98%);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -494,7 +517,7 @@ a:hover {
 }
 
 // $post-header-colors: darken($darker-main-color, 4), darken($darker-main-color, 7);
-$post-header-colors: darken($main-color, 4), lighten($main-color, 2%);
+$post-header-colors: darken($main-blue-color, 4), lighten($main-blue-color, 2%);
 
 @for $i from 1 through length($post-header-colors) {
     li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -521,7 +544,7 @@ li.post-header {
   }
 
   .post-header-date {
-    color: darken($light-header-background, 10);
+    color: $light-header-background;
     font-weight: lighter;
     font-size: 75%;
     font-style: italic;
@@ -552,7 +575,7 @@ li.post-header {
   }
 
   &:hover {
-    background-color: $darkest-main-color;
+    background-color: lighten($darkest-main-blue-color, 10);
     transition-duration: 0.8s;
     transition-property: background-color;
   }
@@ -599,7 +622,7 @@ p.contact-icons-container {
 }
 
 span.skill-item {
-    background-color: lighten($main-color, 15%);
+    background-color: lighten($main-blue-color, 15%);
     font-weight: lighter;
     color: white !important;
     margin-right: 3px;
