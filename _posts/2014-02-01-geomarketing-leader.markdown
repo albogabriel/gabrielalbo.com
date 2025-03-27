@@ -11,12 +11,32 @@ skills: [Interaction Design, Research, Product Design]
 skills-used: [Discovery workshop, Paper prototyping, Clickable mockups, User interviews, Usability testing, Focus groups, Heuristics evaluation, User Journeys, Personas, Facilitation, Business Origami, Visual Telephone, Business Model Canvas, Elevator Pitch, Future Facebook Posts]
 ---
 
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Redesign the reports module for a geomarketing client, helping them provide better location analysis for franchise placement and advertising in Brazilian cities.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>Engaged in a comprehensive discovery process, including workshops, user interviews, and prototyping to define needs, uncover opportunities, and iteratively test solutions with real users.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Led user research, facilitated design sessions, and conducted usability testing to refine solutions. I also supported the client in defining the problems and areas for improvement.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Collaborated closely with the client throughout the project, using methods like Business Model Canvas, Visual Telephone, Business Origami, and iterative prototyping to uncover insights and test hypotheses.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Successfully redesigned the reports module and validated solutions with users, improving usability and user satisfaction. The process also led to discovering new opportunities for further exploration.</p>
+</div>
+
+<br>
+
 <span class="category-description">NOTE:</span> The client's name, images and project details must remain private due to a non-disclosure agreement.
 
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/sketches.jpg" alt=""/> 
+	 <img class="project-image" style="width: 60%" src="{{ site.baseurl }}/assets/images/projects/geomarketing/sketches.jpg" alt=""/> 
  </div>
- </br>
+
+<br>
 
 <p>A geomarketing specialized client that provides a software solution to support their own clients to, based on demographic and market data, find the best locations in Brazilian cities to open franchises or put ads. I have worked on redesigning the reports module.</p>
 
