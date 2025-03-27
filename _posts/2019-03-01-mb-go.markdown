@@ -11,6 +11,24 @@ skills: [Workshop Facilitation, Service Design, User Research, Storytelling]
 skills-used: ['Discovery Workshop Facilitation (Lean Value Tree, User Journey Mapping)', 'Service Design (Service Mapping, Stakeholder Mapping, Business Model Canvas)','Storytelling (Visual Journey Maps, Storyboards)', 'User Research']
 ---
 
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Mercedes-Benz needed to integrate online sales with dealership experiences, requiring a strategic framework for multiple development work streams.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>A 10-week Discovery engagement that identified key strategic bets, opportunities, and constraints, leading to the creation of five long-term projects.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Led workshops and interviews, developed storytelling narratives to align stakeholders, and helped define success metrics and strategic goals.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Conducted over 80 stakeholder interviews and workshops, mapped business needs, framed high-level goals, and defined a structured roadmap for implementation.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Established five major projects, each with dedicated teams, driving long-term digital transformation at Mercedes-Benz and strengthening Thoughtworks’ partnership with the company.</p>
+</div>
+
+
 As part of a major restructuring project to integrate Mercedes-Benz's online selling platforms with dealership experiences, I joined a team of business analysts, product innovation experts, and tech leads for a Discovery engagement aimed at uncovering needs, opportunities, and constraints. Our goal was to frame multiple streams of development work for the years ahead.
 
 Over the course of 10 weeks, working directly at Daimler's HQ in Stuttgart, my team and I conducted a series of workshops and interviews with over 80 stakeholders and SMEs. Together, we framed the high-level strategic goals while breaking down all the individual work streams that could stem from them.
