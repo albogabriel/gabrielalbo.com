@@ -12,6 +12,23 @@ skills: [Workshop Facilitation, Classes preparation and presentation, Content Cr
 skills-used: ['Workshops and classes presentation and facilitation (see above)', 'Learning Design', 'Content Creation (UX Design, Business Analysis, Agile, Diversity and Inclusion)', 'Mentoring']
 ---
 
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Thoughtworks University (TWU) trains new hires in agile consulting through an intensive three-week program, followed by monthly sessions and long-term mentoring. As a trainer, my role was to guide trainees in UX, Business Analysis, and Agile methodologies while enhancing the program with new content.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>I facilitated workshops, agile ceremonies, and mentoring sessions, helping trainees gain hands-on experience. I also developed new content, including hands-on design sessions and a dedicated module on Accessibility, Diversity, and Inclusion.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Trained eight terms (~140 trainees overall) across Europe, delivering sessions on UX, Business Analysis, and Agile. Provided one-on-one mentoring to 15 trainees and contributed to program improvements.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Led interactive workshops and agile ceremonies, ensuring trainees applied concepts in real-world scenarios. Designed new learning materials and refined existing content based on feedback.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Helped new hires transition smoothly into Thoughtworks, improving their confidence and skills. My contributions strengthened the program’s impact, particularly in accessibility and inclusive design.</p>
+</div>
+
 I worked as a TWU trainer for one year. Thoughtworks University is a program designed to train and mentor new hires who are fresh out of university, bootcamps, or career changes, teaching them how to conduct themselves within a typical agile consultancy project. The program consists of three weeks of intensive, full-time classes and a project simulation, followed by monthly one-day sessions on specific topics and long-term mentoring.
 
 During this year, I helped conduct eight different terms with around 20 new hires from all over Europe in each. I taught and conducted sessions on Design topics (interaction design, visual design, accessibility, user research, personas, user journeys), Business Analysis (estimation and planning, path to production, user story writing & INVEST, user story slicing and refinement), Agile (Agile 101, path to production), and facilitated several agile ceremonies (from sprint/iteration planning to retrospectives) to help the trainees learn how these sessions are conducted and then lead them themselves.
