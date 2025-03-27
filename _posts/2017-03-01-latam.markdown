@@ -21,6 +21,8 @@ skills-used: [Usability Testing, User interviews, A/B testing, Interaction Desig
 	<p>As a UX designer embedded within LATAM’s design team, I collaborated across all project phases. My contributions included product design, user research, interaction design and business analysis ensuring a seamless and informative booking experience aligned with the new reservation system.</p>
 	<div class="category-description">APPROACH</div>
 	<p>We used an iterative, user-centered design process with usability testing and interviews to refine the experience. We optimized fare presentation for easy comparison, as long as redefinin. I also worked closely with technical teams to ensure compatibility with the new SabreSonic system.</p>
+	<div class="category-description">RESULTS</div>
+	<p>The projects ultimately achieved the goals of unifying the previous LAN and TAM experiences under Sabre, increasing customer satisfaction with the fares distinctions and reducing customer service calls due to misunderstandings.</p>
 </div>
 <span class="category-description">LOCATIONS:</span>
 Santiago (Chile)
