@@ -10,6 +10,24 @@ short-description: "Product Strategy for the replacement of current Dealer Manag
 skills: [Workshop Facilitation, Storytelling, UX Writing]
 skills-used: ['Workshops Facilitation (Elevator Pitch, Business Model Canvas, User Journey Mapping, Persona creation, Feature Mapping)', 'Storytelling', 'UX writing']
 ---
+
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Mercedes-Benz needed a strategy to replace legacy Dealer Management Systems (DMS) across multiple regions, ensuring alignment with diverse operational needs.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>A structured replacement strategy leveraging Thoughtworks' prior experience with a similar system in China, defining requirements, goals, and an implementation plan.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Facilitated workshops, collaborated with product strategists and SMEs, and contributed to proposal writing and planning to define the best approach for the DMS overhaul.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Conducted a four-week series of workshops to gather insights, mapped user needs, and structured the replacement plan. Delivered a comprehensive proposal guiding the larger initiative.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Defined a clear roadmap for the DMS replacement, enabling a separate implementation team to execute the project based on the proposed strategy.</p>
+</div>
+
 			
 As part of a larger initiative aimed at replacing some local Dealer Management Systems (DMS) used by Mercedes-Benz, I worked with a team of product strategists, technologists, and SMEs from the client on a four-week-long series of workshops, proposal writing, and planning to find the best approach for this replacement. Since Thoughtworks already had in-depth knowledge and experience from building a similar system in China, we leveraged that expertise to understand the needs of the different regions requiring the DMS overhaul, defining requirements, goals, and an initial plan for the larger initiative.
 
