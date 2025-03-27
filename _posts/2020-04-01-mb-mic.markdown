@@ -10,6 +10,23 @@ short-description: "Creation of an internal development portal"
 skills: [Workshop Facilitation, User Research, Interaction Design, Information Architecture, Front-end Development]
 skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Persona creation, Feature Mapping)', 'User Research', 'Information Architecture', 'Interaction Design', 'Front-end Development']
 ---
+
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Mercedes-Benz needed a centralized portal to integrate multiple development teams and their delivery pipelines within the MIC (Mercedes-Benz Intelligent Cloud), ensuring seamless collaboration and process alignment.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>A unified MIC Portal that streamlined project dependencies, improved information flow, and provided an organized interface for managing development processes within MB.OS.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Conducted research across different workstreams, defined the portal’s information architecture, and designed the user interface. Worked closely with teams to ensure integration across all streams.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Facilitated workshops to map user needs and workflows, refined taxonomy and logical structures, and iteratively designed the portal to enhance usability. Paired with developers to align design with implementation.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Delivered a scalable MIC Portal that improved team collaboration, streamlined development workflows, and ensured a more structured integration of projects within the MB.OS ecosystem.</p>
+</div>
 			
 I worked as a UX designer for one year in the MIC Portal Team. The MIC (Mercedes-Benz Intelligent Cloud) offers a reliable infrastructure, various frameworks, functions, processes, policies, and applications for connected cars and the MB.OS (Mercedes-Benz Operating System) functions.
 
