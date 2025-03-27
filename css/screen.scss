@@ -198,11 +198,18 @@ div.row {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 ul.posts li {
   line-height: 1.75em;
   text-align: left;
+  flex-wrap: wrap;
+  flex: 0 1 calc(50% - 1em);
+  height: auto;
+  margin-bottom: 2em;
 }
 
 ul.posts span {
@@ -530,7 +537,7 @@ ul li span {
 }
 
 li.post-header {
-  min-height: 90px;
+  min-height: 21.5em;
   height: 100%;
   color: $light-header-background;
   padding: 2em 0;
@@ -548,7 +555,6 @@ li.post-header {
     font-weight: lighter;
     font-size: 75%;
     font-style: italic;
-    margin-top: -8px;
   }
 
   .post-header-description {
@@ -699,7 +705,8 @@ span.project-description-container {
   width: 68%;
 
   h2 {
-    width: 62%;
+    width: 75%;
+    line-height: 1.2em;
   }
 
 }
