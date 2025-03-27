@@ -24,6 +24,9 @@ skills-used: [Research, Service Design, Design Sprints]
 	
 	<div class="category-description">APPROACH</div>
 	<p>Starting with research and a discovery workshop, we defined project scope, success metrics, and logistics. Through iterative sprints using the Design Sprint methodology, we explored mechanical and digital solutions, from pulley-based systems to image-based 3D modeling. After testing multiple approaches, we refined a Kinect-based solution that delivered 98% accuracy, significantly improving efficiency and safety.</p>
+
+	<div class="category-description">RESULTS</div>
+	<p>The 98% accuracy achived meant that the methods discovered by this proof of concept fulfilled the requirements. Given the initial costs of the existing solutions on the market being over $25,000, the costs of a kinect + a tablet would be below $500 in comparison, making it an extremely more affordable solution that would scale to as many silos as needed, unlike the existing solutions.</p>
 </div>
 
 <span class="category-description">LOCATIONS:</span>
