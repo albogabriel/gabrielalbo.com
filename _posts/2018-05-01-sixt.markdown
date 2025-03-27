@@ -11,6 +11,24 @@ skills: [User Research, Interaction Design, Front-end Development, Service Desig
 skills-used: [Interaction Design (Sketch), Prototyping (Paper and click dummies), Front-end development (HTML and CSS), Usability Testing, Requirements gathering (stakeholder and SME interviews and workshops, Service Design, Customer Relationship Development.]
 ---
 
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Sixt needed to replace its legacy Fleet Management System, which was costly to maintain, inconsistent across regions, and difficult to use.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>Designed and developed a centralized, user-friendly system adaptable to different regional needs, integrating fleet data, manufacturer orders, and market insights.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>As a UX/Product Designer I led user research, prototyped solutions, collaborated with stakeholders, and worked closely with developers using an Agile approach to iterate and refine the system.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Conducted SME interviews, usability testing, and iterative prototyping to gather requirements, validate concepts, and ensure seamless implementation.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Successfully launched and gradually rolled out the new system across multiple regions, improving fleet management efficiency and adaptability.</p>
+</div>
+
+
 I worked for Munich-based car rental company Sixt on a project focused on creating a new Fleet Management System, during which I gained deep insight into the car rental business domain through user research and interviews with Subject Matter Experts. The main goal of the project was to replace their legacy Fleet Management Systems, which were difficult to use, costly to maintain, and inconsistent across different countries where Sixt operated. It was a complex system, as it not only handled current fleet management but also integrated with other systems related to car manufacturer orders, data-based insights on fleet trends, and the specific needs of each region (for example, how the summer fleet for Spain had very different requirements compared to the Swiss winter fleet).
 
 The new system aimed to be centralized, easy to use, easy to maintain, and adaptable to the different requirements of each operating country or region.
