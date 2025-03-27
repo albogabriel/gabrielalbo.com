@@ -11,6 +11,24 @@ skills: [Workshop Facilitation, User Research, Interaction Design, Front-end Dev
 skills-used: ['Inception Workshops Facilitation (Elevator Pitch, Business Model Canvas, User Journey Mapping, Persona creation, Feature Mapping)', 'Prototyping (Paper-to-code)', 'Interaction Design','Front-end Development (HTML, CSS)']
 ---
 
+<div class="project-summary"> 
+    <div class="category-description">CHALLENGE</div>
+    <p>Mercedes-Benz R&D needed a modern fleet management system to streamline vehicle allocation for software testing and deployment.</p>
+
+    <div class="category-description">SOLUTION</div>
+    <p>A redesigned fleet management system, prototyped and validated, enabling a long-term implementation by Daimler/MB employees.</p>
+    
+    <div class="category-description">MY ROLE</div>
+    <p>Led inception workshops, facilitated work prioritization, and contributed to prototyping, interaction design, and front-end development.</p>
+    
+    <div class="category-description">APPROACH</div>
+    <p>Conducted structured workshops with key stakeholders, built and tested an initial prototype, and iteratively refined the design to align with user needs and technical feasibility.</p>
+
+    <div class="category-description">RESULTS</div>
+    <p>Delivered a validated prototype that laid the foundation for a long-term fleet management system, later developed in-house by Daimler/MB.</p>
+</div>
+
+
 I joined a team within the Mercedes-Benz R&D department focused on replacing their current development fleet management systems, bringing my previous experience with vehicle fleet management. The client needed to create an updated system that would allow R&D software teams to manage the allocation of vehicles to be used for software testing and deployment.
 
 Along with a team consisting of a business analyst, a tech lead, a QA expert, and four client representatives, I conducted a series of inception workshops to frame and prioritize the work our team would do. This was followed by a prototype that we built, validated, and incrementally improved upon, making it possible for a longer-term project, which would later be steered solely by Daimler/MB employees, to become feasible.
