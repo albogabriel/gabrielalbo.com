@@ -5,6 +5,7 @@ start-date: May 2025
 end-date: Ongoing
 category: projects
 current-page: portfolio-item
+highlighted-project: "yes"
 image: "zalando.png"
 short-description: "AI-powered Fashion Assistant"
 skills: [Interaction design, AI Conversational Experience, Information Architecture, Accessibility]

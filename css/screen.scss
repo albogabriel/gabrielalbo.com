@@ -504,11 +504,12 @@ a, a:visited {
 }
 
 a:hover {
-  color: lighten($darkest-main-color, 50);
+  color: darken($darkest-main-color, 50);
 }
 
-// $post-header-colors: darken($darker-main-color, 4), darken($darker-main-color, 7);
-$post-header-colors: darken($main-blue-color, 4), lighten($main-blue-color, 2%);
+/*$post-header-colors: darken($darker-main-color, 4), darken($darker-main-color, 7);*/
+/*$post-header-colors: darken($main-blue-color, 4), lighten($main-blue-color, 2%);*/
+$post-header-colors: $light-header-background;
 
 @for $i from 1 through length($post-header-colors) {
     li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
@@ -517,25 +518,29 @@ $post-header-colors: darken($main-blue-color, 4), lighten($main-blue-color, 2%);
 }
 
 ul li span {
-    color: $light-text-color;
+    color: $darkest-main-color;
 }
 
 li.post-header {
   min-height: 90px;
   height: 100%;
-  color: $light-header-background;
-  padding: 2em 0;
+  color: $darkest-main-color;
+  padding: 1em 0 0 0;
+  margin-bottom: 2em;
   overflow: hidden;
   position: relative;
+  border-radius: 1em;
+  /*border: 1px solid $darker-main-color;*/
+  background-color: white;
 
   a, a:visited {
     display: block;
     text-decoration: none;
-    color: $light-header-background;
+    /*color: $light-header-background;*/
   }
 
   .post-header-date {
-    color: $light-header-background;
+    /*color: $light-header-background;*/
     font-weight: lighter;
     font-size: 75%;
     font-style: italic;
@@ -543,7 +548,7 @@ li.post-header {
   }
 
   .post-header-description {
-    color: white;
+    /*color: white;*/
     font-style: normal;
     font-weight: normal;
     font-size: 85%;
@@ -566,7 +571,7 @@ li.post-header {
   }
 
   &:hover {
-    background-color: lighten($darkest-main-blue-color, 10);
+    background-color: darken($light-header-background, 2);
     transition-duration: 0.8s;
     transition-property: background-color;
   }
@@ -671,7 +676,6 @@ figure figcaption {
 
 span.project-image-container, span.project-description-container {
   display: inline-block;
-  color: white !important;
   vertical-align: top;
 }
 
