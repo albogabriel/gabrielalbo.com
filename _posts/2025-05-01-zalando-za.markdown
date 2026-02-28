@@ -14,22 +14,32 @@ skills-used: ['Interaction design','AI Conversational Experience', 'Information 
 
 <div class="project-summary"> 
 	<div class="category-description">CHALLENGE</div>
-	<p>The Zalando Assistant (ZA) is a generative AI-powered shopping companion designed to help you navigate Zalando’s massive fashion catalog using natural language. I have joined the ZA team as a Product Designer to work on different new features with the goals of helping increase the number of Monthly Active Users (MAU) of ZA, increasing High Valuable Actions (HVAs) - such as having suggested products wishlisted and added to the shopping cart - and increasing Discovery Repeat Session (DRS). Above all, the main goal was to generally improve Zalando customer experiences using the LLMs capabilities.</p>
+	<p>Scale Zalando’s GenAI assistant to drive user retention and high-value shopping actions (HVAs). My goal was to leverage LLMs to increase Monthly Active Users (MAU) and Discovery Repeat Sessions (DRS).</p>
 
-	<div class="category-description">SOLUTION</div>
-	<p>Among the solutions we have envisioned to help us achieve those goals, I have worked directly on features such as:
-	* Desktop designs for outfit building - translating the mobile experience of having ZA build outfits with items that match a particular item the customer requests for.
-	* Search Results Integration - Inferring customer intent during a regular search to provide better results that would match what they were looking for. 
-	* Streaming Experience - Making ZA's responses render progressively, minimizing the latency of server requests and delivering valuable information for customers faster.</p>
+	<div class="category-description">SOLUTION & ROLE</div>
+	<p>Led design for three core workstreams, collaborating with Applied Science and Engineering to deliver:
+
+	<ul>
+		<li> <b>Desktop Outfit Building:</b> Translated mobile-first AI styling features to desktop.</li>
+		<li> <b>Search Intent Integration:</b> Designed UI to infer customer intent during search for more relevant, personalized results.</li>
+	    <li> <b>Streaming Experience:</b> Optimized perceived latency by designing a progressive response UI, delivering value faster.</li>
+	</ul>
+    </p>
 	
 	<div class="category-description">MY ROLE</div>
 	<p>I have lead design work on those fronts, collaborating with Product Management, Applied Sciences, Engineering and fellow Designers on the creation of solutions that would solve the customer problems in elegant and technically feasible ways and drive more learning for the team based on usage data.</p>
 	
 	<div class="category-description">APPROACH</div>
-	<p>With high multidisciplinary collaboration, we have come up with solutions that seamlessly integrated to Zalando's ecosystem in a feasible timeline (so we could launch them as A/B experiments in time for the higher traffic periods of the year) to be able to analyze user actions and adapt on the go.</p>
+	<p>Worked in high-velocity, multidisciplinary sprints to launch A/B experiments ahead of peak traffic seasons, ensuring solutions were both technically feasible and seamlessly integrated.</p>
 
 	<div class="category-description">RESULTS</div>
-	<p>Between the beginning of such work and the end of the experiement phase, we have successfully reached all internal product goals, increasing HVAs and DRSs significantly and surpassing the internal goal of number of Monthly Active Users, nearly doubling the initial number. Such achievements helped increase customer satisfaction, drive higher conversion and lower return rates and allowed the product to gain even more traction for internal investment for the near future.</p>
+	<p>
+	<ul>
+		<li> User Growth: Surpassed internal targets, <b>impacting initial MAU by over 135%</b>.</li>
+		<li> Engagement: Significantly increased HVAs (Add to Cart/Wishlist) and repeat discovery sessions.</li>
+		<li> Impact: Improved conversion, lowered return rates, and secured increased internal investment for the product.</li>
+	</ul>
+	</p>
 </div>
 
 
