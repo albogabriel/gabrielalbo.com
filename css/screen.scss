@@ -607,7 +607,7 @@ li.post-header {
 
   .view-case-study-link {
     flex: 0 0 auto;
-    margin: 20px 0 1em 18%;
+    margin: 20px 0 1em 14%;
     padding-left: 3px;
     font-size: 0.9em;
     font-weight: 600;
@@ -714,13 +714,13 @@ span.project-image-container {
   position: absolute;
   left: 0;
   top: 0;
-  width: 18%;
+  width: 14%;
   text-align: center;
 
   img {
     display: block;
     width: 100%;
-    max-width: 120px;
+    max-width: 140px;
     margin-left: auto;
     margin-right: auto;
     aspect-ratio: 1;
@@ -735,15 +735,15 @@ span.project-image-container {
 
 span.project-description-container {
   display: block;
-  margin-left: 18%;
+  margin-left: 14%;
   padding-left: 0;
-  width: 82%;
+  width: 86%;
   box-sizing: border-box;
   text-align: left;
   font-size: 110% !important;
 
   h2 {
-    width: 62%;
+    width: 100%;
   }
 }
 
