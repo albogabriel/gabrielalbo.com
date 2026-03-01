@@ -189,6 +189,12 @@ div.row {
   max-width: 72em;
 }
 
+/* Header and blog/portfolio list use wider max width */
+header .row,
+div.row.blog-index {
+  max-width: 90em;
+}
+
 
 /*****************************************************************************/
 /*
@@ -682,28 +688,29 @@ span.project-image-container, span.project-description-container {
 
 span.project-image-container {
   text-align: center;
-  width: 25%;
+  width: 18%;
   vertical-align: top;
 
   img {
-    width: 65%;
-    background-color: transparent;
-    /* border-radius */
-       -webkit-border-radius: 100px;
-       -moz-border-radius: 100px;
-       border-radius: 100px;
-     
-    /* box-shadow */
-       -webkit-box-shadow: rgba(0,0,0,0.2) 1px 1px 5px;
-       -moz-box-shadow: rgba(0,0,0,0.2) 1px 1px 5px;
-       box-shadow: rgba(0,0,0,0.2) 1px 1px 5px;
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
   }
 }
 
 span.project-description-container {
   text-align: left;
   font-size: 110% !important;
-  width: 68%;
+  width: 80%;
 
   h2 {
     width: 62%;
