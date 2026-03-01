@@ -532,6 +532,8 @@ ul li span {
 }
 
 li.post-header {
+  display: flex;
+  flex-direction: column;
   min-height: 90px;
   height: 100%;
   color: $darkest-main-color;
@@ -542,6 +544,10 @@ li.post-header {
   border-radius: 1em;
   /*border: 1px solid $darker-main-color;*/
   background-color: white;
+
+  > a.clickable-div {
+    flex: 0 0 auto;
+  }
 
   a, a:visited {
     display: block;
@@ -569,7 +575,15 @@ li.post-header {
     color: darken($light-header-background, 10);
     font-style: italic;
     font-size: 100%;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
+    line-height: 1.3;
+    padding-bottom: 0;
+
+    .skill-item {
+      line-height: 1.4;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
   }
 
   h2 {
@@ -587,7 +601,23 @@ li.post-header {
   }
 
   .portfolio-project {
+    position: relative;
     text-align: left;
+  }
+
+  .view-case-study-link {
+    flex: 0 0 auto;
+    margin: 20px 0 1em 18%;
+    padding-left: 3px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: $darker-main-color;
+    text-decoration: none;
+
+    &:hover {
+      color: lighten($darker-main-color, 15%);
+      text-decoration: underline;
+    }
   }
 }
 
@@ -674,15 +704,18 @@ figure figcaption {
   display: none;
 }
 
-span.project-image-container, span.project-description-container {
-  display: inline-block;
+span.project-image-container,
+span.project-description-container {
   vertical-align: top;
 }
 
+/* Image out of flow so div height = description height only */
 span.project-image-container {
-  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 18%;
-  vertical-align: top;
+  text-align: center;
 
   img {
     display: block;
@@ -701,14 +734,17 @@ span.project-image-container {
 }
 
 span.project-description-container {
+  display: block;
+  margin-left: 18%;
+  padding-left: 0;
+  width: 82%;
+  box-sizing: border-box;
   text-align: left;
   font-size: 110% !important;
-  width: 80%;
 
   h2 {
     width: 62%;
   }
-
 }
 
 @media (max-width: 50em) {
