@@ -189,13 +189,14 @@ em {
 }
 
 div.row {
-  max-width: 72em;
+  max-width: 76em;
 }
 
 /* Header and blog/portfolio list use wider max width */
 header .row,
 div.row.blog-index {
-  max-width: 90em;
+  max-width: 76em;
+  padding-top:10px;
 }
 
 
@@ -475,9 +476,7 @@ ul.menu {
     -moz-border-radius: 70px;
 
       $scale: 1;
-      -webkit-transition-duration: 1s;
-
-    
+      -webkit-transition-duration: 1s;  
   }
 }
 
@@ -516,17 +515,6 @@ a:hover {
   color: darken($darkest-main-color, 50);
 }
 
-/*$post-header-colors: darken($darker-main-color, 4), darken($darker-main-color, 7);*/
-/*$post-header-colors: darken($main-blue-color, 4), lighten($main-blue-color, 2%);*/
-/*$post-header-colors: $light-header-background;*/
-$post-header-colors: #edf8fd;
-
-@for $i from 1 through length($post-header-colors) {
-    li.post-header:nth-child(#{length($post-header-colors)}n+#{$i}) {
-        background: nth($post-header-colors, $i)
-    }
-}
-
 ul li span {
     color: $darkest-main-color;
 }
@@ -538,12 +526,15 @@ li.post-header {
   height: 100%;
   color: $darkest-main-color;
   padding: 1em 0 0 0;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   overflow: hidden;
   position: relative;
   border-radius: 1em;
-  /*border: 1px solid $darker-main-color;*/
+  border: 1px solid #efefef;
   background-color: white;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
 
   > a.clickable-div {
     flex: 0 0 auto;
@@ -595,9 +586,9 @@ li.post-header {
   }
 
   &:hover {
-    background-color: darken($post-header-colors, 2%);
-    transition-duration: 0.8s;
-    transition-property: background-color;
+
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
   }
 
   .portfolio-project {
@@ -607,7 +598,7 @@ li.post-header {
 
   .view-case-study-link {
     flex: 0 0 auto;
-    margin: 20px 0 1em 14%;
+    margin: 20px 0 1em 17%;
     padding-left: 3px;
     font-size: 0.9em;
     font-weight: 600;
@@ -623,23 +614,26 @@ li.post-header {
 
 /* Floating highlight badge (replaces ribbon) */
 .ribbon {
-  margin: 0;
-  padding: 0.35em 0.75em;
-  background: $highlight-badge;
-  color: $darkest-main-color;
-  font-weight: 600;
-  font-size: 0.8em;
-  letter-spacing: 0.02em;
   position: absolute;
-  top: 0.75em;
-  right: 0.75em;
-  border-radius: 0.5em;
+  top: 18px;
+  right: 18px;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0;
+  padding: 0;
+  background: $highlight-badge;
+  border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.1);
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0; /* hide text label, use icon instead */
 }
-.ribbon:before,
-.ribbon:after {
-  content: none;
+.ribbon:before {
+  content: "★";
+  font-size: 1.1rem;
+  color: white;
 }
 
 p.contact-icons-container {
@@ -714,7 +708,7 @@ span.project-image-container {
   position: absolute;
   left: 0;
   top: 0;
-  width: 14%;
+  width: 17%;
   text-align: center;
 
   img {
@@ -735,7 +729,7 @@ span.project-image-container {
 
 span.project-description-container {
   display: block;
-  margin-left: 14%;
+  margin-left: 17%;
   padding-left: 0;
   width: 86%;
   box-sizing: border-box;
@@ -765,6 +759,50 @@ span.project-description-container {
     li {
       margin: 0 3px;
     }
+  }
+
+  /* Stack project cards vertically on small screens */
+  li.post-header {
+    padding: 1.2em 1.2em 1.4em 1.2em;
+  }
+
+  /* Image left, text right inside the card */
+  li.post-header .portfolio-project {
+    padding-top: 2.4em;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+  }
+
+  span.project-image-container {
+    position: static;
+    margin: 0;
+    width: 28%;
+    min-width: 80px;
+    max-width: 110px;
+    text-align: left;
+  }
+
+  span.project-description-container {
+    margin-left: 0;
+    width: auto;
+    flex: 1 1 auto;
+  }
+
+  li.post-header .post-header-skills .skill-item {
+    display: inline-block;
+    white-space: normal;
+    line-height: 1.4;
+    margin-bottom: 0.25em;
+  }
+
+  li.post-header .view-case-study-link {
+    margin-left: calc(28% + 1em);
+  }
+
+  .ribbon {
+    top: 18px;
+    right: 18px;
   }
 
 @media (min-width: 50em) {
