@@ -7,7 +7,7 @@ project-website: www.pixelated-project.org
 category: projects
 current-page: portfolio-item
 highlighted-project: "yes"
-image: "pixelated-round.png"
+image: "hero-pixelated.png"
 short-description: "Easy to use open-source encrypted email with decentralised hosting."
 skills: [Interaction Design,Front-end Development,Research,Graphic Design, Product Design]
 skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript, Foundation, Continuous Design, Open Design, Live Style Guide, Paper prototyping, clickable mockups, Prototyping on code, Product Design, Branding, Customer Development, Community Development, Color theory, Layout, Typography, Collaborative sketching, Personas, User journeys, Agile UX, Font-icons]

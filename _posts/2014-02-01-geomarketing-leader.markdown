@@ -5,7 +5,7 @@ start-date: Feb 2014
 end-date: Apr 2014
 category: projects
 current-page: portfolio-item
-image: "geomarketing-round.png"
+image: "hero-geofusion.png"
 short-description: "Research and redesign of parts of geographic business intelligence platform."
 skills: [Interaction Design, Research, Product Design]
 skills-used: [Discovery workshop, Paper prototyping, Clickable mockups, User interviews, Usability testing, Focus groups, Heuristics evaluation, User Journeys, Personas, Facilitation, Business Origami, Visual Telephone, Business Model Canvas, Elevator Pitch, Future Facebook Posts]

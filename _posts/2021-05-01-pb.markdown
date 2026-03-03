@@ -6,7 +6,7 @@ end-date: Mar 2022
 category: projects
 current-page: portfolio-item
 highlighted-project: "yes"
-image: "pb-round.png"
+image: "hero-payback.png"
 short-description: "Creation of a Marketing Challenges and Campaigns (internal, admin system and movile, client-facing section in the app)"
 skills: [Workshop Facilitation, User Research, Interaction Design, Information Architecture, Front-end Development, Business Analysis]
 skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Persona creation, Feature Mapping)', 'User research (surveys, interviews, usability testing)', 'Information Architecture', 'Interaction Design', 'Front-end Development (pairing with front-end devs', 'Business Analysis']
