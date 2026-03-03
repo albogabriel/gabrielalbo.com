@@ -6,7 +6,7 @@ end-date: Ongoing
 category: projects
 current-page: portfolio-item
 highlighted-project: "yes"
-image: "zalando.png"
+image: "hero-zalando.png"
 short-description: "AI-powered Fashion Assistant"
 skills: [Interaction design, AI Conversational Experience, Information Architecture, Accessibility]
 skills-used: ['Interaction design','AI Conversational Experience', 'Information Architecture', 'Accessibility']

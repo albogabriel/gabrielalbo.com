@@ -72,6 +72,13 @@ $darkest-main-color: #2a270c;
 /*****************************************************************************/
 
 /* Global Reset */
+  /* add extra spacing between the view link and the hero image */
+  li.post-header .view-case-study-link {
+    display: block;
+    margin: 0.6em 0 0 0;
+    margin-bottom: 1.2em;
+  }
+
 * {
   margin: 0;
   padding: 0;
@@ -525,7 +532,7 @@ li.post-header {
   min-height: 90px;
   height: 100%;
   color: $darkest-main-color;
-  padding: 1em 0 0 0;
+  padding: 1.2em 1.8em 1.8em 1.8em;
   margin-bottom: 1.5em;
   overflow: hidden;
   position: relative;
@@ -536,7 +543,7 @@ li.post-header {
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
     transform 0.3s ease;
 
-  > a.clickable-div {
+  > .clickable-div {
     flex: 0 0 auto;
   }
 
@@ -594,13 +601,45 @@ li.post-header {
   .portfolio-project {
     position: relative;
     text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5em;
+    margin-right: -1.8em;
+    align-items: stretch;
+  }
+
+  .portfolio-main {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-hero-container {
+    border-radius: 0 1em 1em 0;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 126px;
+    margin: -1.2em -1.8em -1.8em 0;
+  }
+
+  .project-hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    image-rendering: auto;
   }
 
   .view-case-study-link {
-    flex: 0 0 auto;
-    margin: 20px 0 1em 17%;
-    padding-left: 3px;
-    font-size: 0.9em;
+    display: inline-block;
+    margin: 0.6em 0 0 0;
+    padding-left: 0;
+    font-size: 0.95em;
     font-weight: 600;
     color: $darker-main-color;
     text-decoration: none;
@@ -703,35 +742,16 @@ span.project-description-container {
   vertical-align: top;
 }
 
-/* Image out of flow so div height = description height only */
 span.project-image-container {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 17%;
-  text-align: center;
-
-  img {
-    display: block;
-    width: 100%;
-    max-width: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border: none;
-    background: none;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-  }
+  display: none;
 }
 
 span.project-description-container {
-  display: block;
-  margin-left: 17%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
   padding-left: 0;
-  width: 86%;
+  width: 100%;
   box-sizing: border-box;
   text-align: left;
   font-size: 110% !important;
@@ -763,30 +783,28 @@ span.project-description-container {
 
   /* Stack project cards vertically on small screens */
   li.post-header {
-    padding: 1.2em 1.2em 1.4em 1.2em;
+    padding: 0.8em 1.0em 1.2em 1.0em;
   }
 
-  /* Image left, text right inside the card */
+  /* Stack image and text; hero below on small screens */
   li.post-header .portfolio-project {
-    padding-top: 2.4em;
-    display: flex;
-    align-items: flex-start;
-    gap: 1em;
+    display: block;
+    margin-right: 0;
   }
 
   span.project-image-container {
-    position: static;
-    margin: 0;
-    width: 28%;
-    min-width: 80px;
-    max-width: 110px;
-    text-align: left;
+    display: none;
   }
 
   span.project-description-container {
     margin-left: 0;
-    width: auto;
-    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .project-hero-container {
+    margin: 1.4em 0 0 0;
+    border-radius: 0.8em;
+    min-height: 117px;
   }
 
   li.post-header .post-header-skills .skill-item {
@@ -797,7 +815,34 @@ span.project-description-container {
   }
 
   li.post-header .view-case-study-link {
-    margin-left: calc(28% + 1em);
+    margin-left: 0;
+  }
+
+  /* Ensure view link doesn't overlap hero image on small screens */
+  li.post-header .view-case-study-link {
+    display: block;
+    margin: 0.6em 0 0 0;
+    margin-bottom: 1.6em;
+  }
+
+  /* Reserve space on the right so the project title doesn't flow under the star badge */
+  li.post-header .project-description-container {
+    padding-right: 4.2rem;
+  }
+
+  /* Slightly reduce ribbon size on small screens so it doesn't crowd content */
+  .ribbon {
+    width: 2rem;
+    height: 2rem;
+    top: 12px;
+    right: 12px;
+  }
+
+  /* Tweak title spacing to remove extra gap between card border and title */
+  li.post-header h2 {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.1em;
   }
 
   .ribbon {
