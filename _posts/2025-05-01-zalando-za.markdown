@@ -1,13 +1,13 @@
 ---
 layout: project
-title:  "Zalando Assistant: Outfit generation, Search Results Integration and Streaming Experience"
+title:  "Zalando Assistant"
 start-date: May 2025
 end-date: Ongoing
 category: projects
 current-page: portfolio-item
 highlighted-project: "yes"
 image: "zalando.png"
-short-description: "AI-powered Fashion Assistant"
+short-description: "Zalando's AI-powered Fashion Assistant; : Search Results Integration, Streaming Experience and Outfit generation"
 skills: [Interaction design, AI Conversational Experience, Information Architecture, Accessibility]
 skills-used: ['Interaction design','AI Conversational Experience', 'Information Architecture', 'Accessibility']
 ---
