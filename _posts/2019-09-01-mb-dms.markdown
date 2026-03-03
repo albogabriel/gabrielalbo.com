@@ -5,7 +5,7 @@ start-date: Sep 2019
 end-date:
 category: projects
 current-page: portfolio-item
-image: "mb-dms-round.png"
+image: "hero-mb-dms.png"
 short-description: "Product Strategy for the replacement of current Dealer Management Systems."
 skills: [Workshop Facilitation, Storytelling, UX Writing]
 skills-used: ['Workshops Facilitation (Elevator Pitch, Business Model Canvas, User Journey Mapping, Persona creation, Feature Mapping)', 'Storytelling', 'UX writing']

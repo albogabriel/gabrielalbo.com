@@ -5,7 +5,7 @@ start-date: May 2018
 end-date: Mar 2019
 category: projects
 current-page: portfolio-item
-image: "sixt-round.png"
+image: "hero-sixt.png"
 short-description: "Car Rental Fleet Management System"
 skills: [User Research, Interaction Design, Front-end Development, Service Design]
 skills-used: [Interaction Design (Sketch), Prototyping (Paper and click dummies), Front-end development (HTML and CSS), Usability Testing, Requirements gathering (stakeholder and SME interviews and workshops, Service Design, Customer Relationship Development.]
@@ -36,6 +36,9 @@ The new system aimed to be centralized, easy to use, easy to maintain, and adapt
 Using an iterative approach, my team and I gathered requirements, prioritized them with stakeholders, prototyped, tested, and implemented alongside the development team. I worked closely with the Product Owner and developers using an Agile approach, responding quickly to various customer requirements and technical constraints.
 
 By the end of the engagement, the team successfully launched the new system, gradually releasing it across different regions, evaluating its adoption through user interviews, and responding to newly discovered needs.
+
+<span class="category-description">NOTE:</span> <b>Images and project details must remain private due to a non-disclosure agreement.</b>
+
 
 <span class="category-description">LOCATIONS:</span>
 Munich, Germany

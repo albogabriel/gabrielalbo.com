@@ -5,7 +5,7 @@ start-date: Nov 2023
 end-date: Jan 2024
 category: projects
 current-page: portfolio-item
-image: "spire-round.png"
+image: "hero-spire.png"
 short-description: "Discovery and Service Design for Data Strategy initiave for Health provider. "
 skills: [Service Design, Workshop Facilitation, Information Architecture, Research]
 skills-used: ['Service Design (Business Model Canvas, Stakeholder Mapping, Service Roadmap, Prioritisation, OKRs)', 'Workshop Facilitation (Discovery kick off, User Journey Mapping, Persona creation, Feature Mapping)', 'Information Architecture','Research (interviews, ethnographic research)']

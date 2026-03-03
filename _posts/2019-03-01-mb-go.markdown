@@ -5,7 +5,7 @@ start-date: Mar 2019
 end-date: May 2019
 category: projects
 current-page: portfolio-item
-image: "mb-go-round.png"
+image: "hero-mb-verso.png"
 short-description: "Discovery work focused on integrating multichanel selling experiences"
 skills: [Workshop Facilitation, Service Design, User Research, Storytelling]
 skills-used: ['Discovery Workshop Facilitation (Lean Value Tree, User Journey Mapping)', 'Service Design (Service Mapping, Stakeholder Mapping, Business Model Canvas)','Storytelling (Visual Journey Maps, Storyboards)', 'User Research']

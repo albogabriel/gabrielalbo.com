@@ -5,7 +5,7 @@ start-date: Feb 2012
 end-date: Present
 category: projects
 current-page: portfolio-item
-image: "misc-round.png"
+image: "hero-misc.png"
 short-description: "Open source, contest and volunteer work. These projects involve data visualization, NGO websites and general experiments."
 skills: [Front-end development, Interaction Design, Visual design, Research, Content Strategy]
 ---

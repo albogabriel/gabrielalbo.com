@@ -6,7 +6,7 @@ end-date: Mar 2023
 category: projects
 current-page: portfolio-item
 highlighted-project: "yes"
-image: "twu-round.png"
+image: "hero-twu.png"
 short-description: "Trainer at internal Thoughtworks training program for new hires who are graduates or career changers"
 skills: [Workshop Facilitation, Classes preparation and presentation, Content Creation, Mentoring]
 skills-used: ['Workshops and classes presentation and facilitation (see above)', 'Learning Design', 'Content Creation (UX Design, Business Analysis, Agile, Diversity and Inclusion)', 'Mentoring']
