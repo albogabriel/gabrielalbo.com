@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title:  "Mercedes Benz: DMS Replacement Strategy"
 start-date: Sep 2019

@@ -2,7 +2,7 @@
 layout: project
 title:  "Zalando Assistant"
 start-date: May 2025
-end-date: Ongoing
+end-date: Feb 2026
 category: projects
 current-page: portfolio-item
 highlighted-project: "yes"

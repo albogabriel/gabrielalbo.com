@@ -85,8 +85,8 @@ Porto Alegre (Brazil), Mirebalais (Haiti), Boston and Seattle (USA).
 <span class="category-description">WEBSITE:</span> [http://www.pih.org/pages/mirebalais](http://www.pih.org/pages/mirebalais) 
 <br>
 
-<span class="category-description">MIREBALAIS STYLE GUIDE:</span> [http://mirebalaisstyleguide.herokuapp.com/](http://mirebalaisstyleguide.herokuapp.com/) 
+<!-- <span class="category-description">MIREBALAIS STYLE GUIDE:</span> [http://mirebalaisstyleguide.herokuapp.com/](http://mirebalaisstyleguide.herokuapp.com/) 
 <br>
 
-<span class="category-description">COMPLETE THOUGHTWORKS CLIENT CASE:</span> [https://www.thoughtworks.com/clients/partners-in-health](https://www.thoughtworks.com/clients/partners-in-health) 
+<span class="category-description">COMPLETE THOUGHTWORKS CLIENT CASE:</span> [https://www.thoughtworks.com/clients/partners-in-health](https://www.thoughtworks.com/clients/partners-in-health)  -->
 <br>
