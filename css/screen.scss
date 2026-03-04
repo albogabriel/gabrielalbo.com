@@ -856,6 +856,34 @@ span.project-description-container {
     right: 18px;
   }
 
+  /* Section headings for lists (e.g. Featured Projects / Other projects) */
+  .section-heading {
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    color: $main-color;
+    font-size: 1.857em;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* remove decorative underline (we'll hide the pseudo-element) */
+  .section-heading::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  /* spacing between heading and its posts list */
+  .section-heading + .posts {
+    margin-bottom: 2rem;
+  }
+
+  /* extra gap when a posts list is followed by another section heading */
+  .posts + .section-heading {
+    margin-top: 3rem;
+  }
+
 @media (min-width: 50em) {
   .full-name {
     display: inline-block;
@@ -865,4 +893,40 @@ span.project-description-container {
     display: none;
   }
 }
+}
+
+/* Global section heading styles (ensure visible on all screen sizes) */
+
+.section-heading {
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.2rem;
+  width: 100%;
+  color: $main-color;
+  font-size: 1.857em;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+}
+
+.section-heading::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Ensure heading element color wins over generic h2 rules */
+h2.section-heading { color: $main-color; }
+
+.section-heading + .posts {
+  margin-bottom: 2rem;
+}
+
+.posts + .section-heading {
+  margin-top: 3rem;
+}
+
+/* Small-screen underline width override: keep at 99% when needed */
+@media (max-width: 50em) {
+  h2.section-heading::after {
+    width: 99%;
+  }
 }
