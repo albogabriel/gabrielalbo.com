@@ -90,6 +90,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: $darkest-main-color;
   background: $light-header-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   overflow: auto;
     background: linear-gradient(315deg, $light-header-background 3%, $light-header-background 38%, $light-header-background 68%, $light-header-background 98%);
