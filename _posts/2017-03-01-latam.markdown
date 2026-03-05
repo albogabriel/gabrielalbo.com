@@ -8,7 +8,7 @@ current-page: portfolio-item
 highlighted-project: "yes"
 image: "hero-latam.png"
 short-description: "Airline e-commerce shopping and booking flows"
-skills: [User Research, Interaction Design, Front-end Development, Accessibility]
+skills: [Interaction Design, User Research, Front-end Development, Accessibility]
 skills-used: [Usability Testing, User interviews, A/B testing, Interaction Design (Sketch), Paper prototypes and Invision click dummies, Front-end development (HTML + CSS + JavaScript), Internationalisation, Accessibility assessments]
 ---
 
