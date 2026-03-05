@@ -12,40 +12,205 @@ skills: [Interaction design, AI Conversational Experience, Information Architect
 skills-used: ['Interaction design','AI Conversational Experience', 'Information Architecture', 'Accessibility']
 ---
 
-<div class="project-summary"> 
-	<div class="category-description">CHALLENGE</div>
-	<p>Scale Zalando’s GenAI assistant to drive user retention and high-value shopping actions (HVAs). My goal was to leverage LLMs to increase Monthly Active Users (MAU) and Discovery Repeat Sessions (DRS).</p>
-
-	<div class="category-description">SOLUTION & ROLE</div>
-	<p>Led design for three core workstreams, collaborating with Applied Science and Engineering to deliver:
-
-	<ul>
-		<li> <b>Desktop Outfit Building:</b> Translated mobile-first AI styling features to desktop.</li>
-		<li> <b>Search Intent Integration:</b> Designed UI to infer customer intent during search for more relevant, personalized results.</li>
-	    <li> <b>Streaming Experience:</b> Optimized perceived latency by designing a progressive response UI, delivering value faster.</li>
-	</ul>
-    </p>
-	
-	<div class="category-description">MY ROLE</div>
-	<p>I have lead design work on those fronts, collaborating with Product Management, Applied Sciences, Engineering and fellow Designers on the creation of solutions that would solve the customer problems in elegant and technically feasible ways and drive more learning for the team based on usage data.</p>
-	
-	<div class="category-description">APPROACH</div>
-	<p>Worked in high-velocity, multidisciplinary sprints to launch A/B experiments ahead of peak traffic seasons, ensuring solutions were both technically feasible and seamlessly integrated.</p>
-
-	<div class="category-description">RESULTS</div>
-	<p>
-	<ul>
-		<li> User Growth: Surpassed internal targets, <b>impacting initial MAU by over 135%</b>.</li>
-		<li> Engagement: Significantly increased HVAs (Add to Cart/Wishlist) and repeat discovery sessions.</li>
-		<li> Impact: Improved conversion, lowered return rates, and secured increased internal investment for the product.</li>
-	</ul>
-	</p>
+<div class="project-image-container">
+	<span> 
+	 	<img class="project-image" style="width: 100%;" src="{{ site.baseurl }}/assets/images/projects/hero-zalando.png" alt=""/>
+	</span>
 </div>
 
+<div class="project-summary">
 
-As part of the Personalization, Recommendations, Search and Browse (PRSB) team, I contributed with the growth of the Zalando Assistant (ZA), an AI-powered, conversational chatbot that provides personalized fashion advice and product recommendations. 
+<div class="category-description">CHALLENGE</div>
+<p>
+Scale Zalando’s GenAI assistant to drive user retention and high-value shopping actions (HVAs). 
+The objective was to leverage LLM capabilities to increase <b>Monthly Active Users (MAU)</b> and 
+<b>Discovery Repeat Sessions (DRS)</b>.
+</p>
 
-I have worked specifically on features such as Outfit building, Search Results Integration and Streaming Experience, collaborating with Engineering, Product managers, Applied Scientist and fellow designers on creating solutions that have driven high customer value and business impact, significantly increasing customer engagement with ZA and helping surpass internal growth projections by a high margin.
+
+<div class="category-description">ROLE</div>
+<p>
+Lead product designer for three key workstreams within the Zalando Assistant, collaborating 
+closely with Product Management, Applied Science, Engineering and fellow designers to design 
+solutions that solved customer problems while remaining technically feasible and measurable 
+through experimentation.
+</p>
+
+
+<div class="category-description">KEY WORKSTREAMS</div>
+<ul>
+	<li><b>Desktop Outfit Building:</b> Translated mobile-first AI styling experiences to desktop.</li>
+	<li><b>Search Intent Integration:</b> Designed UI that detects search intent and surfaces AI guidance when traditional search results fall short.</li>
+	<li><b>Streaming Experience:</b> Reduced perceived latency by designing a progressive response UI that delivers value earlier in the interaction.</li>
+</ul>
+
+
+<div class="category-description">APPROACH</div>
+<p>
+Worked in high-velocity multidisciplinary sprints, launching A/B experiments ahead of peak 
+traffic seasons to validate ideas with real user behavior while ensuring seamless integration 
+with existing Zalando experiences.
+</p>
+
+
+<div class="category-description">RESULTS</div>
+<ul>
+	<li><b>User Growth:</b> Surpassed internal targets, exceeding initial MAU goals by <b>135%</b>.</li>
+	<li><b>Engagement:</b> Increased high-value actions such as Add-to-Cart and Wishlist interactions.</li>
+	<li><b>Business Impact:</b> Improved conversion, reduced return rates and secured increased internal investment for the product.</li>
+</ul>
+<br>
+</div>
+
+<p>
+As part of the Personalization, Recommendations, Search and Browse (PRSB) team, I worked on 
+the growth of the <b>Zalando Assistant (ZA)</b>, an AI-powered conversational assistant that 
+provides personalized fashion advice and product recommendations.
+</p>
+
+<p>
+My work focused on three initiatives — Search Results Integration, Outfit Building and the 
+Streaming Experience — collaborating with engineers, product managers, applied scientists 
+and designers to create features that increased customer engagement and supported the 
+product’s growth strategy.
+</p>
+
+<h2>Search Results Integration</h2>
+
+<p>
+The main initiative I worked on for ZA was integrating the assistant into Zalando’s traditional 
+search results experience, which I led from a design perspective.
+</p>
+
+<h3>Problem</h3>
+
+<p>
+Traditional keyword search performs well for precise product queries but struggles with 
+intent-driven or trend-based searches.
+</p>
+
+<p>
+For example, searching for <b>“Nike Air Force 1”</b> returns highly relevant results. 
+However, searching for a fashion trend such as <b>“old money”</b> often produces results 
+that do not match the user’s intended style.
+</p>
+
+<!-- images of a high success query and a low success query -->
+
+
+<h3>Opportunity</h3>
+
+<p>
+We identified that the Zalando Assistant could help interpret customer intent and guide 
+users toward more relevant products by leveraging its conversational capabilities.
+</p>
+
+
+<h3>Design Challenge</h3>
+
+<p>
+At the time, ZA existed primarily as a standalone conversational experience. The challenge 
+was integrating it into the search results without distracting from strong search results 
+or negatively affecting conversion.
+</p>
+
+<p>
+Another key goal was to launch the solution as an experiment that would allow us to learn 
+more about customer behavior and continuously improve how ZA supports users in their 
+shopping journeys.
+</p>
+
+
+<h3>Solution</h3>
+
+<p>
+After exploring multiple interaction patterns and reviewing concepts with senior leadership, 
+we introduced a <b>bottom-sheet (“drawer”) interface</b> that adapts to the quality of the 
+search results.
+</p>
+
+<p>
+The assistant behaves differently depending on the success of the query:
+</p>
+<!-- images of drawer in different states -->
+<div style="text-align: center; display:-webkit-flex;">
+	<span> 
+	 	<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/zalando/01.PNG" alt=""/>
+	 	<figcaption>ZA responding to a search with low success</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/zalando/02.PNG" alt=""/>
+	 	<figcaption>ZA drawer expanded to explore better results</figcaption>
+	</span>
+	<span>
+		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/zalando/03.PNG" alt=""/>
+	 	<figcaption>ZA drawer fully minimized</figcaption>
+	</span>
+</div>
+<br>
+<div style="text-align: center; display:-webkit-flex; -webkit-justify-content: flex-start;">
+	<span style="text-align: right; padding-right:2em;">
+	 	<img class="project-image" style="width: 53.5%;" src="{{ site.baseurl }}/assets/images/projects/zalando/04.PNG" alt=""/>
+	 	<figcaption>ZA responding to a search with high success</figcaption>
+	</span>
+	<span style="text-align: left; padding-left:2em;">
+		<img class="project-image" style="width: 53.5%;" src="{{ site.baseurl }}/assets/images/projects/zalando/05.PNG" alt=""/>
+	 	<figcaption>ZA drawer expanded to explore more aspects fof the good results</figcaption>
+	</span>
+</div>
+ <br>
+<ul>
+	<li>
+	<b>High-success queries:</b> ZA appears minimized, remaining accessible without 
+	distracting from strong search results.
+	</li>
+
+	<li>
+	<b>Low-success queries:</b> ZA appears partially expanded, prompting the user to refine 
+	their intent. Interacting with it expands the assistant and helps users discover more 
+	relevant products.
+	</li>
+</ul>
+
+
+<h3>Collaboration</h3>
+
+<p>
+I worked closely with Applied Scientists, Product Managers and Engineers to ensure we 
+targeted the most relevant queries and aligned the solution with both business and 
+strategic goals.
+</p>
+
+<p>
+Because of my background in front-end engineering, I frequently paired with engineers to 
+refine interaction details and balance experience quality with technical constraints, 
+allowing us to find effective trade-offs between the desired experience and feasible 
+implementation within our timelines.
+</p>
+
+
+<h3>Impact</h3>
+
+<p>
+The experiment launched a few weeks before <b>Cyber Week</b>, one of Zalando’s highest 
+traffic periods.
+</p>
+
+<p>
+The results confirmed that the integration did not negatively impact the traditional 
+search flow and significantly increased engagement with the Zalando Assistant.
+</p>
+
+<p>
+Prior to the launch, ZA had reached approximately <b>60% of its annual MAU target</b>. 
+By the end of the year, that goal was exceeded by <b>135%</b>.
+</p>
+
+<p>
+The experiment also increased high-value actions within the assistant experience and 
+helped customers discover more relevant products, contributing to improved customer 
+satisfaction and lower return rates.
+</p>
 
 <div style="text-align: center;">
 	 <img class="project-image" style="width: 50%" src="{{ site.baseurl }}/assets/images/projects/zalando/za01.png" alt=""/> 
