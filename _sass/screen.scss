@@ -149,7 +149,7 @@ body {
 }
 
 .wave {
-    background: #28A8E7 25%;
+    background: $main-color 25%;
     border-radius: 1000% 1000% 0 0;
     position: fixed;
     width: 1000%;
@@ -285,7 +285,7 @@ ul.posts span {
   line-height: 1.5em;
 
   .meta {
-    color: #aaa;
+    color: lighten($darkest-main-color, 50%);
   }
 
   .header {
@@ -299,20 +299,20 @@ ul.posts span {
       margin-bottom: 2em;
 
       a {
-        color: #a00;
+        color: $text-highlights;
       }
 
       a:hover {
-        color: #000;
+        color: $darkest-main-color;
       }
 
       a.extra {
-        color: #aaa;
+        color: lighten($darkest-main-color, 50%);
         margin-left: 1em;
       }
 
       a.extra:hover {
-        color: #000;
+        color: $darkest-main-color;
       }
     }
   }
@@ -327,8 +327,8 @@ ul.posts span {
 /* standard */
 
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid lighten($darkest-main-color, 70%);
+  background-color: lighten($light-header-background, 10%);
   padding: 0 .4em;
 }
 
@@ -337,8 +337,8 @@ ul.posts span {
 }
 
 .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 1px solid lighten($darkest-main-color, 70%);
+  background-color: lighten($light-header-background, 10%);
   padding: 0 .2em;
 }
 
@@ -348,13 +348,13 @@ ul.posts span {
 
 /* terminal */
 .post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+  border: 1px solid $darkest-main-color;
+  background-color: darken($darkest-main-color, 20%);
+  color: $light-text-color;
 }
 
 .post pre.terminal code {
-  background-color: #333;
+  background-color: darken($darkest-main-color, 20%);
 }
 
 .page-container h1{
@@ -584,9 +584,9 @@ li.post-header {
   overflow: hidden;
   position: relative;
   border-radius: 1em;
-  border: 1px solid #efefef;
-  background-color: white;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  border: 1px solid lighten($light-header-background, 5%);
+  background-color: $light-header-background;
+  box-shadow: 0 10px 24px rgba($darkest-main-color, 0.06);
   transition: background-color 0.3s ease, box-shadow 0.3s ease,
     transform 0.3s ease;
 
@@ -609,7 +609,7 @@ li.post-header {
   }
 
   .post-header-description {
-    /*color: white;*/
+    /*color: $light-text-color;*/
     font-style: normal;
     font-weight: normal;
     font-size: 85%;
@@ -641,7 +641,7 @@ li.post-header {
 
   &:hover {
 
-    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 14px 32px rgba($darkest-main-color, 0.12);
     transform: translateY(-2px);
   }
 
@@ -664,7 +664,7 @@ li.post-header {
 
   .project-hero-container {
     border-radius: 0 1em 1em 0;
-    background-color: #e6e6e6;
+    background-color: lighten($light-header-background, 10%);
     overflow: hidden;
     align-self: stretch;
     display: flex;
@@ -719,7 +719,7 @@ li.post-header {
 .ribbon:before {
   content: "★";
   font-size: 1.1rem;
-  color: white;
+  color: $light-text-color;
 }
 
 p.contact-icons-container {
@@ -730,7 +730,7 @@ p.contact-icons-container {
 span.skill-item {
     background-color: lighten($main-blue-color, 15%);
     font-weight: 400;
-    color: white !important;
+    color: $light-text-color !important;
     margin-right: 3px;
     padding: 2px 9px 2px 8px;
     white-space: nowrap;
