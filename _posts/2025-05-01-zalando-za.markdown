@@ -13,8 +13,8 @@ skills-used: ['Interaction design','AI Conversational Experience', 'Information 
 ---
 
 <div class="project-image-container">
-	<span> 
-	 	<img class="project-image" style="width: 100%;" src="{{ site.baseurl }}/assets/images/projects/hero-zalando.png" alt=""/>
+	<span>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-zalando.png" alt=""/>
 	</span>
 </div>
 
@@ -133,29 +133,29 @@ search results.
 The assistant behaves differently depending on the success of the query:
 </p>
 <!-- images of drawer in different states -->
-<div style="text-align: center; display:-webkit-flex;">
-	<span> 
-		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/zalando/01.png" alt=""/>
-	 	<figcaption>ZA responding to a search with low success</figcaption>
+<div class="image-row-3">
+	<span>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/01.png" alt=""/>
+		<figcaption>ZA responding to a search with low success</figcaption>
 	</span>
 	<span>
-		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/zalando/02.png" alt=""/>
-	 	<figcaption>ZA drawer expanded to explore better results</figcaption>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/02.png" alt=""/>
+		<figcaption>ZA drawer expanded to explore better results</figcaption>
 	</span>
 	<span>
-		<img class="project-image" style="width: 80%;" src="{{ site.baseurl }}/assets/images/projects/zalando/03.png" alt=""/>
-	 	<figcaption>ZA drawer fully minimized</figcaption>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/03.png" alt=""/>
+		<figcaption>ZA drawer fully minimized</figcaption>
 	</span>
 </div>
 <br>
-<div style="text-align: center; display:-webkit-flex; -webkit-justify-content: flex-start;">
-	<span style="text-align: right; padding-right:2em;">
-		<img class="project-image" style="width: 53.5%;" src="{{ site.baseurl }}/assets/images/projects/zalando/04.png" alt=""/>
-	 	<figcaption>ZA responding to a search with high success</figcaption>
+<div class="image-row-2">
+	<span class="left-img">
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/04.png" alt=""/>
+		<figcaption>ZA responding to a search with high success</figcaption>
 	</span>
-	<span style="text-align: left; padding-left:2em;">
-		<img class="project-image" style="width: 53.5%;" src="{{ site.baseurl }}/assets/images/projects/zalando/05.png" alt=""/>
-	 	<figcaption>ZA drawer expanded to explore more aspects fof the good results</figcaption>
+	<span class="right-img">
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/05.png" alt=""/>
+		<figcaption>ZA drawer expanded to explore more aspects fof the good results</figcaption>
 	</span>
 </div>
  <br>
@@ -212,8 +212,8 @@ helped customers discover more relevant products, contributing to improved custo
 satisfaction and lower return rates.
 </p>
 
-<div style="text-align: center;">
-	 <img class="project-image" style="width: 50%" src="{{ site.baseurl }}/assets/images/projects/zalando/za01.png" alt=""/> 
+<div class="project-image-container">
+	<img class="project-image project-image-single" src="{{ site.baseurl }}/assets/images/projects/zalando/za01.png" alt=""/> 
 </div>
 <br>
 
