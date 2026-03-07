@@ -1,6 +1,10 @@
 name: Gabriel Albo
 markdown: kramdown
-pygments: false
+highlighter: rouge
 safe: true
 lsi: false
 baseurl:
+
+sass:
+  sass_dir: _sass
+  style: expanded
