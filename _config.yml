@@ -4,3 +4,6 @@ pygments: false
 safe: true
 lsi: false
 baseurl:
+sass:
+  sass_dir: _sass
+  style: compressed
