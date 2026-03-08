@@ -212,11 +212,6 @@ helped customers discover more relevant products, contributing to improved custo
 satisfaction and lower return rates.
 </p>
 
-<div class="project-image-container">
-	<img class="project-image project-image-single" src="{{ site.baseurl }}/assets/images/projects/zalando/za01.png" alt=""/> 
-</div>
-<br>
-
 <span class="category-description">LOCATIONS:</span>
 Berlin, Germany. Distributed team across Germany, Switzerland and China.
 
