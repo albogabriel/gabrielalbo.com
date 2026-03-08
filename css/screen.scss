@@ -776,10 +776,21 @@ h2.section-heading { color: $main-color; }
 }
 
 // 2x2 grid for featured projects
+
 .featured-projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.2em;
+}
+
+@media (max-width: 700px) {
+  .featured-projects {
+    display: block;
+  }
+  .featured-projects li.post-header {
+    width: 100%;
+    margin-bottom: 1.2em;
+  }
 }
 
 .featured-projects li.post-header {
