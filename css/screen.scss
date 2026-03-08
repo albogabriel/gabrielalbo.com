@@ -633,6 +633,7 @@ span.project-description-container {
   /* Stack project cards vertically on small screens */
   li.post-header {
     padding: 0.8em 1.0em 1.2em 1.0em;
+    border: 1px solid red !important;
   }
 
   /* Stack image and text; hero below on small screens */
@@ -773,4 +774,3 @@ h2.section-heading { color: $main-color; }
     width: 99%;
   }
 }
-@import "../_sass/screen";
