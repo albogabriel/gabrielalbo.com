@@ -9,7 +9,7 @@ title: Gabriel Albo - Projects
     {% assign featured = site.categories.projects | where: "highlighted-project", "yes" %}
     {% if featured.size > 0 %}
       <h2 class="section-heading">Featured Projects</h2>
-      <ul class="posts">
+      <ul class="posts featured-projects">
         {% for post in featured %}
           <li class="post-header">
             <h4 class="ribbon">Highlighted Project</h4>

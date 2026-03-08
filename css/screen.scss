@@ -451,14 +451,14 @@ li.post-header {
     text-align: left;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 1.5em;
-    margin-right: -1.8em;
+    gap: 0em;
+    margin-right: 0;
     align-items: stretch;
   }
 
   .portfolio-main {
     position: relative;
-    height: 100%;
+    height: 100% !important;
     display: flex;
     flex-direction: column;
   }
@@ -471,7 +471,7 @@ li.post-header {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 126px;
+    min-height: 260px;
     margin: -1.2em 0 -1.8em 0;
   }
 
@@ -773,4 +773,106 @@ h2.section-heading { color: $main-color; }
   h2.section-heading::after {
     width: 99%;
   }
+}
+
+// 2x2 grid for featured projects
+.featured-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2em;
+}
+
+.featured-projects li.post-header {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  min-height: unset;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.featured-projects li.post-header .portfolio-project {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.featured-projects li.post-header .project-hero-container {
+  order: -1;
+  border-radius: 1em 1em 0 0;
+  background-color: #e6e6e6;
+  overflow: hidden;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.featured-projects li.post-header .project-hero-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: auto;
+  display: block;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-projects li.post-header .project-description-container {
+  order: 0;
+  padding: 1.2em;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.featured-projects li.post-header .view-case-study-link {
+  margin-bottom: 1.2em;
+  margin-top: 0.3em;
+}
+
+.featured-projects li.post-header .post-header-skills {
+  font-size: 85%;
+  margin: 6px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  width: 100%;
+}
+.featured-projects li.post-header .post-header-description {
+  font-size: 95%;
+  margin-bottom: 0.3em;
+}
+
+// Fix skill chip right padding and allow wrapping, but don't force last chip to break
+.featured-projects li.post-header .skill-item {
+  padding-right: 9px !important;
+  white-space: nowrap;
+  word-break: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: #6dc4ef;
+  color: #fff !important;
+  margin-bottom: 0.2em;
+}
+
+// Remove forced full-width and block display from last-child
+.featured-projects li.post-header .skill-item:last-child {
+  margin-left: 0;
+  width: auto;
+  display: inline-block;
+}
+
+li.post-header {
+  border: 1px solid #e0e0e0 !important;
 }
