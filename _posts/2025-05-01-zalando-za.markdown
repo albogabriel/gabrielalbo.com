@@ -7,7 +7,7 @@ category: projects
 current-page: portfolio-item
 highlighted-project: "yes"
 image: "hero-zalando.png"
-short-description: "Zalando's AI-powered Fashion Assistant; : Search Results Integration, Streaming Experience and Outfit generation"
+short-description: "Zalando's AI-powered Fashion Assistant: Search Results Integration, Streaming Experience and Outfit generation"
 skills: [Interaction design, AI Conversational Experience, Information Architecture, Accessibility]
 skills-used: ['Interaction design','AI Conversational Experience', 'Information Architecture', 'Accessibility']
 ---
