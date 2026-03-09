@@ -216,3 +216,6 @@ satisfaction and lower return rates.
 Berlin, Germany. Distributed team across Germany, Switzerland and China.
 
 <span class="category-description">PROCESS, TECHNOLOGIES AND TECHNIQUES:</span>{% for item in page.skills-used %}<span class="skill-item">{{ item }}</span> {% endfor %} 
+
+
+
