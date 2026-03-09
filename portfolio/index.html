@@ -45,7 +45,7 @@ title: Gabriel Albo - Projects
       </ul>
     {% endif %}
 
-    <!-- Other projects down here -->
+    <!-- Other projects -->
     {% assign others = site.categories.projects | where_exp: "p", "p.highlighted-project != 'yes'" %}
     {% if others.size > 0 %}
       <h2 class="section-heading">Other projects</h2>
