@@ -171,7 +171,29 @@ The assistant behaves differently depending on the success of the query:
 	relevant products.
 	</li>
 </ul>
+<br>
 
+<h3>Accessibility (a11y)</h3>
+<p>
+I have always been very mindful of a11y - during my time as a trainer at <a link="{{ site.baseurl }}/_posts/2022-03-01-twu.markdown">Thoughtworks University</a> I co-authored and ran a session on the subject and have worked extensively with the theme. Moreover, this project was to be delivered at the time when the European Accessibility Act 2025 would be taking effect, so a11y was more than a nice feature to have, but an actual legal requirement.
+</p>
+<p>
+With that context in mind, I have worked with the Zalando a11y Core Team and our ZA engineering team to make sure we covered all our bases. From a design perspective, that meant creating clear a11y annotations for tab order for screen readers and defining the designs for alternate displays - dark mode, landscape, dynamic text sizes. Here are some examples of how we defined those:
+</p>
+<div class="project-image-container-centralized" style="width: 80%;">
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/a11y01.png" alt=""/>
+	 	<figcaption>Examples of how I mapped designs for alternate experiences - dark mode, dynamic text and landscape - for one of the states of the ZA drawer </figcaption>
+	</span>
+</div>
+<br>
+<div class="project-image-container-centralized" style="width: 80%;">
+	<span> 
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/a11y02.png" alt=""/>
+	 	<figcaption>Annotations for the tab order for screen readers for the same component state</figcaption>
+	</span>
+</div>
+<br>
 
 <h3>Collaboration</h3>
 
