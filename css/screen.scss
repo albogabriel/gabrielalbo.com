@@ -241,6 +241,7 @@ figcaption {
 /* line 181, ../_sass/screen.scss */
 body {
   overflow-y: scroll;
+  overflow-x: hidden;
   height: fit-content;
 }
 
@@ -759,6 +760,7 @@ span.project-description-container {
 
 /* Ensure heading element color wins over generic h2 rules */
 h2.section-heading { color: $main-color; }
+h2.section-title { color: $main-color; }
 
 .section-heading + .posts {
   margin-bottom: 2rem;
@@ -766,6 +768,16 @@ h2.section-heading { color: $main-color; }
 
 .posts + .section-heading {
   margin-top: 3rem;
+}
+
+.project-alternate {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: calc(-50% + 50vw);
+  padding-right: calc(-50% + 50vw);
+  background-color: #f4f4f4;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 /* Small-screen underline width override: keep at 99% when needed */
