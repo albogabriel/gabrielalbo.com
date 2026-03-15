@@ -39,9 +39,9 @@ through experimentation.
 
 <div class="category-description">KEY WORKSTREAMS</div>
 <ul>
-	<li><b>Desktop Outfit Building:</b> Translated mobile-first AI styling experiences to desktop.</li>
-	<li><b>Search Intent Integration:</b> Designed UI that detects search intent and surfaces AI guidance when traditional search results fall short.</li>
+	<li><b>Search Results Integration:</b> Designed UI that detects search intent and surfaces AI guidance when traditional search results fall short.</li>
 	<li><b>Streaming Experience:</b> Reduced perceived latency by designing a progressive response UI that delivers value earlier in the interaction.</li>
+	<li><b>Desktop Outfit Building:</b> Translated mobile-first AI styling experiences to desktop.</li>
 </ul>
 
 
