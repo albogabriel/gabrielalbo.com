@@ -180,14 +180,14 @@ I have always been very mindful of a11y - during my time as a trainer at <a link
 <p>
 With that context in mind, I have worked with the Zalando a11y Core Team and our ZA engineering team to make sure we covered all our bases. From a design perspective, that meant creating clear a11y annotations for tab order for screen readers and defining the designs for alternate displays - dark mode, landscape, dynamic text sizes. Here are some examples of how we defined those:
 </p>
-<div class="project-image-container-centralized" style="width: 80%;">
+<div class="project-image-container-centralized">
 	<span> 
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/a11y01.png" alt=""/>
 	 	<figcaption>Examples of how I mapped designs for alternate experiences - dark mode, dynamic text and landscape - for one of the states of the ZA drawer </figcaption>
 	</span>
 </div>
 <br>
-<div class="project-image-container-centralized" style="width: 80%;">
+<div class="project-image-container-centralized">
 	<span> 
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/a11y02.png" alt=""/>
 	 	<figcaption>Annotations for the tab order for screen readers for the same component state</figcaption>
@@ -261,7 +261,7 @@ satisfaction and lower return rates.
 	I ran very extensive benchmarking of current solutions in the market and researched scientific papers that would help guide us towards a better experience.
 	</p>
 
-	<div class="project-image-container-centralized" style="width: 80%;">
+	<div class="project-image-container-centralized">
 		<span> 
 		 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/streaming-benchmark.png" alt="ZA Streaming Benchmark"/>
 		 	<figcaption>Benchmark of streaming experiences with detailed analysis, comparisons and conclusions</figcaption>
@@ -289,9 +289,9 @@ satisfaction and lower return rates.
 
 	One other important aspect is that we made all the "thinking" stages more descriptive, providing real time feedback to the user on what actions are happening in the background instead of presenting a generic "loading" message. Processing feedback was enhanced by the existing background animation that played with the Zalando logo.</p>
 
-	<div class="project-image-container-centralized">
+	<div class="project-image-container-centralized-single-image">
 		<span> 
-	 		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/streaming03.png" alt="Image Placeholder and a different loading message" style="width:24.621%;"/>
+	 		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/streaming03.png" alt="Image Placeholder and a different loading message"/>
 	 		<figcaption>Loading images with a placeholder animation and with a distinct message</figcaption>
 		</span>
 	</div>

@@ -278,6 +278,13 @@ ul.posts span {
 .project-image-container, .project-image-container-centralized {
   text-align: center;
   margin-bottom: 40px;
+  width: 80%;
+}
+
+.project-image-container, .project-image-container-centralized-single-image {
+  text-align: center;
+  margin: 0 auto;
+  width:24.621%;
 }
 
 .project-image-container {
