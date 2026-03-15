@@ -745,3 +745,4 @@ h2.section-heading {
 @media (max-width: 50em) {
   h2.section-heading::after {
     width: 99%; } }
+    
