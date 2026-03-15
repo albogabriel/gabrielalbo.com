@@ -12,7 +12,7 @@ skills: [Interaction design, AI Conversational Experience, Information Architect
 skills-used: ['Interaction design','AI Conversational Experience', 'Information Architecture', 'Accessibility']
 ---
 
-<div class="project-image-container">
+<div class="project-image-container-hero">
 	<span>
 		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-zalando.png" alt=""/>
 	</span>
