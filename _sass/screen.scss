@@ -760,8 +760,13 @@ span.project-description-container {
   content: none !important;
 }
 
-h2.section-heading { color: $main-color; }
-h2.section-title { color: $main-color; }
+h2.section-heading {
+  color: $main-color;
+}
+
+h2.section-title {
+  color: $main-color;
+}
 
 .section-heading + .posts {
   margin-bottom: 2rem;
