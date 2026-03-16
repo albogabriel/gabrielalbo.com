@@ -175,7 +175,7 @@ The assistant behaves differently depending on the success of the query:
 
 <h3>Accessibility (a11y)</h3>
 <p>
-I have always been very mindful of a11y - during my time as a trainer at <a link="{{ site.baseurl }}/_posts/2022-03-01-twu.markdown">Thoughtworks University</a> I co-authored and ran a session on the subject and have worked extensively with the theme. Moreover, this project was to be delivered at the time when the European Accessibility Act 2025 would be taking effect, so a11y was more than a nice feature to have, but an actual legal requirement.
+I have always been very mindful of a11y - during my time as a trainer at <a href="{{ site.baseurl }}/projects/2022/03/01/twu.html">Thoughtworks University</a> I co-authored and ran a session on the subject and have worked extensively with the theme. Moreover, this project was to be delivered at the time when the European Accessibility Act 2025 would be taking effect, so a11y was more than a nice feature to have, but an actual legal requirement.
 </p>
 <p>
 With that context in mind, I have worked with the Zalando a11y Core Team and our ZA engineering team to make sure we covered all our bases. From a design perspective, that meant creating clear a11y annotations for tab order for screen readers and defining the designs for alternate displays - dark mode, landscape, dynamic text sizes. Here are some examples of how we defined those:
