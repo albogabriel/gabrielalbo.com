@@ -13,7 +13,7 @@ skills-used: ['Service Design (Business Model Canvas, Stakeholder Mapping, Servi
 
 <div class="project-summary"> 
 	<div class="category-description">CHALLENGE</div>
-	<p>Yara needed a precise, cost-effective way to measure silo occupancy across facilities. Existing methods were unreliable, slow, and posed safety risks. The challenge required on-site experimentation in hazardous environments while ensuring compliance with strict safety protocols.</p>
+	<p>Spire Healthcare needed a clear data strategy to improve how data flows across its network of hospitals and internal services. Existing processes were fragmented, with limited visibility into data touchpoints across clinical and operational functions. The challenge was to understand the as-is scenario across a complex, distributed organization — spanning hospital management, staff, and doctors — and translate those findings into a structured, actionable roadmap for improvement.</p>
 
 	<div class="category-description">SOLUTION</div>
 	<p>An extensive Data Strategy Discovery phase that involved remote interviews and on-site hospital visits to document the as-is scenario. The team created organizational and individual journey maps, identified key data interactions, and developed hypotheses for improvement. The findings were synthesized into a strategic roadmap with prioritized recommendations for implementation.</p>
