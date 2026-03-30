@@ -11,6 +11,12 @@ skills: [Service Design, Workshop Facilitation, Information Architecture, Resear
 skills-used: ['Service Design (Business Model Canvas, Stakeholder Mapping, Service Roadmap, Prioritisation, OKRs)', 'Workshop Facilitation (Discovery kick off, User Journey Mapping, Persona creation, Feature Mapping)', 'Information Architecture','Research (interviews, ethnographic research)']
 ---
 
+<div class="project-image-container-hero">
+	<span>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-spire.png" alt=""/>
+	</span>
+</div>
+
 <div class="project-summary"> 
 	<div class="category-description">CHALLENGE</div>
 	<p>Spire Healthcare needed a clear data strategy to improve how data flows across its network of hospitals and internal services. Existing processes were fragmented, with limited visibility into data touchpoints across clinical and operational functions. The challenge was to understand the as-is scenario across a complex, distributed organization — spanning hospital management, staff, and doctors — and translate those findings into a structured, actionable roadmap for improvement.</p>

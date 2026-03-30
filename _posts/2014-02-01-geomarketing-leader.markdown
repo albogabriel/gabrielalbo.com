@@ -11,6 +11,12 @@ skills: [Interaction Design, Research, Product Design]
 skills-used: [Discovery workshop, Paper prototyping, Clickable mockups, User interviews, Usability testing, Focus groups, Heuristics evaluation, User Journeys, Personas, Facilitation, Business Origami, Visual Telephone, Business Model Canvas, Elevator Pitch, Future Facebook Posts]
 ---
 
+<div class="project-image-container-hero">
+    <span>
+        <img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-geofusion.png" alt=""/>
+    </span>
+</div>
+
 <div class="project-summary"> 
     <div class="category-description">CHALLENGE</div>
     <p>Redesign the reports module for a geomarketing client, helping them provide better location analysis for franchise placement and advertising in Brazilian cities.</p>

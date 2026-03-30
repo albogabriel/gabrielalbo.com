@@ -12,6 +12,12 @@ skills: [Workshop Facilitation, User Research, Interaction Design, Information A
 skills-used: ['Workshops Facilitation (Elevator Pitch, User Journey Mapping, Persona creation, Feature Mapping)', 'User research (surveys, interviews, usability testing)', 'Information Architecture', 'Interaction Design', 'Front-end Development (pairing with front-end devs', 'Business Analysis']
 ---
 
+<div class="project-image-container-hero">
+	<span>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-payback.png" alt=""/>
+	</span>
+</div>
+
 <div class="project-summary"> 
     <div class="category-description">CHALLENGE</div>
     <p>PAYBACK needed a way to create and manage marketing challenges that incentivized customer spending. The goal was to enable marketing managers to set up promotions while allowing users to enroll and track progress via the PAYBACK app.</p>

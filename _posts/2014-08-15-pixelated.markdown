@@ -13,6 +13,12 @@ skills: [Interaction Design,Front-end Development,Research,Graphic Design, Produ
 skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript, Foundation, Continuous Design, Open Design, Live Style Guide, Paper prototyping, clickable mockups, Prototyping on code, Product Design, Branding, Customer Development, Community Development, Color theory, Layout, Typography, Collaborative sketching, Personas, User journeys, Agile UX, Font-icons]
 ---
 
+<div class="project-image-container-hero">
+	<span>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-pixelated.png" alt=""/>
+	</span>
+</div>
+
 <div class="project-summary"> 
     <div class="category-description">CHALLENGE</div>
     <p>Enable secure, decentralized email communication through an open-source, user-friendly encrypted email client.</p>

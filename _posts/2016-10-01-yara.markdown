@@ -12,6 +12,12 @@ skills: [Research, Service Design, Design Sprints]
 skills-used: [Research, Service Design, Design Sprints]
 ---
 
+<div class="project-image-container-hero">
+	<span>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-yara.png" alt=""/>
+	</span>
+</div>
+
 <div class="project-summary"> 
 	<div class="category-description">CHALLENGE</div>
 	<p>Yara needed a precise, cost-effective way to measure silo occupancy across facilities. Existing methods were unreliable, slow, and posed safety risks. The challenge required on-site experimentation in hazardous environments while ensuring compliance with strict safety protocols.</p>
