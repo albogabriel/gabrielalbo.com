@@ -12,11 +12,16 @@ title: Gabriel Albo - Projects
       <h2 class="section-heading">Featured Work</h2>
       <div class="featured-grid">
         {% for post in featured %}
+          {% assign image_base = post.image | split: "." | first %}
           <div class="featured-card clickable-div" data-href="{{ site.baseurl }}{{ post.url }}">
             <h4 class="ribbon">Highlighted Project</h4>
-            <img class="featured-card-image"
-                 src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}"
-                 alt="{{ post.title }}"/>
+            <picture>
+              <source srcset="{{ site.baseurl }}/assets/images/projects/{{ image_base }}.webp" type="image/webp">
+              <img class="featured-card-image"
+                   src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}"
+                   alt="{{ post.title }}"
+                   loading="eager"/>
+            </picture>
             <div class="featured-card-body">
               <h2>{{ post.title }}</h2>
               <h3 class="post-header-date">
@@ -37,23 +42,30 @@ title: Gabriel Albo - Projects
       </div>
     {% endif %}
 
-    <!-- Other projects - unchanged -->
+    <!-- Other projects -->
     {% assign others = site.categories.projects | where_exp: "p", "p.highlighted-project != 'yes'" %}
     {% if others.size > 0 %}
       <h2 class="section-heading">More Work</h2>
       <ul class="posts">
         {% for post in others %}
+          {% assign image_base = post.image | split: "." | first %}
           <li class="post-header">
             <div class="clickable-div" data-href="{{ site.baseurl }}{{ post.url }}">
               <div class="portfolio-project">
                 <div class="portfolio-main">
                   <span class="project-image-container">
-                    <img class="project-round-image" src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}" alt=""/>
+                    <picture>
+                      <source srcset="{{ site.baseurl }}/assets/images/projects/{{ image_base }}.webp" type="image/webp">
+                      <img class="project-round-image"
+                           src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}"
+                           alt=""
+                           loading="lazy"/>
+                    </picture>
                   </span>
                   <span class="project-description-container">
                     <h2>{{ post.title }}</h2>
                     <h3 class="post-header-date">
-                      {{ post.start-date }}{%if post.end-date != null %} - {% endif %} {{ post.end-date }}
+                      {{ post.start-date }}{% if post.end-date != null %} - {% endif %} {{ post.end-date }}
                     </h3>
                     <h3 class="post-header-description">
                       {{ post.short-description }}
@@ -67,7 +79,13 @@ title: Gabriel Albo - Projects
                   </span>
                 </div>
                 <div class="project-hero-container">
-                  <img class="project-hero-image" src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}" alt="Hero for {{ post.title }}"/>
+                  <picture>
+                    <source srcset="{{ site.baseurl }}/assets/images/projects/{{ image_base }}.webp" type="image/webp">
+                    <img class="project-hero-image"
+                         src="{{ site.baseurl }}/assets/images/projects/{{ post.image }}"
+                         alt="Hero for {{ post.title }}"
+                         loading="lazy"/>
+                  </picture>
                 </div>
               </div>
             </div>
