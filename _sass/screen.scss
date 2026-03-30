@@ -114,6 +114,10 @@ h3 {
   color: $main-color;
 }
 
+h3.post-header-description, h3.post-header-date {
+  color: #0c4b6a;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
@@ -555,7 +559,6 @@ li.post-header {
   .post-header-description {
     font-style: normal;
     font-weight: normal;
-    font-size: 85%;
     margin-top: 8px;
   }
 
@@ -878,7 +881,6 @@ h2.section-title {
 }
 
 .featured-projects li.post-header .post-header-skills {
-  font-size: 85%;
   margin: 6px 0 0 0;
   display: flex;
   flex-wrap: wrap;
@@ -969,7 +971,6 @@ h2.section-title {
   .featured-card-body .post-header-description {
     font-style: normal;
     font-weight: normal;
-    font-size: 85%;
     margin-top: 8px;
     margin-bottom: 10px;
     color: #0c4b6a;
