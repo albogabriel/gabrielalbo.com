@@ -11,6 +11,12 @@ skills: [Workshop Facilitation, Service Design, User Research, Storytelling]
 skills-used: ['Discovery Workshop Facilitation (Lean Value Tree, User Journey Mapping)', 'Service Design (Service Mapping, Stakeholder Mapping, Business Model Canvas)','Storytelling (Visual Journey Maps, Storyboards)', 'User Research']
 ---
 
+<div class="project-image-container-hero">
+    <span>
+        <img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-mb-verso.png" alt=""/>
+    </span>
+</div>
+
 <div class="project-summary"> 
     <div class="category-description">CHALLENGE</div>
     <p>Mercedes-Benz needed to integrate online sales with dealership experiences, requiring a strategic framework for multiple development work streams.</p>
