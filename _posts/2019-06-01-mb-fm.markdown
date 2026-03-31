@@ -6,7 +6,7 @@ end-date: Aug 2019
 category: projects
 current-page: portfolio-item
 image: "hero-mb-fm.png"
-short-description: "Inception and Prototyping of new Fleet Management System for Mercedes-Benz's Researchand Development department."
+short-description: "Inception and Prototyping of new Fleet Management System for Mercedes-Benz's Research and Development department."
 skills: [Workshop Facilitation, User Research, Interaction Design, Front-end Development, Rapid Prototyping]
 skills-used: ['Inception Workshops Facilitation (Elevator Pitch, Business Model Canvas, User Journey Mapping, Persona creation, Feature Mapping)', 'Prototyping (Paper-to-code)', 'Interaction Design','Front-end Development (HTML, CSS)']
 ---
