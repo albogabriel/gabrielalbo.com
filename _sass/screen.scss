@@ -502,11 +502,11 @@ ul.menu {
   }
 
   a {
-    color: darken($light-header-background, 3);
+    color: darken($main-color, 3);
   }
 
   a:visited {
-    color: darken($light-header-background, 5);
+    color: darken($main-color, 5);
   }
 }
 
