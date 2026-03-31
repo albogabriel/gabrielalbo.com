@@ -114,6 +114,10 @@ h3 {
   color: $main-color;
 }
 
+span.skill-item {
+  font-size: 85%;
+}
+
 h3.post-header-description, h3.post-header-date {
   color: #0c4b6a;
 }
@@ -161,14 +165,14 @@ ul.posts {
   margin-bottom: 2em;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+ul.posts li,  h3.post-header-description{
+  line-height: 1.5em;
   text-align: left;
 }
 
 ul.posts span {
   color: $darkest-main-color;
-  font-size: 80%;
+  font-size: 85%;
 }
 
 /*****************************************************************************/
