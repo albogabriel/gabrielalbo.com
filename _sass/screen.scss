@@ -492,6 +492,9 @@ ul.menu {
 .about-page-container {
   padding: 22px;
   text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
 
   b.emphasis {
     color: $main-color;
@@ -1186,5 +1189,30 @@ h2.section-title {
 
   .abbreviated-name {
     display: none;
+  }
+}
+
+.footer-note {
+  text-align: center;
+  font-size: 0.75em;
+  color: $darkest-main-color;
+  margin: 1.5rem auto 5rem auto;
+  padding: 0 10px 0 0;
+  line-height: 1.8;
+  width: 100%;
+  display: block;
+
+  a, span {
+    display: inline;
+  }
+
+  a {
+    color: $main-blue-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $darker-main-color;
+    }
   }
 }
