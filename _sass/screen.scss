@@ -472,17 +472,48 @@ ul.menu {
 
 .avatar {
   text-align: center;
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg, transparent 55%, #85d4f5 75%, #c2eafb 88%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    animation: none;
+    z-index: 0;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: $light-header-background;
+    z-index: 1;
+  }
 
   img {
     height: 180px;
     width: 180px;
     border-radius: 70px;
-    -webkit-border-radius: 70px;
-    -moz-border-radius: 70px;
-    $scale: 1;
+    position: relative;
+    z-index: 2;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
   }
+
+  &:hover::before {
+    opacity: 1;
+    animation: spin-border 2s linear infinite;
+  }
+}
+
+@keyframes spin-border {
+  to { transform: rotate(360deg); }
 }
 
 .page-container {
