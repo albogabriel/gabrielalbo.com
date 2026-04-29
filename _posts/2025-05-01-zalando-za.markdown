@@ -41,7 +41,7 @@ through experimentation.
 <ul>
 	<li><b>Search Results Integration:</b> Designed UI that detects search intent and surfaces AI guidance when traditional search results fall short.</li>
 	<li><b>Streaming Experience:</b> Reduced perceived latency by designing a progressive response UI that delivers value earlier in the interaction.</li>
-	<li><b>Desktop Outfit Building:</b> Translated mobile-first AI styling experiences to desktop.</li>
+	<li><b>Desktop Outfit Building:</b> Translated mobile-first AI styling experiences to desktop. <b>(coming soon)</b></li>
 </ul>
 <br>
 
@@ -132,7 +132,10 @@ search results.
 <p>
 The assistant behaves differently depending on the success of the query:
 </p>
-<!-- images of drawer in different states -->
+
+<b>Low-success queries:</b> ZA appears partially expanded, prompting the user to refine their intent. Interacting with it expands the assistant and helps users discover more relevant products.
+
+
 <div class="image-row-3">
 	<span>
 		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/01.png" alt=""/>
@@ -147,7 +150,8 @@ The assistant behaves differently depending on the success of the query:
 		<figcaption>ZA drawer fully minimized</figcaption>
 	</span>
 </div>
-<br>
+<b>High-success queries:</b> ZA appears minimized, remaining accessible without 
+	distracting from strong search results.
 <div class="image-row-2">
 	<span class="left-img">
 		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/zalando/04.png" alt=""/>
@@ -159,19 +163,6 @@ The assistant behaves differently depending on the success of the query:
 	</span>
 </div>
  <br>
-<ul>
-	<li>
-	<b>High-success queries:</b> ZA appears minimized, remaining accessible without 
-	distracting from strong search results.
-	</li>
-
-	<li>
-	<b>Low-success queries:</b> ZA appears partially expanded, prompting the user to refine 
-	their intent. Interacting with it expands the assistant and helps users discover more 
-	relevant products.
-	</li>
-</ul>
-<br>
 
 <h3>Accessibility (a11y)</h3>
 <p>
