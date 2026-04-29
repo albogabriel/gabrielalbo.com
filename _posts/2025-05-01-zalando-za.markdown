@@ -43,7 +43,7 @@ through experimentation.
 	<li><b>Streaming Experience:</b> Reduced perceived latency by designing a progressive response UI that delivers value earlier in the interaction.</li>
 	<li><b>Desktop Outfit Building:</b> Translated mobile-first AI styling experiences to desktop.</li>
 </ul>
-
+<br>
 
 <div class="category-description">APPROACH</div>
 <p>
