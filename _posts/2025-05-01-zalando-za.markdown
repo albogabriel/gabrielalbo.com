@@ -68,8 +68,10 @@ the growth of the <b>Zalando Assistant (ZA)</b>, an AI-powered conversational as
 provides personalized fashion advice and product recommendations.
 </p>
 
+<p>Zalando Assistant is an AI-powered conversational fashion assistant embedded in Zalando’s platform that helps customers discover, explore, and select fashion products through natural language interaction. Built in partnership with AI model providers and powered by scalable large-language models, the Assistant interprets user queries about style, occasions or preferences and delivers personalized product suggestions tailored to context, language and intent. Since its rollout across 25 markets, it has driven increased engagement (e.g., product clicks and wishlist additions) and complements traditional browsing by simplifying decision-making in a large catalogue.</p>
+
 <p>
-My work focused on three initiatives — Search Results Integration, Outfit Building and the 
+Besides incremental improvements to the general user experience, my work focused on three initiatives — Search Results Integration, Outfit Building and the 
 Streaming Experience — collaborating with engineers, product managers, applied scientists 
 and designers to create features that increased customer engagement and supported the 
 product’s growth strategy.
