@@ -474,6 +474,7 @@ ul.menu {
   text-align: center;
   display: inline-block;
   position: relative;
+  padding-bottom: 20px;
 
   &::before {
     content: '';
@@ -521,7 +522,7 @@ ul.menu {
 }
 
 .about-page-container {
-  padding: 22px;
+  padding: 0 22px 22px 22px;
   text-align: center;
   margin: 0 auto;
   max-width: 100%;
