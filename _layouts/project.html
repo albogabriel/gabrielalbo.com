@@ -16,5 +16,32 @@ layout: default
 				<a href="{{ site.baseurl }}/portfolio" target="_self">&crarr;  	Back to all projects</a>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+(function () {
+  var images = document.querySelectorAll('.post .project-image:not(.project-image-hero)');
+  images.forEach(function (img) {
+    if (img.closest('a')) return;
+    var a = document.createElement('a');
+    a.href = img.src;
+    a.className = 'glightbox';
+    a.setAttribute('data-gallery', 'project');
+    a.setAttribute('data-description', img.closest('figure, span, div')?.querySelector('figcaption')?.textContent?.trim() || '');
+    img.parentNode.insertBefore(a, img);
+    a.appendChild(img);
+    img.style.cursor = 'zoom-in';
+  });
+
+  GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    keyboardNavigation: true,
+    closeOnOutsideClick: true,
+    loop: false,
+    zoomable: false,
+  });
+})();
+</script>
