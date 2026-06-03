@@ -37,7 +37,7 @@
   var aboutBlocks = document.querySelectorAll('.about-page-container p.about-text, .about-page-container .contact-icons-container, .about-page-container .footer-note');
   aboutBlocks.forEach(function (el, i) {
     el.classList.add('ga-fade-up');
-    el.style.animationDelay = (880 + i * 100) + 'ms';
+    el.style.animationDelay = (880 + i * 50) + 'ms';
   });
 
   /* ── Portfolio card scroll reveal ───────────────────────────────────── */
