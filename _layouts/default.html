@@ -90,7 +90,7 @@
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-          var scrolled = document.body.scrollTop > 40 || document.documentElement.scrollTop > 40;
+          var scrolled = (window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop) > 40;
           if (window.innerWidth <= 600) {
             document.getElementById("logo-name").style.fontSize = scrolled ? "10px" : "20px";
           } else {
