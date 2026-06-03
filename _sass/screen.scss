@@ -406,7 +406,16 @@ header {
   top: 0;
   z-index: 9999;
   padding-bottom: 20px;
-  /*background-color: $light-header-background;*/
+  background-color: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+
+  &.header--scrolled {
+    background-color: rgba(252, 252, 252, 0.88);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
   text-align: center;
 
   .logo img {
@@ -480,7 +489,7 @@ ul.menu {
   text-align: center;
   display: inline-block;
   position: relative;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   &::before {
     content: '';
@@ -528,7 +537,7 @@ ul.menu {
 }
 
 .about-page-container {
-  padding: 0 22px 22px 22px;
+  padding: 16px 22px 22px 22px;
   text-align: center;
   margin: 0 auto;
   max-width: 100%;
@@ -1304,7 +1313,7 @@ html[data-theme="dark"] {
     background-size: 20px 20px;
   }
 
-  header {
+  header.header--scrolled {
     background-color: rgba(14, 25, 35, 0.97);
   }
 
