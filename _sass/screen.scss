@@ -1254,3 +1254,276 @@ h2.section-title {
     }
   }
 }
+
+/*****************************************************************************/
+/*
+/* Theme toggle button
+/*
+/*****************************************************************************/
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0 0 8px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  color: $darkest-main-color;
+  opacity: 0.6;
+  transition: opacity 0.2s ease, color 0.3s ease;
+  position: relative;
+  top: -1px;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  svg {
+    display: block;
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Dark Mode
+/*
+/*****************************************************************************/
+
+html[data-theme="dark"] {
+  background: #0e1923;
+}
+
+[data-theme="dark"] {
+
+  body {
+    color: #cce8f6;
+    background: #0e1923;
+    background-image: radial-gradient(circle, rgba(40, 168, 231, 0.08) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  header {
+    background-color: rgba(14, 25, 35, 0.97);
+  }
+
+  .avatar::after {
+    background: #0e1923;
+  }
+
+  h3 {
+    color: $main-color;
+  }
+
+  h3.post-header-description,
+  h3.post-header-date {
+    color: #cce8f6;
+  }
+
+  a, a:visited {
+    color: #cce8f6;
+  }
+
+  a:hover {
+    color: #7ab3cf;
+  }
+
+  ul li span {
+    color: #cce8f6;
+  }
+
+  ul.posts span {
+    color: #7ab3cf;
+  }
+
+  ul.menu li {
+    color: #cce8f6;
+  }
+
+  .section-heading,
+  h2.section-heading,
+  h2.section-title {
+    color: $main-color;
+  }
+
+  .selected-item {
+    border-bottom-color: $main-color;
+  }
+
+  li.post-header {
+    background-color: #162433;
+    border-color: #1f3d57;
+    color: #cce8f6;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.4);
+      border-color: rgba(40, 168, 231, 0.35);
+    }
+
+    &::before {
+      background: radial-gradient(circle, rgba(40, 168, 231, 0.18) 0%, transparent 70%);
+    }
+
+    .post-header-description,
+    h2 {
+      color: #cce8f6;
+    }
+
+    .post-header-date {
+      color: #7ab3cf;
+    }
+
+    .post-header-skills {
+      color: #7ab3cf;
+    }
+
+    .view-case-study-link {
+      color: #5dc2f0;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+
+    .project-hero-container {
+      background-color: #1a2e42;
+    }
+  }
+
+  .post, .back-to-index, .page-container {
+    a, a:visited {
+      color: #5dc2f0;
+    }
+
+    a:hover {
+      color: $main-color;
+    }
+  }
+
+  .post pre {
+    border-color: #1f3d57;
+    background-color: #162433;
+  }
+
+  .post code {
+    border-color: #1f3d57;
+    background-color: #162433;
+  }
+
+  .post pre.terminal {
+    border-color: #0a1e2c;
+    background-color: #030e17;
+  }
+
+  .post pre.terminal code {
+    background-color: #030e17;
+  }
+
+  .project-summary {
+    background-color: #132030;
+  }
+
+  .project-alternate {
+    background-color: #132030;
+  }
+
+  .category-description {
+    color: $main-color;
+  }
+
+  .about-page-container {
+    b.emphasis {
+      color: $main-color;
+    }
+
+    a {
+      color: #5dc2f0;
+    }
+
+    a:visited {
+      color: #5dc2f0;
+    }
+  }
+
+  span.skill-item {
+    background-color: #1a3a52;
+    color: #7ab3cf !important;
+  }
+
+  .featured-projects li.post-header {
+    .project-hero-container {
+      background-color: #1a2e42;
+    }
+
+    .skill-item {
+      background: #1a3a52;
+      color: #7ab3cf !important;
+    }
+  }
+
+  .featured-card,
+  .featured-grid .featured-card {
+    background: #162433;
+    border-color: #1f3d57;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.4);
+      border-color: rgba(40, 168, 231, 0.35);
+    }
+
+    &::before {
+      background: radial-gradient(circle, rgba(40, 168, 231, 0.18) 0%, transparent 70%);
+    }
+  }
+
+  .featured-card-body {
+    h2 {
+      color: #cce8f6;
+    }
+
+    .post-header-date {
+      color: #7ab3cf;
+    }
+
+    .post-header-description {
+      color: #cce8f6;
+    }
+
+    .view-case-study-link {
+      color: #5dc2f0;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
+
+  .contact-icon {
+    box-shadow: 0 0 2px #0e1923;
+  }
+
+  .site {
+    .meta {
+      color: #7ab3cf;
+    }
+  }
+
+  .footer-note {
+    color: #7ab3cf;
+
+    a {
+      color: $main-color;
+
+      &:hover {
+        color: #5dc2f0;
+      }
+    }
+  }
+
+  #theme-toggle {
+    color: #cce8f6;
+  }
+}

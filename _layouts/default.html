@@ -14,6 +14,16 @@
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,500,800" rel="stylesheet" type="text/css" />
 
+        <script>
+          (function() {
+            try {
+              if (localStorage.getItem('theme') === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+              }
+            } catch(e) {}
+          })();
+        </script>
+
         <script src="{{ site.baseurl }}/assets/javascript/analytics.js"></script>
 
         <!-- Cloudflare Web Analytics -->
@@ -59,6 +69,12 @@
                         class="selected-item"
                         {% endif %}
                          >PORTFOLIO</a></li>
+                        <li>
+                          <button id="theme-toggle" aria-label="Switch to dark mode" title="Toggle dark mode">
+                            <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                            <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                          </button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -78,6 +94,37 @@
             document.getElementById("logo-name").style.fontSize = "20px";
           }
         }
+        </script>
+
+        <script>
+        (function() {
+          var btn = document.getElementById('theme-toggle');
+          var iconMoon = document.getElementById('icon-moon');
+          var iconSun = document.getElementById('icon-sun');
+
+          function applyTheme(dark) {
+            if (dark) {
+              document.documentElement.setAttribute('data-theme', 'dark');
+              iconMoon.style.display = 'none';
+              iconSun.style.display = 'block';
+              btn.setAttribute('aria-label', 'Switch to light mode');
+            } else {
+              document.documentElement.removeAttribute('data-theme');
+              iconMoon.style.display = 'block';
+              iconSun.style.display = 'none';
+              btn.setAttribute('aria-label', 'Switch to dark mode');
+            }
+          }
+
+          // Sync icon with current theme on load
+          applyTheme(document.documentElement.getAttribute('data-theme') === 'dark');
+
+          btn.addEventListener('click', function() {
+            var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            applyTheme(!isDark);
+            try { localStorage.setItem('theme', isDark ? 'light' : 'dark'); } catch(e) {}
+          });
+        })();
         </script>
     </body>
 </html>
