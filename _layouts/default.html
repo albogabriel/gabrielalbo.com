@@ -91,10 +91,16 @@
 
         function scrollFunction() {
           var scrolled = document.body.scrollTop > 40 || document.documentElement.scrollTop > 40;
-          document.getElementById("logo-name").style.fontSize = scrolled ? "10px" : "20px";
+          if (window.innerWidth <= 600) {
+            document.getElementById("logo-name").style.fontSize = scrolled ? "10px" : "20px";
+          } else {
+            document.getElementById("logo-name").style.fontSize = "";
+          }
           document.querySelector("header").classList.toggle("header--scrolled", scrolled);
         }
         </script>
+
+        <script src="{{ site.baseurl }}/assets/javascript/animations.js" defer></script>
 
         <script>
         (function() {
