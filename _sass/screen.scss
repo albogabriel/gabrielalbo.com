@@ -1668,3 +1668,9 @@ html.theme-transitioning .tt-thumb {
     svg:last-child  { opacity: 1; }
   }
 }
+
+/* Customizing GLightbox */
+
+.gslide-image img {
+  padding: 2em;
+}
