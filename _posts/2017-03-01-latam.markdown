@@ -18,13 +18,13 @@ skills-used: [Usability Testing, User interviews, A/B testing, Interaction Desig
 	</span>
 </div>
 
-<div class="project-summary"> 
+<div class="project-summary">
 	<div class="category-description">CHALLENGE</div>
 	<p>With rising low-cost competition and the need to improve their then-existing shopping flow, LATAM needed to offer an intuitive flight searching process and clearer fare comparisons to balance competitive pricing with premium options, as well as a simple and secure booking experience. This challenge coincided with its transition from Amadeus to SabreSonic, adding technical hurdles and a strict timeline.</p>
 	<div class="category-description">SOLUTION</div>
 	<p>A redesigned shopping and booking experience that simplified flight searches, fare comparisons, and ticket purchases. The new design prioritized clarity in presenting fare options and ensured integration with the SabreSonic system, providing intuitive layouts and improved accessibility to help users make informed decisions.</p>
 	<div class="category-description">MY ROLE</div>
-	<p>As a UX designer embedded within LATAM’s design team, I collaborated across all project phases. My contributions included product design, user research, interaction design and business analysis ensuring a seamless and informative booking experience aligned with the new reservation system.</p>
+	<p>As a UX designer embedded within LATAM's design team, I collaborated across all project phases. My contributions included product design, user research, interaction design and business analysis ensuring a seamless and informative booking experience aligned with the new reservation system.</p>
 	<div class="category-description">APPROACH</div>
 	<p>We used an iterative, user-centered design process with usability testing and interviews to refine the experience. We optimized fare presentation for easy comparison, as long as redefinin. I also worked closely with technical teams to ensure compatibility with the new SabreSonic system.</p>
 	<div class="category-description">RESULTS</div>
@@ -37,14 +37,14 @@ Santiago (Chile)
 
 <h2>Project description</h2>
 
-I have worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client’s UX team and working directly with two project teams in their headquarters in Santiago, Chile. 
+I have worked as as a UX designer with LATAM airlines for the duration of nearly one year, having spent that time directly with the client's UX team and working directly with two project teams in their headquarters in Santiago, Chile.
 
-The two projects were the shopping flow - searching for flights, presenting available options and all the required information and alternative views - and the booking flow, which involved capturing passenger information to proceed with booking their ticket. 
+The two projects were the shopping flow - searching for flights, presenting available options and all the required information and alternative views - and the booking flow, which involved capturing passenger information to proceed with booking their ticket.
 
 Working directly within their design team also involved collaborating directly in all phases of UX design on those projects, from user research and interaction design to A/B testing and UX writing, collaborating directly with all roles involved in delivering the solutions.
 
-<div class="project-image-container-centralized" style="width: 80%;">
-	<span> 
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/venn.png" alt=""/>
 	 	<figcaption>This is a project where the classic Product Management Venn Diagram was quite clear in its importance</figcaption>
 	</span>
@@ -65,84 +65,73 @@ There was a robust Design System that was fed upon by the several different desi
 <h3>Collaboration</h3>
 Being a part of a multisciplinary team composed of developers, product managers, business analysts and QAs, all very familiar with the context of the product but approaching it from their own specialties and perspectives, we tried to leverage all that knowledge and collaborate as much as possible. One of the ways of collaborating was running sketching sessions in which everyone participated and we could get multiple ideas on how to solve problems.
 
-<div class="project-image-container">
-	<span> 
-	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching01.jpg" alt=""/>
+<div class="image-row-2">
+	<span class="left-img" style="text-align: right;">
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching01.jpg" alt="" style="width:70%;" />
 	</span>
-
-	<span> 
-	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching03.jpg" alt=""/>
+	<span class="right-img" style="text-align: left;">
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching03.jpg" alt="" style="width:70%;"/>
 	</span>
 </div>
 
-<div class="project-image-container">
-	<span> 
-	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching02.jpg" alt=""/>
+<div class="image-row-2">
+	<span class="left-img" style="text-align: right;">
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching02.jpg" alt="" style="width:70%;"/>
 	</span>
-	<span> 
-	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching04.jpg" alt=""/>
+	<span class="right-img" style="text-align: left;">
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/sketching04.jpg" alt="" style="width:70%;"/>
 	</span>
 </div>
 
 We have also made extensive use of design critiques and feedback sessions, bringing different options and alternatives early on for the development team - or the other designers in our squad - to provide us with their input. From time to time, we would hang those designs on the wall and leave them for a couple of days, allowing for people to randomly provide us feedback if they happen to have an insight during the day.
 
-<div class="project-image-container">
-	<span> 
+<div class="image-row-3">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall04.jpg" alt=""/>
-	 	 
 	</span>
-	<span> 
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall05.jpg" alt=""/>
-	 	 
 	</span>
-	<span> 
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall03.jpg" alt=""/>
-	 	 
-	</span>	
+	</span>
 </div>
 
-<div class="project-image-container">
-	<span> 
+<div class="image-row-3">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall01.jpg" alt=""/>
-	 	 
 	</span>
-	<span> 
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall02.jpg" alt=""/>
-	 	 
 	</span>
-	<span> 
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall06.jpg" alt=""/>
-	 	 
 	</span>
 </div>
 
-<div class="project-image-container">
-	<span> 
+<div class="image-row-3">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall07.jpg" alt=""/>
-	 	 
 	</span>
-	<span> 
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/wall08.jpg" alt=""/>
-	 	 
+	</span>
+	<span>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/whiteboard.jpg" alt=""/>
 	</span>
 </div>
 
-<div class="project-image-container">
-	<span> 
-	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/whiteboard.jpg" alt=""/>
-	 	<figcaption>Ideas were frequently sketched on whiteboards and discussed in group - with the proper "don't erase!" request when the conversation was to be continued :)</figcaption>
-	</span>
-</div>
+Ideas were frequently sketched on whiteboards and discussed in group - with the proper "don't erase!" request when the conversation was to be continued :)
 
 This approach not only brought us very valuable feedback and information that was previously unknown, but also created more transparency on the design process and a sense of ownership by the whole team, as they were effectively a part of the process.
 
 
 <h2>Research and User Testing</h2>
 
-Latam had a quite mature research practice and was well equipped for it. A dedicated team of researchers had a research lab available and great user recruiting processes. 
+Latam had a quite mature research practice and was well equipped for it. A dedicated team of researchers had a research lab available and great user recruiting processes.
 
-<div class="project-image-container">
-	<span> 
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/user-research.jpg" alt=""/>
 	 	<figcaption>Rounds of formal user testing happened in their User Research Lab, which was accessible to us as conductors and spectators</figcaption>
 	</span>
@@ -150,8 +139,8 @@ Latam had a quite mature research practice and was well equipped for it. A dedic
 
 But we also conducted a ot of quicker, guerilla style research, too. We frequently used their recruiting capabilities to do so, but also found creative ways of recruiting, interviewing and testing. For example, by running interviews at the airports, inside boarding rooms, with actual passengers. We ran such interviews in the airport of Santiago de Chile and São Paulo, Brazil.
 
-<div class="project-image-container">
-	<span> 
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/cracha.jpg" alt=""/>
 	 	<figcaption>Fun fact of interviewing at the airport while wearing an Airline badge: passengers come to you to help them sort out their flight and seating situations. </figcaption>
 	</span>
@@ -160,26 +149,27 @@ But we also conducted a ot of quicker, guerilla style research, too. We frequent
 We were also able to make use of analytics and a mature structure of A/B testing when it came to deployment, which allowed us to test new features and progressively roll them out from a small percentage of users to the entire user base. We made use of those capabilities to also try smaller design changes, such as the placement of links (for example, for the matrix of flexible dates), and to learn more about our users behaviors.
 
 <h2>Desktop Designs</h2>
-<div class="project-image-container">
-	<span> 
+
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop00.png" alt=""/>
 	 	<figcaption>Desktop: Home</figcaption>
 	</span>
 </div>
-<div class="project-image-container">
-	<span> 
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop01.png" alt=""/>
 	 	<figcaption>Desktop: Flights List</figcaption>
 	</span>
 </div>
-<div class="project-image-container">
-	<span> 
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop02.png" alt=""/>
 	 	<figcaption>Desktop: Flight Fares Comparison </figcaption>
 	</span>
 </div>
-<div class="project-image-container">
-	<span> 
+<div class="project-image-container-centralized">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/desktop03.png" alt=""/>
 	 	<figcaption>Desktop: Passenger Information Form</figcaption>
 	</span>
@@ -187,39 +177,35 @@ We were also able to make use of analytics and a mature structure of A/B testing
 
 <h2>Mobile Designs</h2>
 
-<div style="text-align: center; display:-webkit-flex;">
-	<span> 
+<div class="image-row-3">
+	<span>
 	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/01.PNG" alt=""/>
 	 	<figcaption>Mobile: Home</figcaption>
 	</span>
-	<br>
 	<span>
 		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/02.PNG" alt=""/>
 		<figcaption>Mobile: Flight List</figcaption>
 	</span>
-	<br>
 	<span>
 		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/04.PNG" alt=""/>
 		<figcaption>Mobile: Flight Fare Details</figcaption>
 	</span>
- </div>
-<br>
+</div>
 
-<div style="text-align: center; display:-webkit-flex;">
-	<span> 
-	 	<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/latam/05.JPG" alt=""/>
+<div class="image-row-3">
+	<span>
+	 	<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/05.JPG" alt=""/>
 	 	<figcaption>Mobile: Flight Fare Change</figcaption>
 	</span>
 	<span>
-		<img class="project-image" style="width: 62%;" src="{{ site.baseurl }}/assets/images/projects/latam/06.PNG" alt=""/>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/06.PNG" alt=""/>
 		<figcaption>Mobile: Trip Summary</figcaption>
 	</span>
 	<span>
-		<img class="project-image" style="width: 95%;" src="{{ site.baseurl }}/assets/images/projects/latam/07.JPG" alt=""/>
+		<img class="project-image" src="{{ site.baseurl }}/assets/images/projects/latam/07.JPG" alt=""/>
 		<figcaption>Mobile: Passenger Information Form</figcaption>
 	</span>
- </div>
-<br> 
+</div>
 
 <h2>Results</h2>
 The team has successfully delivered the shopping and booking flows on time, completing the full transition from Amadeus to Sabre and being able to still work on smaller improvements, capture usage metrics and make improvements after going to production.
