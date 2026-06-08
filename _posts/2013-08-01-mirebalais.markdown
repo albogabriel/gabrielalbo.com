@@ -14,7 +14,7 @@ skills-used: [HTML5, CSS3, Sass, Javascript, Interaction design, Hi-fi wireframe
 ---
 
 <div style="text-align: center;">
-	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hospital-facade.jpg" alt=""/> 
+	 <img class="project-image" style="width: 80%" src="{{ site.baseurl }}/assets/images/projects/mirebalais/hero-mirebalais.webp" alt=""/> 
 	 <figcaption>Hospital façade</figcaption>
  </div>
 

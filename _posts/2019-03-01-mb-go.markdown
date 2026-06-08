@@ -13,7 +13,7 @@ skills-used: ['Discovery Workshop Facilitation (Lean Value Tree, User Journey Ma
 
 <div class="project-image-container-hero">
     <span>
-        <img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-mb-verso.png" alt=""/>
+        <img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-mb-verso.webp" alt=""/>
     </span>
 </div>
 

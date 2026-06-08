@@ -14,7 +14,7 @@ skills-used: [Usability Testing, User interviews, A/B testing, Interaction Desig
 
 <div class="project-image-container-hero">
 	<span>
-		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-latam.png" alt=""/>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-latam.webp" alt=""/>
 	</span>
 </div>
 

@@ -14,7 +14,7 @@ skills-used: ['Interaction design','AI Conversational Experience', 'Information 
 
 <div class="project-image-container-hero">
 	<span>
-		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-zalando.png" alt=""/>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-zalando.webp" alt=""/>
 	</span>
 </div>
 

@@ -13,7 +13,7 @@ skills-used: [Discovery workshop, Paper prototyping, Clickable mockups, User int
 
 <div class="project-image-container-hero">
     <span>
-        <img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-geofusion.png" alt=""/>
+        <img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-geofusion.webp" alt=""/>
     </span>
 </div>
 

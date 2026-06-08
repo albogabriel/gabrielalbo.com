@@ -15,7 +15,7 @@ skills-used: [User interviews, Usability testing, HTML5, CSS3, Sass, Javascript,
 
 <div class="project-image-container-hero">
 	<span>
-		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-pixelated.png" alt=""/>
+		<img class="project-image project-image-hero" src="{{ site.baseurl }}/assets/images/projects/hero-pixelated.webp" alt=""/>
 	</span>
 </div>
 
