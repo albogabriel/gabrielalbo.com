@@ -4,3 +4,5 @@ _site
 .jekyll-cache/
 css/screen.css
 css/screen.css.map
+# raw video masters — not used by the site, only the converted .mp4s are
+assets/videos/*.mov

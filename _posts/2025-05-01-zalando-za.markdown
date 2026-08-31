@@ -77,6 +77,17 @@ and designers to create features that increased customer engagement and supporte
 product’s growth strategy.
 </p>
 
+<div class="project-image-container-centralized-single-image">
+	<span>
+		<video controls muted playsinline class="project-image" width="100%">
+			<source src="{{ site.baseurl }}/assets/videos/za-01.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<figcaption>A walkthrough of the Zalando Assistant (ZA) experience</figcaption>
+	</span>
+</div>
+<br>
+
 <h2 class="section-title">Search Results Integration</h2>
 
 <p>
@@ -277,6 +288,17 @@ satisfaction and lower return rates.
 		<figcaption>ZA streaming a response</figcaption>
 	</span>
 </div>
+
+	<div class="project-image-container-centralized-single-image">
+		<span>
+			<video controls loop muted playsinline class="project-image" width="100%">
+				<source src="{{ site.baseurl }}/assets/videos/za-02.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<figcaption>The streaming experience in action</figcaption>
+		</span>
+	</div>
+	<br>
 
 	<p>Likewise, we designed all product cards that are presented as suggestions to have a little placeholder animation while loading. Their loading speed is actually quite fast, but that prevents the UI elements from jumping around as things get loaded. 
 

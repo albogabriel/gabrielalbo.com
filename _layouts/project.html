@@ -22,7 +22,7 @@ layout: default
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script>
 (function () {
-  var images = document.querySelectorAll('.post .project-image:not(.project-image-hero)');
+  var images = document.querySelectorAll('.post .project-image:not(.project-image-hero):not(video)');
   images.forEach(function (img) {
     if (img.closest('a')) return;
     var a = document.createElement('a');
